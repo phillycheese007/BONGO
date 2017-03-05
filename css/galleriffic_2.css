@@ -1,8 +1,12 @@
+body {
+background-color: #ffffff;
+}
 div.content {
 	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
 	display: none;
-	float: right;
-	width: 550px; 
+	float: left;
+	width: 360px; 
+  margin-left: -40px;
 }
 div.content a, div.navigation a {
 	text-decoration: none;
@@ -12,25 +16,22 @@ div.content a:focus, div.content a:hover, div.content a:active {
 	text-decoration: underline;
 }
 div.controls {
-	height: 85px;line-height:23px; 
-    width: 180px;
-    padding-top: 10px;background:none;margin:0;position:absolute;left:10px;bottom:20px;
+	margin-top: 5px;
+	height: 23px;
 }
-div.controls a {padding:2px;height:55px;display:inline-block;
+div.controls a {
+	padding: 5px;
 }
-.prev{text-align:left;background:white;}
-.next{text-align;left;background:white;}
 div.ss-controls {
-	
+	float: left;
 }
 div.nav-controls {
-	width:100%;margin:0;
-}
-div.nav-controls a{
-	margin:0;
+	float: right;
 }
 div.slideshow-container {
-
+	position: relative;
+	clear: both;
+	height: 327px; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.loader {
 	position: absolute;
@@ -39,80 +40,91 @@ div.loader {
 	background-image: url('loader.gif');
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 100%;
-	height: 80%; /* This should be set to be at least the height of the largest image in the slideshow */
+	width: 375px;
+	height: 327px; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.slideshow {
 
 }
 div.slideshow span.image-wrapper {
-
-x
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 div.slideshow a.advance-link {
-
+	display: block;
+	width: 375px;
+	height: 327px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 327px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
 }
 div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
 	text-decoration: none;
 }
 div.slideshow img {
-
-
+	vertical-align: middle;
+	border: 1px solid #ccc;
 }
 div.download {
-	float: right;margin-right:22px;line-height: 32px;
+	float: right;
+  margin-right: 10px;
 }
 div.caption-container {
-	position:absolute;bottom:-40px;
-	background:none;
-	height: 32px;width:100%;text-align:center;
+	position: relative;
+	clear: left;
+	height: 75px;
 }
 span.image-caption {
 	display: block;
 	position: absolute;
-	height: 32px;width:100%;
-	color: black;
+	width: 375px;
+	top: 0;
+	left: 0;
 }
 div.caption {
-	width:100%;
+	padding: 12px;
 }
 div.image-title {
 	font-weight: bold;
 	font-size: 1.4em;
+  margin-left: 13px;
 }
 div.image-desc {
-	line-height: 22px;
-	
+	line-height: 1.3em;
+	padding-top: 12px;
+  margin-left: 13px;
 }
 div.navigation {
+  margin-top: 30px;
 	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
 }
-
-#sunnysh{display:none;width:380px;height:100%;position:relative;float:right;z-index:9999;overflow-y:scroll;overflow-x:hidden;margin:0;margin-right:0;padding:0;border-left:1px solid grey;}
-
-#thumbs{background:none;width:390px;margin-right:230px;}
-ul.thumbs {margin-top:-13px;width:400px;right:-43px;position:absolute}
-
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
 ul.thumbs li {
-        height:100px;
 	float: left;
 	padding: 0;
-	margin: 4px;
+	margin: 5px 10px 5px 0;
 	list-style: none;
 }
-.caption a{padding-left:13px;}
-
-.caption a:hover{text-decoration:underline;}
 a.thumb {
+	padding: 2px;
 	display: block;
+	border: 1px solid #ccc;
 }
 ul.thumbs li.selected a.thumb {
-
+	background: #000;
 }
 a.thumb:focus {
 	outline: none;
 }
-
+ul.thumbs img {
+	border: none;
+	display: block;
+}
 div.pagination {
 	clear: both;
 }
@@ -126,7 +138,7 @@ div.navigation div.bottom {
 div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
 	display: block;
 	float: left;
-	margin-right: 2px;
+	margin-right: 1px;
 	padding: 4px 7px 2px 7px;
 	border: 1px solid #ccc;
 }
