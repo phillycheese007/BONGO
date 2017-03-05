@@ -1,0 +1,91 @@
+/*Strip the ul of padding and list styling*/
+body{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+}
+#menubut {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: fixed;
+}
+
+#menubut{top:0px;bottom:0;width:189px;height:100%;text-align:left;left:0;border-right:1px solid grey;text-indent:10px;}
+
+/*Create a horizontal list with spacing*/
+#menubut li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+#menubut li a {
+	display:block;
+	min-width:140px;
+	height: 28px;
+	text-align: left;
+	line-height: 28px;
+	color: black;
+	background: white;
+	text-decoration: none;
+}
+
+
+
+
+#myname{margin-top:25px;margin-bottom:24px;color:black;font-weight:bold;font-size:18px;}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	text-decoration: none;
+	color: white;
+height:25px;
+	background: black;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menubut{
+    display: block;
+}
+
+
+
+
+
+
+	#menubut li .dates{color: blue;text-decoration: none;}
+
+
+
+.dates{color: blue;font-size:12px;text-decoration: none;}
+
+
+#mylogo{background:pink;height:100px;width:100px;margin-top:200px;display:none}
+
+h22{float:left;text-indent:5px;display:inline-block}
+h33{float:right;margin-right:5px;}
+
+
+
+
+
+
+h5{color:black;font-weight:bold;font-size:18px;}
+
+	a{
+	color: blue;
+	text-decoration: none;
+}
+
+.active{color:purple !important;text-decoration:underline !important}
+h2{color:black;font-size:13px;font-weight:normal;margin: 0 0 10px 0;
+	letter-spacing:-1px;
+	padding-top: 30px;
+	font-size:1em;}
