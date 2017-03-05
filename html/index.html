@@ -66,31 +66,22 @@ h5{color:black;font-weight:bold;font-size:18px;}
 <div id="thumbicon"><a href="../imagesss/2016thumbs.html">SHOW THUMBNAILS</a></div>
 
 
-<div id="main">
-
-  <div id="imageholder">
-
-   <div class="container">
-     <div id="loading" class="loader">  
- 
-</div>
-
-     <div id="slideshow" class="slideshow"></div>
-<div id="caption" class="caption-container">
-</div>
-   </div>
-  </div>
-   
-</div>
-
-			
- <div id="sunnysh">
-
-	<div id="thumbs" class="navigation">
+		<div id="page" style="width: 540px; border: 0px solid #ffffff;">
+			<div id="container">
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+					<div id="controls" class="controls"></div>
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
 					<ul class="thumbs noscript">
 						<li>
-							<a class="thumb" name="leaf" href="philipdusel/images/16L_66.jpg" title="Title #0">
-								<img src="philipdusel/images/16L_66.jpg" alt="Title #0" />
+							<a class="thumb" name="leaf" href="images/1.jpg" title="Title #0">
+								<img src="thumbs/1.jpg" alt="Title #0" />
 							</a>
 							
 						</li>
@@ -258,15 +249,15 @@ h5{color:black;font-weight:bold;font-size:18px;}
 						</li>
 					</ul>
 				</div>
-                                   </div>
-
-
-
-
+				<!-- End Advanced Gallery Html Containers -->
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div id="footer">&copy; 2009 Trent Foley</div>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				// We only want these styles applied when javascript is enabled
-				$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+				$('div.navigation').css({'width' : '180px', 'float' : 'left'});
 				$('div.content').css('display', 'block');
 
 				// Initially set opacity on thumbs and add
@@ -282,7 +273,7 @@ h5{color:black;font-weight:bold;font-size:18px;}
 				// Initialize Advanced Galleriffic Gallery
 				var gallery = $('#thumbs').galleriffic({
 					delay:                     2500,
-					numThumbs:                 15,
+					numThumbs:                 6,
 					preloadAhead:              10,
 					enableTopPager:            true,
 					enableBottomPager:         true,
@@ -293,12 +284,12 @@ h5{color:black;font-weight:bold;font-size:18px;}
 					loadingContainerSel:       '#loading',
 					renderSSControls:          true,
 					renderNavControls:         true,
-					playLinkText:              'Play Slideshow',
-					pauseLinkText:             'Pause Slideshow',
-					prevLinkText:              '&lsaquo; Previous Photo',
-					nextLinkText:              'Next Photo &rsaquo;',
-					nextPageLinkText:          'Next &rsaquo;',
-					prevPageLinkText:          '&lsaquo; Prev',
+					playLinkText:              "<span style='margin-left: 20px;'></span>",
+					pauseLinkText:             "<span style='margin-left: 20px;'>",
+					prevLinkText:              '',
+					nextLinkText:              "",
+					nextPageLinkText:          '&rsaquo;&rsaquo;',
+					prevPageLinkText:          '&lsaquo;&lsaquo;',
 					enableHistory:             true,
 					autoStart:                 false,
 					syncTransitions:           true,
@@ -356,6 +347,4 @@ h5{color:black;font-weight:bold;font-size:18px;}
 				/****************************************************************************************/
 			});
 		</script>
-
 	</body>
-</html>
