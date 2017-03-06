@@ -71,7 +71,16 @@ function myFunction() {
 }
 </script>
  
-
+<script>
+function myFunction() {
+    var x = document.getElementById("my_main_div");
+    if (x.className === "soap") {
+        x.className += " responsive";
+    } else {
+        x.className = "soap";
+    }
+}
+</script>
  
 </body>
 </html>
