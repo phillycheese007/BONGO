@@ -1,6 +1,8 @@
 button.accordion {
     font-family: Arial, Helvetica, sans-serif;
     background-color:pink;
+    border-bottom:1px dotted black;
+    border-top:1px dotted black;
     color: black;
     cursor: pointer;
     padding:18px;
