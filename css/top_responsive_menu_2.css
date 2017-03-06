@@ -12,9 +12,6 @@ body {margin:0;}
 
 
 
-
-
-
 ul.topnav {
   list-style-type: none; display:none; /* i added to hide top nav until media query--*/
   margin: 0;
