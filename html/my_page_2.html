@@ -86,14 +86,19 @@
      
     <li class="images_drop_link">
       <a href="#about">
-       <button class="accordion">Images</button>
-         <div class="panel">
-          <p>fdfsdafsdfsdafsdafsadfasd</p>
-          <a>boat</a>
-          <a>row</a>
-        </div>
+<button class="accordion">Section 1</button>
+<div class="panel">
+<a> fff
+</a>
+<a>fff
+</a>
+</div>
       </a>
     </li>
+     
+     
+     
+     
      
     <li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -180,19 +185,13 @@ function myFunction() {
 </script>
  
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
 </script>
  
