@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_2.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_list.css"> 
+ <link rel="stylesheet" href="/philipdusel/css/swiper.css">
+
+<style>
+body{min-height:100%;}
+
+.crabcake {
+    background:green;
+    position: relative;
+    margin:0;
+    padding:0;
+    width: calc(100% - 200px);
+    height:100%;
+    left: 200px;
+    margin-top:0;
+}
+  #nuzzle{background:none;}
+
+.swiper-container {
+  background:none;
+  margin:0 auto;
+  width: 100%;
+  /* height: calc(100vh - 50px); */
+}
+.swiper-slide {
+  background:blue;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+    }
+
+</style>
+</head>
+<body>
+
+
+ 
+ <div id="my_left_menu">
+  
+    <ul>
+    <li class="logo"><a class="active" href="#home">Philip Dusel</a></li>
+     
+<li>   
+<button class="accordion">images</button>
+<div class="panel">
+  <a>Flowers</a> 
+  <a>Trippy</a>
+  <a>Other Stuff</a>
+</div>
+</li>
+     
+ 
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+ </div>
+ 
+ 
+ 
+ 
+ <div id="nuzzle">
+    <ul class="topnav" id="myTopnav">
+    <li><a class="active" href="#home">Philip Dusel</a></li>
+     
+<li>   
+<button class="accordion">images</button>
+<div class="panel">
+  <a>Flowers</a> 
+  <a>Trippy</a>
+  <a>Other Things</a>
+</div>
+</li>
+   
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+  </ul>
+
+  
+  
+  
+  
+   <div class="crabcake" id="buffoon">
+  
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img class="power_bar" src="/philipdusel/images/16L_67.jpg"/> 
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_66.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_3.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_68.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_69.jpg"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="/philipdusel/images/16L_71.jpg"/> 
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/nuzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/buzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/funny.jpg"/>
+            </div>
+            
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  
+  
+   </div><!-- end #buffoon -->
+ 
+ </div><!--end #nuzzle -->
+ 
+ 
+     <!-- Swiper JS -->
+    <script src="/philipdusel/js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30 ,
+        loop: true ,
+        effect: 'fade' 
+    });
+    </script>
+
+ 
+ 
+ 
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+ 
+</body>
+</html>
