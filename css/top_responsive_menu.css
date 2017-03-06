@@ -1,4 +1,4 @@
-        /* Remove margins and padding from the list, and add a black background color */
+/* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -8,7 +8,7 @@ ul.topnav {
 }
 
 /* Float the list items side by side */
-ul.topnav li { float: left; }
+ul.topnav li {float: left;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -26,7 +26,6 @@ ul.topnav li a:hover {background-color: #555;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
-        
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
@@ -52,4 +51,4 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
-} 
+}
