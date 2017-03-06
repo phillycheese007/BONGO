@@ -52,7 +52,10 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
-
+    
+  .my_main_div{margin-left:-200px;}
+    
+}
 
 
 
