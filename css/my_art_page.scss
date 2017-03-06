@@ -1,3 +1,62 @@
 ---
 #myart
 ---
+
+body{min-height:100%;}
+
+.crabcake {
+    background:green;
+    position: relative;
+    margin:0;
+    padding:0;
+    width: calc(100% - 200px);
+    height:100%;
+    left: 200px;
+    margin-top:0;
+}
+  #nuzzle{background:none;margin-top:0px;}
+
+.swiper-container {
+  background:none;
+  margin:0 auto;
+  width: 100%;
+  /* height: calc(100vh - 50px); */
+}
+.swiper-slide {
+  background:blue;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+    }
+
+  .image_info{
+  background:none;
+  position:absolute;
+  bottom:0;
+  height:auto;
+  width:700px;
+  height:auto;
+ }
+ 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom:38px;
+  left:0;
+  width:100%;
+}
+.swiper-pagination-bullet-active {
+  background:black;
+  opacity:1;
+}
