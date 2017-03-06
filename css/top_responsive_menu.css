@@ -58,7 +58,7 @@ ul.topnav li.icon {display: none;}
 /*--begin my version menu --*/
 
 .my_left_menu{
-    background:red;
+    background:red;z-index:99999;
     border-right:1px solid black;
     position:absolute;
     top:0;
