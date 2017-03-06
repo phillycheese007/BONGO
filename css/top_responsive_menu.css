@@ -53,8 +53,8 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
     
-  .my_main_div {margin-left:-200px;}
-    
+ .soap {margin-left:-200px;}
+    #my_main_div.responsive {margin-left:200px;} 
 }
 
 
