@@ -65,7 +65,7 @@
 </head>
 <body>
      <!-- begin my left menu -->
-    <div class="my_left_menu">
+    <div id="my_left_menu" class="topnav">
       <ul>
         <li>
           <a href="#images">Images</a>
@@ -159,6 +159,18 @@ function myFunction() {
     }
 }
     </script>
+    
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("my_left_menu");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    </script>   
     
 </body>
 </html>
