@@ -37,7 +37,9 @@ div.panel a.active {text-decoration:underline;color:red;}
 
 button.accordian:focus {border:none;}   
 
-
+#myTopnav button.accordian{
+padding:18px 0;
+}
     
     
     
