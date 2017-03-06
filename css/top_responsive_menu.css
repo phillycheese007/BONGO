@@ -52,6 +52,7 @@ ul.topnav li.icon {display: none;}
 /* Landscape */
 @media screen and (orientation:landscape) {
    ul.topnav{background:green;border:10px solid red;}
+  .swiper-container {height:100%;}
 }
    
 
