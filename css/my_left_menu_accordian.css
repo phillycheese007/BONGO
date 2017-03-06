@@ -13,7 +13,7 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+  /* background-color: #ddd; */
 }
 
 div.panel {
