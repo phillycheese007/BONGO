@@ -40,7 +40,9 @@ button.accordian:focus {border:none;}
 #myTopnav button.accordian{
 padding:18px;
 }
-    
+ul.topnav button.accordian{
+padding:18px;
+}
     
     
     
