@@ -2,7 +2,8 @@
 <html>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/philipdusel/css/dubya3.css">
+ <link rel="stylesheet" href="/philipdusel/css/dubya3.css">
+ <link rel="stylesheet" href="/philipdusel/css/swiper.css">
 <body>
 
 <nav class="w3-sidenav w3-collapse w3-white w3-card-2 w3-animate-left" style="width:200px;" id="mySidenav">
@@ -22,9 +23,56 @@
 </header>
 
 <div class="w3-container">
-  <p>In this example, the side navigation will always be displayed on desktop computers and laptops (screens wider than 992px), and hidden on tablets and mobile phones (screens that are less than 992px wide).</p>
-  <p>On tablets and mobile phones the side navigation is replaced with a menu icon that opens the navigation pane when clicked on: it will then overlay/sit on top of the page content.</p>
-  <p><b>Resize the browser window to understand how it works.</b></p>
+
+  
+  
+
+        
+  <div class="my_main_div">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img src="/philipdusel/images/16L_67.jpg"/> 
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_66.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_3.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_68.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_69.jpg"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="/philipdusel/images/16L_71.jpg"/> 
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/nuzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/buzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/funny.jpg"/>
+            </div>
+            
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  
+  
+  
+  
 </div>
 
 <footer class="w3-container w3-teal">
@@ -42,6 +90,22 @@ function w3_close() {
     document.getElementById("mySidenav").style.display = "none";
 }
 </script>
+  
+    <!-- Swiper JS -->
+    <script src="/philipdusel/js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30 ,
+        loop: true ,
+        effect: 'fade' 
+    });
+    </script>
      
 </body>
 </html>
