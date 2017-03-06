@@ -41,7 +41,7 @@ ul.topnav li.icon {display: none;}
     display: block;
   } 
   #my_left_menu{display:none;border:20px solid green;} 
-  #my_main_holder{position:relative;margin-left:0px;margin-top:10px;width: calc(100% - 20px);}
+  #my_main_holder{position:absolute;margin-left:0px;margin-top:10px;width: calc(100% - 20px);}
     
 }
 
