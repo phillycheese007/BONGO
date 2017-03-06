@@ -45,7 +45,8 @@ ul.topnav li a.un_padded{
 
 
 ul.topnav li a:hover {background-color: #555;}
-ul.topnav li.icon {display: none;border:none;}
+ul.topnav li.icon {display: none;}
+ul.topnav li.icon a{display: none;border:none;}
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
