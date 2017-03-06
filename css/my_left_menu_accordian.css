@@ -4,6 +4,7 @@ button.accordion {
     color: black;
     cursor: pointer;
     padding:18px;
+    margin:0;
     width: 100%;
     border: none;
     text-align: left;
