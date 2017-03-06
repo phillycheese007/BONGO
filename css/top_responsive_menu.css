@@ -51,7 +51,9 @@ ul.topnav li.icon {display: none;}
 }
 
 /* Landscape */
-@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape)
+and (min-device-width: 319px) 
+and (max-device-width: 480px) {
    ul.topnav{background:green;border:10px solid red;}
   .swiper-container {height:100%;border:10px solid blue}
 }
