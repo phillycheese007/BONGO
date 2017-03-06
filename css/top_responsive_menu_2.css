@@ -53,7 +53,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
-    display: inline-block;border-bottom:1px solid white;
+    display: inline-block;
   }
     ul.topnav{
     width:100%;
