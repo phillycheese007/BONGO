@@ -41,7 +41,8 @@ ul.topnav li.icon {display: none;}
     display: block;
   } 
   #my_left_menu{display:none;border:20px solid green;} 
-    
+  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
@@ -49,7 +50,6 @@ ul.topnav li.icon {display: none;}
     ul.topnav{display:visible;}
   
    
-  #my_main_holder.responsive{position:relative;width:100%;margin-left:0;background:pink;border:20px solid orange;}
     
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
