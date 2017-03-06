@@ -25,8 +25,7 @@ ul.topnav li {float: left;}
 ul.topnav li a{
  
   display:inline-block;
- 
- 
+
   color: black;
   text-align: center;
   padding: 14px 16px; 
@@ -73,7 +72,7 @@ ul.topnav li.icon {display: none;}
 
 @media screen and (min-width:680px) {
   .swiper-slide img {height:90%;background:yellow;}
-  .swiper-container {height: calc(100vh - 50px);}
+  .swiper-container {height: calc(100vh - 30px);}
 }
 
 /* Landscape */
