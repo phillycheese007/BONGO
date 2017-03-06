@@ -22,7 +22,7 @@ ul.topnav {
 
 ul.topnav li {float: left;}
 
-ul.topnav li a.padded{
+ul.topnav li a{
   display: inline-block;
   color: black;
   text-align: center;
