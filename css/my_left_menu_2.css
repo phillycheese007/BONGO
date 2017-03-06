@@ -18,7 +18,7 @@ button.accordion.active, button.accordion:hover {
     background-color: #ddd;
 }
 
-li.panel {
+div.panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
