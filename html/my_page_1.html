@@ -5,10 +5,9 @@
 <link rel="stylesheet" href="/philipdusel/css/dubya3.css">
 <body>
 
-<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
-  <a href="javascript:void(0)" 
-  onclick="w3_close()"
-  class="w3-closenav w3-large">Close &times;</a>
+<nav class="w3-sidenav w3-collapse w3-white w3-card-2 w3-animate-left" style="width:200px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav w3-large w3-hide-large">Close &times;</a>
   <a href="#">Link 1</a>
   <a href="#">Link 2</a>
   <a href="#">Link 3</a>
@@ -16,39 +15,33 @@
   <a href="#">Link 5</a>
 </nav>
 
-<div id="main">
-
+<div class="w3-main" style="margin-left:200px">
 <header class="w3-container w3-teal">
-  <span class="w3-opennav w3-xlarge" onclick="w3_open()" id="openNav">&#9776;</span>
-  <h1>My Header</h1>
+  <span class="w3-opennav w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</span>
+  <h2>Responsive Sidenav</h2>
 </header>
 
-<img src="img_car.jpg" alt="Car" style="width:100%">
-
 <div class="w3-container">
-  <p>In this example, the sidenav is hidden (style="display:none") and is only shown when you click on the menu icon in the top left corner. When it is opened, it shifts the page content to the right (we use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the value used to set the width of the sidenav. Tip: If you change the left margin to 40%, you should change the width of the sidenav to 40% as well.</p>
+  <p>In this example, the side navigation will always be displayed on desktop computers and laptops (screens wider than 992px), and hidden on tablets and mobile phones (screens that are less than 992px wide).</p>
+  <p>On tablets and mobile phones the side navigation is replaced with a menu icon that opens the navigation pane when clicked on: it will then overlay/sit on top of the page content.</p>
+  <p><b>Resize the browser window to understand how it works.</b></p>
 </div>
 
 <footer class="w3-container w3-teal">
   <h5>Footer</h5>
   <p>Footer information goes here</p>
 </footer>
-
+     
 </div>
 
 <script>
 function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidenav").style.width = "25%";
-  document.getElementById("mySidenav").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
+    document.getElementById("mySidenav").style.display = "block";
 }
 function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidenav").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
+    document.getElementById("mySidenav").style.display = "none";
 }
 </script>
-
+     
 </body>
 </html>
