@@ -26,3 +26,4 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
       
+.panel.images_drop_link a {display:block;}
