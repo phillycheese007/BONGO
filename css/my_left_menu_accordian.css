@@ -18,9 +18,9 @@ button.accordion.active, button.accordion:hover {
 div.panel {
     padding: 5px 8px;
     background-color: white;
-    max-height: 0;
+    max-height: 20px;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;display:block
+    transition: max-height 0.2s ease-out;
 }
       
 div.panel a.active {text-decoration:underline;color:red;}
