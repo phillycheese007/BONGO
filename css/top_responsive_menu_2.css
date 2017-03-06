@@ -10,6 +10,10 @@ body {margin:0;}
   border-right:1px solid black;
  }
 
+  .swiper-container {height: calc(100vh - 50px);}
+
+
+
 
 
 ul.topnav {
