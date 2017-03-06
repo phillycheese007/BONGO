@@ -23,6 +23,6 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
       
-div.panel a.active {text-decoration:underline;color:red;display:block}
+div.panel a.active {text-decoration:underline;color:red;}
     
     
