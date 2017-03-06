@@ -41,7 +41,7 @@ ul.topnav li.icon {display: none;}
     display: block;
   } 
   #my_left_menu{display:none;border:20px solid green;} 
-  #my_main_holder{margin-left:0;width:100%;}
+  #my_main_holder{position:relative;margin-left:0;width:100%;}
     
 }
 
