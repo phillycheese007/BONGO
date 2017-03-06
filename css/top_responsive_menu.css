@@ -49,6 +49,16 @@ ul.topnav li.icon {display: none;}
   .swiper-slide img {height:90%;background:yellow;}
 }
 
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    ul.topnav{background:green;border:10px solid red;}
+}
+
+
 
 
 @media screen and (max-width:680px) {
