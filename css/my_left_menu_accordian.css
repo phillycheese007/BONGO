@@ -3,7 +3,7 @@ button.accordion {
     background-color:red;
     color: black;
     cursor: pointer;
-    padding:18px;
+    padding:0px;
     margin:0;
     width: 100%;
     border: none;
@@ -37,10 +37,10 @@ div.panel a.active {text-decoration:underline;color:red;}
 
 button.accordian:focus {border:none;}   
 
-#myTopnav button.accordian{
+#myTopnav button.accordion{
 padding:18px;
 }
-ul.topnav button.accordian{
+ul.topnav button.accordion{
 padding:18px;
 }
     
