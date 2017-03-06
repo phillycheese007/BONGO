@@ -25,5 +25,5 @@ div.panel {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-.panel.drop a{padding:10px;display:inline;width:100%;height:100px;display:block;}
+.panel a{display:block;}
       
