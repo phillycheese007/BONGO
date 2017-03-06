@@ -17,7 +17,11 @@
   width:200px;
   background:blue;
  }
+  
+  
  #my_main_holder{
+ }
+ .soap{
   position:absolute;
   height:100%;
   width: calc(100% - 200px);
@@ -25,7 +29,7 @@
   left:200px;
   padding:0;
   background:green;
- }
+}
   
 </style>
 </head>
@@ -45,7 +49,7 @@
   </ul>
  
  
- <div id="my_main_holder">
+ <div class="soap" id="my_main_holder">
  
  </div>
  
@@ -66,7 +70,16 @@ function myFunction() {
 }
 </script>
  
-
+<script>
+function myFunction() {
+    var x = document.getElementById("my_main_holder");
+    if (x.className === "soap") {
+        x.className += " responsive";
+    } else {
+        x.className = "soap";
+    }
+}
+</script>
  
 </body>
 </html>
