@@ -19,15 +19,27 @@ button.accordion.active, button.accordion:hover {
 
 div.panel {
     padding: 0px;
-    padding-left:30px;
-    border-left:1px solid black;
+    padding-left:0px;
     background-color: white;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+#myTopnav div.panel{
+    padding-left:30px;
+    border-left:1px solid black;
+}
+    
+
+
       
 div.panel a.active {text-decoration:underline;color:red;}
 
 button.accordian:focus {border:none;}   
+
+
+    
+    
+    
     
