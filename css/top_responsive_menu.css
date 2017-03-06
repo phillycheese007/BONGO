@@ -34,6 +34,10 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
   }
+  ul.topnav{
+    float: right;
+    display: inline-block;
+  } 
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
