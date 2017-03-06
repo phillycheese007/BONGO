@@ -1,5 +1,5 @@
 /* Remove margins and padding from the list, and add a black background color */
-#myTopnav{width:100%;background:red;position:absolute;top:0;}
+#myTopnav{width:100%;background:red;position:absolute;top:0;left:0;}
 ul.topnav {
     width:100%;
     list-style-type: none;
