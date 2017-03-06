@@ -71,8 +71,8 @@ ul.topnav li.icon {display: none;}
 
 
 @media screen and (min-width:680px) {
-  .swiper-slide img {height:89%;background:yellow;}
-  .swiper-container {height: calc(100vh - 30px);}
+  .swiper-slide img {height:85%;background:yellow;}
+  .swiper-container {height: calc(100vh - 20px);}
 }
 
 /* Landscape */
