@@ -1,5 +1,6 @@
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
+    width:100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,7 +39,7 @@ ul.topnav li.icon {display: none;}
     width:100%;
     display: block;
   } 
-  #my_left_menu{display:none;border:20px solid green;left:200px;} 
+  #my_left_menu{display:none;border:20px solid green;} 
     
 }
 
