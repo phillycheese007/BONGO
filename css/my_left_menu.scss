@@ -3,8 +3,16 @@
 ---
 
 #myleftmenu{
-  ul{list-style-type:none;
+  ul{
+    list-style-type:none;
     li{
       background:pink;
+      height:40px;
+      width:100%;
+      a{
+        display:block;
+      }
     }
+  }
+}
       
