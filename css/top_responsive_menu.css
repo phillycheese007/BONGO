@@ -53,3 +53,16 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
+
+
+/*--begin my version menu --*/
+
+.my_left_menu{
+    background:red;
+    border-right:1px solid black;
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:200px;
+    height:100%;
+/*--end my version menu --*/
