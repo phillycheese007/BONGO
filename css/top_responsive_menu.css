@@ -49,7 +49,7 @@ ul.topnav li.icon {display: none;}
 @media screen and (max-width:680px) {
     ul.topnav{display:visible;}
   
-    
+   
   #my_main_holder.responsive{background:pink;border:20px solid orange;}
     
   ul.topnav.responsive {position: relative;}
