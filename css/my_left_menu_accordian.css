@@ -19,10 +19,13 @@ button.accordion.active, button.accordion:hover {
 }
 
 div.panel {
-    padding: 0 8px;
+    padding: 5px 8px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
       
+div.panel a.active {font-weight:bold;text-decoration:underline;color:red;}
+    
+    
