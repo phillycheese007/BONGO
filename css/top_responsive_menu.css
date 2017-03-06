@@ -1,6 +1,6 @@
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
-    list-style-type: none;position:absolute;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -53,7 +53,7 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
     
-    #my_main_div {margin-left:0px;border:10px solid blue;width:100%;} 
+    #my_main_div {position:relative;margin-left:0px;border:10px solid blue;width:100%;} 
 }
 
 
