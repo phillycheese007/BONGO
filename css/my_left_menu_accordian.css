@@ -26,6 +26,6 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
       
-div.panel a.active {font-weight:bold;text-decoration:underline;color:red;}
+div.panel a.active {text-decoration:underline;color:red;}
     
     
