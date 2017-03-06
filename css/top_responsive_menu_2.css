@@ -31,10 +31,9 @@ ul.topnav li a{
   text-decoration: none;
   transition: 0.3s;
   font-size: 17px;
-  border-bottom:1px dotted black;
 }
 
-ul.topnav li a.un_padded{
+ul.topnav li a.borders{
   display: inline-block;
   color: black;
   text-align: center;
@@ -42,6 +41,7 @@ ul.topnav li a.un_padded{
   text-decoration: none;
   transition: 0.3s;
   font-size: 17px;
+ border-bottom:1px solid black;
 }
 
 
