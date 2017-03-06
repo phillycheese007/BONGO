@@ -38,7 +38,7 @@ ul.topnav li.icon {display: none;}
     
   #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
   
-  #buffoon {width: 100%;border:2px solid red;left:0;clear:both;}
+  #buffoon {width: 100%;border:none;left:0;clear:both;}
 }
 
 @media screen and (max-width:680px) {
