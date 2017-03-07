@@ -12,8 +12,8 @@
  <!--<link rel="stylesheet" href="/philipdusel/css/my_art_page_6.css">
  <link rel="stylesheet" href="/philipdusel/css/my_left_menu_list_6.css"> 
 -->
-<!--<link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_6.css">-->
- <!--<link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">-->
+ <!--<link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_6.css">-->
+<!-- <link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">-->
 
  <link rel="stylesheet" href="/philipdusel/css/swiper.css">
 
@@ -31,7 +31,11 @@
   width:100%;
   left:0;
  }
- 
+  
+ div.panel{
+   max-height:500px;
+  }
+  
 </style>
 </head>
 <body>
@@ -43,25 +47,25 @@
      </li>
      
      <li>   
-      <button class="accordion"><a>Images</a></button>
+      <button class="accordion active"><a>Images</a></button>
        <div class="panel">
         <div class="vert_line"></div> <!--end vert_line -->
         <div id="smellbow">
          <a href="/philipdusel/html/pages/images_flowers.html">&mdash;&mdash; <span>Flowers</span></a> 
-         <a href="/philipdusel/html/pages/images_trippy.html">&mdash;&mdash; <span>Trippy</span></a>
+         <a href="/philipdusel/html/pages/images_trippy.html">&mdash;&mdash; <span  class="active">Trippy</span></a>
          <a href="/philipdusel/html/pages/images_other_stuff.html">&mdash;&mdash; <span>Other Stuff</span></a>
         </div> <!--end smellbow-->
        </div>
      </li>
      
-    <li><a class="link_top_level" href="#news">News</a></li>
+    <li><a class="link_top_level link_below_accordion" href="#news">News</a></li>
     <li><a class="link_top_level" href="#contact">Contact</a></li>
   </ul>
 
  </div>
  
  
- 
+  
 <div id="nuzzle">
     <ul class="topnav" id="myTopnav">
     <li><a href="#home">Philip Dusel</a></li>
@@ -70,7 +74,7 @@
 <button class="accordion borders">Images</button>
 <div class="panel">
   <a class="borders" href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
-  <a class="borders" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+  <a class="borders active" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
   <a class="borders" href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
 </div>
 </li>
@@ -92,32 +96,24 @@
         <div class="swiper-wrapper">
             
             <div class="swiper-slide">
-                <img class="power_bar" src="/philipdusel/images/16L_67.jpg"/> 
-                <div class="image_info">30px x ham, 2017, oil on paper</div>
+              <img class="power_bar" src="/philipdusel/images/16L_67.jpg"/> 
+              <div class="image_info">2016, ink and acrylic on paper, 11" x 14"</div>
             </div>
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_66.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/16L_3.jpg"/>
+              <div class="image_info">2016, ink and acrylic on paper, 11" x 14"</div>
             </div>
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_68.jpg"/>
+              <div class="image_info">2016, ink and acrylic on paper, 11" x 14"</div>
             </div>
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_69.jpg"/>
+              <div class="image_info">2016, ink and acrylic on paper, 11" x 14"</div>
             </div>
             <div class="swiper-slide">
-                <img src="/philipdusel/images/16L_71.jpg"/> 
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/nuzzy.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/buzzy.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/funny.jpg"/>
+              <img src="/philipdusel/images/16L_71.jpg"/> 
+              <div class="image_info">2016, ink and acrylic on paper, 11" x 14"</div>
             </div>
             
         </div>
@@ -140,35 +136,34 @@
 
 
     <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        centeredSlides: true,
-        spaceBetween: 30 ,
-        loop: true ,
-        effect: 'fade' 
-    });
-    </script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    centeredSlides: true,
+    spaceBetween: 30 ,
+    loop: true ,
+    effect: 'fade' 
+ });
+</script>
  
  
 <script>
-function myFunction() {
+ function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-}
+  }
 </script>
  
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
     this.classList.toggle("active");
