@@ -27,21 +27,10 @@ body{
 }
 
 
+
 @media screen and (min-width:680px) {
-    .swiper-container{height:96vh;}
-  .swiper-slide{
-    /*max-width: 100px ;*/
-  }
-  .swiper-container{height:96vh;width:100%;}
-  
-  .swiper-slide img{
-    height:100%;
-  }
- 
+  .swiper-container{height:96vh;}
 }
-
-
-.swiper-wrapper{background:white;}
 
 #nuzzle{background:none;margin-top:0px;}
 
@@ -64,7 +53,7 @@ body{
    
  }
   .swiper-slide {
-  text-align: center;border:5px solid blue;
+  text-align: center;
   font-size: 18px;
   background: #fff;
    /* Center slide text vertically */
