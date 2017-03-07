@@ -24,6 +24,12 @@ button {
   color:$primary_link_color;
 }
 
+@mixin link-style-simpler {
+  $text-decor-underline:underline;
+  text-decoration: $text-decor-underline;
+  $font-weight-bold:bold;
+  font-weight: $font-weight-bold;
+}
 
 
 
@@ -59,9 +65,11 @@ button {
         color:$primary_font_color;
       }
       a.active{
-        @include link-style;
+        @include link-style-simpler;
       }
-      a:hover, a:focus {text-decoration:underline;}
+      a:hover, a:focus {
+        @include link-style-simpler;
+      }
     }
     li.logo{
       background:$primary_back_color;      
