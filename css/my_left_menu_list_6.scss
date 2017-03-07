@@ -1,6 +1,9 @@
 ---
 #myleftmenu6
 ---
+$primary_back_color:white;
+$primary_font_color:black;
+$link_padding:18px;
 
 #my_left_menu{
   ul{
@@ -10,18 +13,18 @@
     padding:0;
     list-style-type:none;
     li{
-      background:lightblue;
+      background:$primary_back_color;
       
       div.panel a{
         text-indent:0px;
-        padding:18px;
+        padding:$link_padding;
         padding-left:0;
-        background:purple;
+        background:none;
         margin-left:0px;
       }
       div.panel{
        /* padding-top:40px; */
-        background:pink;
+        background:$primary_back_color;
       }
         
       a{
@@ -29,18 +32,18 @@
         font-family: Arial, Helvetica, sans-serif;
         display:block;
         text-indent: 0px;
-        padding:18px;
+        padding:$link_padding;
         text-decoration:none;
-        color:black;
+        color:$primary_font_color;
       }
       a.active{
-        color:black;
+        color:$primary_font_color;
         text-decoration:underline;font-weight:bold;
       }
       a:hover, a:focus {text-decoration:underline;}
     }
     li.logo{
-      background:white;      
+      background:$primary_back_color;      
       a{
         text-indent:0px;
         font-size: 17px;
