@@ -3,122 +3,75 @@
 <head>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official Site Artist Philip Dusel">
+  <meta name="keywords" content="art, painting, philipdusel, philipduselpainting, philipduselart, baltimore, baltimoreart">
+  <meta name="author" content="Philip Dusel">
  
- <link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_2.css">
- <link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">
- <link rel="stylesheet" href="/philipdusel/css/my_left_menu_list.css"> 
+ <!--<link rel="stylesheet" href="/philipdusel/css/my_art_page_7.css">-->
+ <link rel="stylesheet" href="/philipdusel/css/my_responsive_side_top_menu.css"> 
+  
  <link rel="stylesheet" href="/philipdusel/css/swiper.css">
 
 <style>
-body{min-height:100%;}
-
-.crabcake {
-    background:green;
-    position: relative;
-    margin:0;
-    padding:0;
-    width: calc(100% - 200px);
-    height:100%;
-    left: 200px;
-    margin-top:0;
-}
-  #nuzzle{background:none;margin-top:0px;} /*moves whole content */
-
-.swiper-container {
-  background:red;
-  margin:0 auto;
-  width: 100%;
-  /* height: calc(100vh - 50px); */
-}
- .swiper-wrapper{background:brown;}
-.swiper-slide {
-  background:blue;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-    }
- 
- div.panel {
-    padding: 5px 8px;
-    background-color: white;
-    max-height: 100%;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
- .image_info{
-  background:orange;
-  position:absolute;
-  bottom:0;
-  height:auto;
-  width:700px;
-  height:auto;
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets { 
+  bottom: 21px; left: 0; width: 100%; 
  }
- 
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom:25px;
-  left:0;
+.swiper-pagination-bullet-active { background: black; opacity: 1; }
+  .image_info{
+  font-size:.8em;
+  background:none;
+  position:absolute;
+  bottom:0px;
+  height:auto;
   width:100%;
-}
+  left:0;
+ }
  
 </style>
 </head>
 <body>
 
-
- 
  <div id="my_left_menu">
-  
-    <ul>
-    <li class="logo"><a href="/philipdusel/html/my_page_2.html">Philip Dusel</a></li>
+   <ul>
+     <li class="logo">
+       <a href="#home">Philip Dusel</a>
+     </li>
      
-<li>   
-<button class="accordion">Images</button>
-<div class="panel">
-  <a class="active" href="#">Flowers</a> 
-  <a href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
-  <a href="/philipdusel/html/pages/other_things.html">Other Things</a>
-</div>
-</li>
+     <li>   
+      <button class="accordion"><a>Images</a></button>
+       <div class="panel">
+        <div class="vert_line"></div> <!--end vert_line -->
+        <div id="smellbow">
+         <a class="active" href="/philipdusel/html/pages/images_flowers.html">&mdash;&mdash; <span>Flowers</span></a> 
+         <a href="/philipdusel/html/pages/images_trippy.html">&mdash;&mdash; <span>Trippy</span></a>
+         <a href="/philipdusel/html/pages/images_other_stuff.html">&mdash;&mdash; <span>Other Stuff</span></a>
+        </div> <!--end smellbow-->
+       </div>
+     </li>
      
- 
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a class="link_top_level link_below_accordion" href="#news">News</a></li>
+    <li><a class="link_top_level" href="#contact">Contact</a></li>
   </ul>
 
  </div>
  
  
  
- 
- <div id="nuzzle">
+<div id="nuzzle">
     <ul class="topnav" id="myTopnav">
-    <li><a href="/philipdusel/html/my_page_2.html">Philip Dusel</a></li>
+    <li><a href="#home">Philip Dusel</a></li>
      
-<li>   
-<button class="accordion">Images</button>
+<li id="accordion_holder">   
+<button class="accordion borders">Images</button>
 <div class="panel">
-  <a class="active" href="#">Flowers</a> 
-  <a href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
-  <a href="/philipdusel/html/pages/other_things.html">Other Things</a>
+  <a class="borders active" href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
+  <a class="borders" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+  <a class="borders" href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
 </div>
 </li>
    
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a class="borders link_below_accordion"href="#news">News</a></li>
+    <li><a class="borders" href="#contact">Contact</a></li>
     <li class="icon">
       <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
     </li>
@@ -128,21 +81,20 @@ body{min-height:100%;}
   
   
   
-   <div class="crabcake" id="buffoon">
+   <div class="the_big_div" id="buffoon">
   
     <div class="swiper-container">
         <div class="swiper-wrapper">
             
             <div class="swiper-slide">
                 <img class="power_bar" src="/philipdusel/images/16L_67.jpg"/> 
-                 <div class="image_info">30px x ham, 2017, oil on paper</div>
+                <div class="image_info">30px x ham, 2017, oil on paper</div>
             </div>
-         
-         
-         
-         
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_66.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/16L_3.jpg"/>
             </div>
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_68.jpg"/>
@@ -153,59 +105,66 @@ body{min-height:100%;}
             <div class="swiper-slide">
                 <img src="/philipdusel/images/16L_71.jpg"/> 
             </div>
-
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/nuzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/buzzy.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="/philipdusel/images/funny.jpg"/>
+            </div>
             
         </div>
         <!-- Add Pagination -->
-         <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-         
+  
   
    </div><!-- end #buffoon -->
  
- </div><!--end #nuzzle -->
+</div><! #nuzzle -->
  
  
      <!-- Swiper JS -->
     <script src="/philipdusel/js/swiper.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30 ,
-        loop: true ,
-        effect: 'fade' 
-    });
-    </script>
 
- 
+
+    <!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    centeredSlides: true,
+    spaceBetween: 30 ,
+    loop: true ,
+    effect: 'fade' 
+ });
+</script>
  
  
 <script>
-function myFunction() {
+ function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-}
+  }
 </script>
  
  <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
-
    
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
@@ -216,7 +175,6 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
-
  
 </body>
 </html>
