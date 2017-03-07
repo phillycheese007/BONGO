@@ -1,0 +1,73 @@
+body {margin:0;}
+
+
+ul.topnav {
+  list-style-type: none; display:none; /* i added to hide top nav until media query--*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border-bottom:1px solid black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a{
+  font-family: Arial, Helvetica, sans-serif;
+  display:inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a.borders{
+ border-bottom:1px solid black;
+}
+.link_below_accordion{border-top:1px solid black;}
+
+/* ul.topnav li a:hover {background-color: lightyellow;} */
+ul.topnav li.icon {display: none;}
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+    ul.topnav{
+    width:100%;
+    display: block;
+  }  
+  #my_left_menu{display:none;} 
+  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+} 
+
+
+/* Landscape */
+@media screen and (orientation:landscape)
+
+and (max-device-width: 680px) {
+   ul.topnav{background:green;border:10px solid red;}
+}
+   
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
