@@ -51,6 +51,10 @@ body{
   #buffoon{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
 }
 
+@media screen and (min-width:680px) {
+  #buffoon{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+  .swiper-container{height:96vh;}
+}
 
 /*@media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
