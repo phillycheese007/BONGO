@@ -119,12 +119,44 @@ html {
 /*-------------------------------EEE Left Menu -------------------------*/
 
 
-
-body{
-  min-height:100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:12px;
+/*-------------------------------BBB general Accordion styles -------------------------*/
+button.accordion {
+    background-color:$first-color;
+    color:$second-color;
+    cursor: pointer;
+    padding:18px 0; 
+    padding-bottom:2px;
+    margin:0;
+    margin-top:1px;
+    width:150px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-bottom:1px solid $first-color;
 }
+
+button.accordion.active, 
+button.accordion:hover {
+ border-bottom:1px solid $second-color; 
+ text-decoration:none;
+}
+
+button.accordian:focus {
+  border:none;
+}   
+
+div.panel {
+  padding: 0px;
+  background-color: $first-color;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/*-------------------------------EEE general Accordion styles -------------------------*/
+
+
 
 @media screen and (max-width:680px) {
   #buffoon{position:absolute;left:0px;margin-top:0px;width: calc(100% - 0px);}
