@@ -71,6 +71,9 @@ $link_padding:18px;
         text-decoration:none;
         color:$primary_font_color;
       }
+      .link_top_level{
+        margin-left:30px;
+      }
       a.active{
         @include link-style;
       }
