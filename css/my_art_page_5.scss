@@ -29,7 +29,14 @@ body{
 
 @media screen and (min-width:680px) {
     .swiper-container{height:96vh;}
-
+  .swiper-slide{
+    /*max-width: 100px ;*/
+  }
+  .swiper-container{height:96vh;width:100%;}
+  
+  .swiper-slide img{
+    height:100%;
+  }
  
 }
 
@@ -74,7 +81,9 @@ body{
   -webkit-align-items: center;
    align-items: center;
   }
-
+  .swiper-slide img{
+    height:100%;
+  
 
 
 
