@@ -43,7 +43,7 @@ body{
         -webkit-align-items: center;
         align-items: center;
 }
-.swiper-slide img{}
+.swiper-slide img{height:100%;}
 
 /*@media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
