@@ -5,6 +5,7 @@ button.accordion {
     cursor: pointer;
     padding:0px;
     margin:0;
+    margin-left:30px;
     margin-top:1px;
     width: 50px;
     border: none;
