@@ -15,21 +15,30 @@ body{
   #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
    .swiper-container {
    background:blue;
-   width: 100%;
-   height:auto;
+   width: 100vw;
+   height:100%;
  /*  height: 80vh; */
   }
    .swiper-slide img{
+   background:white;
    height:auto;   
-   width: 100vw;
+   width: 100vw; 
   }
-
 }
 
 
 @media screen and (min-width:680px) {
-  .swiper-container{height:96vh;}
+  .swiper-slide{
+    /*max-width: 100px ;*/
+  }
+  .swiper-container{height:96vh;width:100%;}
+  .swiper-slide img{
+    height:100%;
+  }
 }
+
+
+.swiper-wrapper{background:white;}
 
 #nuzzle{background:none;margin-top:0px;}
 
@@ -52,7 +61,7 @@ body{
    
  }
   .swiper-slide {
-  text-align: center;
+  text-align: center;border:5px solid blue;
   font-size: 18px;
   background: #fff;
    /* Center slide text vertically */
@@ -70,14 +79,6 @@ body{
    align-items: center;
   }
 
-
-
-
-
-
-  .swiper-slide img{
-    height:100%;
-  }
 
 
 
