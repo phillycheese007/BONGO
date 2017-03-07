@@ -202,8 +202,8 @@ ul.topnav {
   background-color:$first-color;
   border-bottom:1px solid $second-color;
   .toggle_spacer{
-    border-bottom:10px solid red;
-    height:1px !important;
+    border-bottom:1px solid red;
+    height:1px !important;padding:0 !important;
   }
 }
 
