@@ -46,7 +46,7 @@ $link_padding:18px;
       background:$primary_back_color;
       div.panel a{
         text-indent:0px;
-        padding:5px 0;
+        padding:$link_padding;
         padding-left:0;
         background:none;
         margin-left:0px;
