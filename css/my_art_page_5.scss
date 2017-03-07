@@ -15,8 +15,8 @@ body{
   #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
    .swiper-container {
    background:blue;
-   width: 100%;
-   height:100%;
+   width: 100vw; /* used b 100% */
+   height:100%; /* used b auto */
  /*  height: 80vh; */
   }
    .swiper-slide img{
