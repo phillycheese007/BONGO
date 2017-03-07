@@ -24,9 +24,9 @@ ul.topnav li a{
 }
 
 ul.topnav li a.borders{
- border-top:1px solid black;
+ border-bottom:1px solid black;
 }
-
+.link_below_accordion{border-top:1px solid black;}
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
 ul.topnav li.icon {display: none;}
