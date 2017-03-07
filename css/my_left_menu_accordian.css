@@ -16,7 +16,7 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
- border-bottom:1px solid black;
+ border-bottom:1px solid black; text-decoration:none;
 }
 
 
