@@ -2,11 +2,21 @@
 #myart
 ---
 
+
 body{
   min-height:100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size:12px;
 }
+
+@media screen and (max-width:680px) {
+  #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
+}
+
+@media screen and (min-width:680px) {
+  .swiper-container{height:96vh;}
+}
+
 #nuzzle{background:none;margin-top:0px;}
 
 .crabcake {
@@ -45,14 +55,6 @@ body{
 .swiper-slide img{height:100%;}
 
 
-
-@media screen and (max-width:680px) {
-  #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
-}
-
-@media screen and (min-width:680px) {
-  .swiper-container{height:96vh;}
-}
 
 /*@media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
