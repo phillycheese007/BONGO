@@ -1,15 +1,21 @@
 ---
 #myleftmenu7
 ---
-$primary_back_color:white;
-$primary_font_color:black;
-$link_padding:18px;
+$first-color:white;
+$second-color:black;
+$link-padding:18px;
 
 @mixin link-style {
   $text-decor-underline:underline;
   text-decoration: $text-decor-underline;
 }
 
+
+
+body {margin:0;}
+
+
+      /*--------------- begin left menu --------------*/
 
  #my_left_menu{
   position:absolute;
@@ -18,7 +24,7 @@ $link_padding:18px;
   top:0;
   bottom:0;
   width:199px;
-  border-right:1px solid black;
+  border-right:1px solid $second-color;
  }
 
  .vert_line{
@@ -27,13 +33,13 @@ $link_padding:18px;
   width:1px;
   overflow:visible;
   position:relative;float:left;
-  border-right:1px solid black;
+  border-right:1px solid $second-color;
   margin-left:37px;
   margin-top:0px;
  /* bottom:0px; */
   z-index:99999; 
 }
- #smellbow{ width:160px; float:right;background:white;}
+ #smellbow{ width:160px; float:right;background:$first-color;}
 
 
 #my_left_menu{
@@ -50,10 +56,10 @@ $link_padding:18px;
     padding:0;
     list-style-type:none;
     li{
-      background:$primary_back_color;
+      background:$first-color;
       div.panel a{
         text-indent:0px;
-        padding:$link_padding;
+        padding:$link-padding;
         padding-left:0;
         background:none;
         margin-left:0px;
@@ -66,7 +72,7 @@ $link_padding:18px;
       }
       div.panel{
        /* padding-top:40px; */
-        background:$primary_back_color;
+        background:$first-color;
       }
         
       a{
@@ -76,7 +82,7 @@ $link_padding:18px;
         display:block;
         text-indent: 0px;
         text-decoration:none;
-        color:$primary_font_color;
+        color:$second-color;
       }
       .link_top_level{ /*basicly anything not the accordian */
         margin-left:30px;
@@ -95,7 +101,7 @@ $link_padding:18px;
       }
     }
     li.logo{
-      background:$primary_back_color;      
+      background:$first-color;      
       a{
         text-indent:0px;
         font-size: 17px;
@@ -106,15 +112,14 @@ $link_padding:18px;
   }
 }
       
+      /*----------------------------- end side menu -------------------------*/
 
 
 
-
-/* begin accordion styles for top bar */
 button.accordion {
     font-family: Arial, Helvetica, sans-serif;
     background-color:white;
-    color: black;
+    color:$second-color;
     cursor: pointer;
     padding:18px 0; 
     padding-bottom:2px;
@@ -126,18 +131,17 @@ button.accordion {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    border-bottom:1px solid white;
+    border-bottom:1px solid $first-color;
 }
 
 button.accordion.active, 
 button.accordion:hover {
- border-bottom:1px solid black; text-decoration:none;
+ border-bottom:1px solid $second-color; text-decoration:none;
 }
-
 
 div.panel {
   padding: 0px;
-  background-color: white;
+  background-color: $first-color;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -145,13 +149,13 @@ div.panel {
 
 #myTopnav div.panel{
   margin-left:50px;
-  border-left:1px solid black;
+  border-left:1px solid $second-color;
 }
     
       
 div.panel a.active {
   text-decoration:underline;
-  color:red;
+  color:$third-color;
 }
 
 button.accordian:focus {border:none;}   
@@ -159,21 +163,24 @@ button.accordian:focus {border:none;}
 
 ul.topnav button.accordion{
   padding:18px;width:100%;
-  border-bottom:1px solid black;
-  border-top:1px solid black;
+  border-bottom:1px solid $second-color;
+  border-top:1px solid $second-color;
 }
-ul.topnav {border-bottom:1px solid black;}    
+ul.topnav {border-bottom:1px solid $second-color;}    
     
-/* end accordion styles for top bar */
 
 
 
 
 
 
-/* begin top menu */
 
-body {margin:0;}
+
+
+
+
+
+
 
 
 ul.topnav {
@@ -181,8 +188,8 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
-  border-bottom:1px solid black;
+  background-color:$first-color;
+  border-bottom:1px solid $second-color;
 }
 
 ul.topnav li {float: left;}
@@ -190,7 +197,7 @@ ul.topnav li {float: left;}
 ul.topnav li a{
   font-family: Arial, Helvetica, sans-serif;
   display:inline-block;
-  color: black;
+  color:$second-color;
   text-align: center;
   padding: 14px 16px; 
   text-decoration: none;
@@ -199,14 +206,22 @@ ul.topnav li a{
 }
 
 ul.topnav li a.borders{
- border-bottom:1px solid black;
+ border-bottom:1px solid $second-color;
 }
-.link_below_accordion{border-top:1px solid black;}
+.link_below_accordion{border-top:1px solid $second-color;}
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
 ul.topnav li.icon {display: none;}
 
 
+
+
+/*-------------------------------BBB Media Queries -------------------------*/
+
+@media screen and (orientation:landscape)
+and (max-device-width: 680px) { 
+}
+   
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
@@ -218,16 +233,7 @@ ul.topnav li.icon {display: none;}
     display: block;
   }  
   #my_left_menu{display:none;} 
-  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
 } 
-
-
-/* Landscape */
-@media screen and (orientation:landscape)
-and (max-device-width: 680px) {
-   ul.topnav{background:green;border:10px solid red;}
-}
-   
 
 @media screen and (max-width:680px) {
   ul.topnav.responsive {position: relative;}
@@ -245,3 +251,5 @@ and (max-device-width: 680px) {
     text-align: left;
   }
 }
+
+/*-------------------------------EEE Media Queries -------------------------*/
