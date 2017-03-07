@@ -114,21 +114,4 @@ and (max-device-width: 680px) {
 }
 */
 
-.image_info{
-  background:none;
-  position:absolute;
-  bottom:0;
-  height:auto;
-  width:700px;
-  height:auto;
- }
- 
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom:-2px;
-  left:0;
-  width:100%;
-}
-.swiper-pagination-bullet-active {
-  background:black;
-  opacity:1;
-}
+
