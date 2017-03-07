@@ -135,35 +135,34 @@
 
 
     <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        centeredSlides: true,
-        spaceBetween: 30 ,
-        loop: true ,
-        effect: 'fade' 
-    });
-    </script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    centeredSlides: true,
+    spaceBetween: 30 ,
+    loop: true ,
+    effect: 'fade' 
+ });
+</script>
  
  
 <script>
-function myFunction() {
+ function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-}
+  }
 </script>
  
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
     this.classList.toggle("active");
