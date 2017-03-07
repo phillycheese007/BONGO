@@ -13,6 +13,12 @@ body{
 
 @media screen and (max-width:680px) {
   #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
+   .swiper-container {
+   background:blue;
+   width: 100%;
+   border:3px solid green;
+   height: 80vh;
+ }
 }
 
 @media screen and (min-width:680px) {
@@ -20,7 +26,6 @@ body{
 }
 
 #nuzzle{background:none;margin-top:0px;}
-
 
 
 .crabcake {
@@ -37,7 +42,8 @@ body{
    background:blue;
    width: 100%;
    border:3px solid green;
-   height: 80vh;
+ 
+   
  }
   .swiper-slide {
   text-align: center;
