@@ -42,11 +42,9 @@ div.panel a.active {text-decoration:underline;color:red;}
 
 button.accordian:focus {border:none;}   
 
-#myTopnav button.accordion{
-padding:0 18px;
-}
+
 ul.topnav button.accordion{
-padding:0 18px;
+padding:10 18px;
     border-bottom:1px solid black;
     border-top:1px solid black;
 }
