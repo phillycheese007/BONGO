@@ -230,7 +230,7 @@ ul.topnav li.icon {display: none;}
 
 
 
-/*-------------------------------BBB Media Queries -------------------------*/
+/*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
