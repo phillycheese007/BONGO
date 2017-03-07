@@ -10,6 +10,7 @@ $link_padding:18px;
   text-decoration: $text-decor-underline;
 }
 
+
  #my_left_menu{
   position:absolute;
   margin:0;padding:0;
@@ -49,6 +50,9 @@ $link_padding:18px;
         padding-left:0;
         background:none;
         margin-left:0px;
+      }
+      div.panel.active{
+        text-decoration:none;
       }
       div.panel{
        /* padding-top:40px; */
