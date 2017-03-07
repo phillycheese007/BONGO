@@ -149,7 +149,7 @@ body{
       .link_top_level:hover, .link_top_level.active{
         border-bottom:1px solid black;
       }
-      a.active{
+      a span.active{
         text-decoration:none;font-weight:bold;
       }
       a:hover, a:focus {
