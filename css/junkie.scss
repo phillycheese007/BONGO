@@ -226,7 +226,7 @@ ul.topnav li a{
 ul.topnav li a.borders{
  border-bottom:1px solid $second-color;
 }
-.last_link_in_accordian{border-bottom:20px solid green;}
+.last_link_in_accordian{border-bottom:20px solid green;padding-bottom:10px;margin-bottom:50px;}
 ul.topnav li .link_below_accordion{border-top:1px solid $second-color;}
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
