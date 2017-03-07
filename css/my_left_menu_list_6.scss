@@ -5,9 +5,31 @@ $primary_back_color:white;
 $primary_font_color:black;
 $link_padding:18px;
 
+@mixin link-style {
+  $btn-bg-color: lightblue;
+  color: $btn-bg-color;
+}
+
+button {
+    @include link-style;
+}
+
+
+@mixin link-style {
+  $text-decor-underline:underline;
+  text-decoration: $text-decor-underline;
+  $font-weight-bold:bold;
+  font-weight: $font-weight-bold;
+  $primary_link_color:black;
+  color:$primary_link_color;
+}
+
+
+
+
+
 #my_left_menu{
   ul{
-    background:brown;
     width:100%;
     margin:0;
     padding:0;
@@ -37,8 +59,7 @@ $link_padding:18px;
         color:$primary_font_color;
       }
       a.active{
-        color:$primary_font_color;
-        text-decoration:underline;font-weight:bold;
+        @include link-style;
       }
       a:hover, a:focus {text-decoration:underline;}
     }
