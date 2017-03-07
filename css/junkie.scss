@@ -232,7 +232,7 @@ ul.topnav li a.borders{
 }
 
 ul.topnav li .link_below_accordion{
-  border-top:1px solid $second-color;border-left:1px solid $second-color;margin-top:-10px;
+  border-top:1px solid $second-color;border-left:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */
 }
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
