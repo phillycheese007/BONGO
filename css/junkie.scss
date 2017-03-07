@@ -29,10 +29,6 @@ html {
 
 
 
-
-
-
-
 /*-------------------------------BBB Left Menu -------------------------*/
  #my_left_menu{
   position:absolute;
@@ -131,6 +127,9 @@ html {
 /*-------------------------------EEE Left Menu -------------------------*/
 
 
+
+
+
 /*-------------------------------BBB general Accordion styles -------------------------*/
 button.accordion {
     background-color:$first-color;
@@ -203,7 +202,8 @@ ul.topnav {
   background-color:$first-color;
   border-bottom:1px solid $second-color;
   .toggle_spacer{
-    border-bottom:10px solid white;height:1px;
+    border-bottom:10px solid white;
+    height:1px;
   }
 }
 
