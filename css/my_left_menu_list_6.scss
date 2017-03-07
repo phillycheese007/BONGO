@@ -75,7 +75,7 @@ $link_padding:18px;
         text-decoration:none;
         color:$primary_font_color;
       }
-      .link_top_level{
+      .link_top_level{ /*basicly anything not the accordian */
         margin-left:30px;
         padding:18px 18px 2px 0px; /* top, right,bottom,left */
         border-bottom:1px solid black;
