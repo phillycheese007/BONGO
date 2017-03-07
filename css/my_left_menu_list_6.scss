@@ -37,7 +37,11 @@ $link_padding:18px;
 
 
 #my_left_menu{
-  ul:nth-child(3) {
+  ul:nth-child(1) {
+    background: red;
+    border:10px solid green;
+  }
+  ul li:nth-child(1) {
     background: red;
     border:10px solid green;
   }
