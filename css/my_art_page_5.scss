@@ -44,7 +44,7 @@ body{
         align-items: center;
 }
 
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -64,13 +64,14 @@ body{
   .swiper-container {height: calc(100vh - 10px);}
 }
 
-/* Landscape */
+
+
 @media screen and (orientation:landscape)
 
 and (max-device-width: 680px) {
   .swiper-container {height:100%;border:10px solid blue}
 }
-
+*/
 
 .image_info{
   background:none;
