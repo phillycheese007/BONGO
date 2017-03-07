@@ -44,7 +44,7 @@ button.accordian:focus {border:none;}
 
 
 ul.topnav button.accordion{
-padding:10 18px;
+padding:18px;
     border-bottom:1px solid black;
     border-top:1px solid black;
 }
