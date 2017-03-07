@@ -157,26 +157,63 @@ div.panel {
 /*-------------------------------EEE general Accordion styles -------------------------*/
 
 
+
+
+
+
+
+
+/*-------------------------------BBB top Menu -------------------------*/
+#accordion_holder{background:red;margin-top:20px;}
 #myTopnav div.panel{
-    margin-left:50px;
-    border-left:1px solid black;
+  margin-left:50px;
+  border-left:1px solid $second-color;
 }
-    
-
-      
-div.panel a.active {text-decoration:underline;color:red;}
-
-
+         
+div.panel a.active {
+  text-decoration:underline;
+  color:$third-color;
+}
 
 ul.topnav button.accordion{
-padding:18px;width:100%;
-    border-bottom:1px solid black;
-    border-top:1px solid black;
+  padding:18px;width:100%;
+  border-bottom:1px solid $second-color;
+  border-top:1px solid $second-color;
 }
-ul.topnav {border-bottom:1px solid black;}   
 
+ul.topnav {border-bottom:1px solid $second-color;}    
+    
+ul.topnav {
+  list-style-type: none; display:none; /* i added to hide top nav until media query--*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:$first-color;
+  border-bottom:1px solid $second-color;
+}
 
+ul.topnav li {float: left;}
 
+ul.topnav li a{
+  font-family: Arial, Helvetica, sans-serif;
+  display:inline-block;
+  color:$second-color;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a.borders{
+ border-bottom:1px solid $second-color;
+}
+
+ul.topnav li .link_below_accordion{border-top:1px solid $second-color;}
+
+/* ul.topnav li a:hover {background-color: lightyellow;} */
+ul.topnav li.icon {display: none;}
+/*-------------------------------EEE top Menu -------------------------*/
 
 
 
