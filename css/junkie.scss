@@ -188,7 +188,7 @@ div.panel a.active {
 
 ul.topnav button.accordion{
   padding:18px;width:100%;
-  border-bottom:1px solid $second-color;
+   border-bottom:1px solid $second-color;
   border-top:1px solid $second-color;
 }
 
@@ -234,6 +234,12 @@ ul.topnav li a.borders{
 ul.topnav li .link_below_accordion{
   border-top:1px solid $second-color;border-left:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */
 }
+
+ul.topnav li #accordion_holder button.accordion{
+  border-left:1px solid $second-color; /*bottom border is set somewheere else i think shaes style wi th left menu */
+}
+
+
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
 ul.topnav li.icon {display: none;}
