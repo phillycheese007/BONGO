@@ -157,6 +157,29 @@ div.panel {
 /*-------------------------------EEE general Accordion styles -------------------------*/
 
 
+#myTopnav div.panel{
+    margin-left:50px;
+    border-left:1px solid black;
+}
+    
+
+      
+div.panel a.active {text-decoration:underline;color:red;}
+
+
+
+ul.topnav button.accordion{
+padding:18px;width:100%;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+}
+ul.topnav {border-bottom:1px solid black;}   
+
+
+
+
+
+
 
 @media screen and (max-width:680px) {
   #buffoon{position:absolute;left:0px;margin-top:0px;width: calc(100% - 0px);}
