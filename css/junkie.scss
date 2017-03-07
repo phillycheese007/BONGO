@@ -175,7 +175,7 @@ div.panel {
 
 
 /*-------------------------------BBB top Menu -------------------------*/
-#accordion_holder{background:red;margin-top:20px;}
+#accordion_holder{background:red;}
 #myTopnav div.panel{
   margin-left:50px;
   border-left:1px solid $second-color;
@@ -202,7 +202,7 @@ ul.topnav {
   background-color:$first-color;
   border-bottom:1px solid $second-color;
   .toggle_spacer{
-    border-bottom:10px solid white;
+    border-bottom:10px solid red;
     height:1px !important;
   }
 }
