@@ -283,7 +283,8 @@ and (max-device-width: 680px) {
   }
   ul.topnav.responsive li {
     float: none;
-    display: inline;
+    display: inline;  transition: 3s ease-out;
+
   }
   ul.topnav.responsive li a {
     display: block;
