@@ -7,9 +7,10 @@
   <meta name="keywords" content="art, painting, philipdusel, philipduselpainting, philipduselart, baltimore, baltimoreart">
   <meta name="author" content="Philip Dusel">
  
- <!--<link rel="stylesheet" href="/philipdusel/css/my_art_page_7.css">-->
- <link rel="stylesheet" href="/philipdusel/css/my_responsive_side_top_menu.css"> 
-  
+ <link rel="stylesheet" href="/philipdusel/css/my_art_page_6.css">
+ <link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_6.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_list_6.css"> 
  <link rel="stylesheet" href="/philipdusel/css/swiper.css">
 
 <style>
@@ -49,7 +50,7 @@
        </div>
      </li>
      
-    <li><a class="link_top_level link_below_accordion" href="#news">News</a></li>
+    <li><a class="link_top_level" href="#news">News</a></li>
     <li><a class="link_top_level" href="#contact">Contact</a></li>
   </ul>
 
@@ -135,34 +136,35 @@
 
 
     <!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    centeredSlides: true,
-    spaceBetween: 30 ,
-    loop: true ,
-    effect: 'fade' 
- });
-</script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        centeredSlides: true,
+        spaceBetween: 30 ,
+        loop: true ,
+        effect: 'fade' 
+    });
+    </script>
  
  
 <script>
- function myFunction() {
+function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-  }
+}
 </script>
  
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
+
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
     this.classList.toggle("active");
