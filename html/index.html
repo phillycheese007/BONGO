@@ -1,96 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <link rel="stylesheet" href="/philipdusel/css/my_art_page_5.css">
+ <link rel="stylesheet" href="/philipdusel/css/top_responsive_menu_5.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_accordian.css">
+ <link rel="stylesheet" href="/philipdusel/css/my_left_menu_list.css"> 
+ <link rel="stylesheet" href="/philipdusel/css/swiper.css">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="/philipdusel/css/my_art_page.scss">
-    <link rel="stylesheet" href="/philipdusel/css/top_responsive_menu.css">
-
-    <link rel="stylesheet" href="/philipdusel/css/swiper.css">
-
-    <!-- Demo styles -->
-    <style>
-    html, body {
-        position: relative;
-        height: 100%;
-    }
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
-    #my_main_div {
-        background:green;   
-        height: 96vh;
-        min-height:300px;
-    }
-        
-.soap {
-    margin-top:0;
-   position:relative;
-   float:right;
-   margin-left:200px;
-   width: calc(100% - 200px);  
-}
-        
-    .swiper-container {
-        background:red;
-        margin:0 auto;
-        width: 100%;
-        height: 100%;
-    }
-    .swiper-slide {
-        background:blue;
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
-    .swiper-slide img {height:100%;width:auto;background:yellow;}
-
-        .my__left{top:0;bottom:0;left:0;width:200px;height:100%;background: black;}       
-    </style>
+<style>
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets { bottom: 38px; left: 0; width: 100%; }
+.swiper-pagination-bullet-active { background: black; opacity: 1; }
+  .image_info{
+  font-size:.8em;
+  background:none;
+  position:absolute;
+  bottom:0;
+  height:auto;
+  width:100%;
+  left:0;
+ }
+</style>
 </head>
 <body>
 
- <div class="my__left"> 
- </div>
-    
-  <ul class="topnav" id="myTopnav">
-    <li><a href="#">Philip Dusel</a></li>
-    <li><a href="#images">Images</a></li>
+ <div id="my_left_menu">
+   <ul>
+     <li class="logo">
+       <a class="active" href="#home">Philip Dusel</a>
+     </li>
+     
+     <li>   
+      <button class="accordion"><a>Images</a></button>
+       <div class="panel">
+         <a href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
+          <a href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+         <a href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
+       </div>
+     </li>
+     
     <li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>
+  </ul>
+
+ </div>
+ 
+ 
+ 
+<div id="nuzzle">
+    <ul class="topnav" id="myTopnav">
+    <li><a class="active" href="#home">Philip Dusel</a></li>
+     
+<li id="accordion_holder">   
+<button class="accordion borders">Images</button>
+<div class="panel">
+  <a class="borders" href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
+  <a class="borders" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+  <a class="borders" href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
+</div>
+</li>
+   
+    <li><a class="borders"href="#news">News</a></li>
+    <li><a class="borders" href="#contact">Contact</a></li>
     <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
     </li>
   </ul>
-    
-  <div  class="soap" id="my_main_div">
+
+  
+  
+  
+  
+   <div class="crabcake" id="buffoon">
+  
     <div class="swiper-container">
         <div class="swiper-wrapper">
             
             <div class="swiper-slide">
-                <img src="/philipdusel/images/16L_67.jpg"/> 
+                <img class="power_bar" src="/philipdusel/images/16L_67.jpg"/> 
+                <div class="image_info">30px x ham, 2017, oil on paper</div>
             </div>
             <div class="swiper-slide">
               <img src="/philipdusel/images/16L_66.jpg"/>
@@ -124,9 +114,17 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-  </div>
-    <!-- Swiper JS -->
+  
+  
+   </div><!-- end #buffoon -->
+ 
+</div><! #nuzzle -->
+ 
+ 
+     <!-- Swiper JS -->
     <script src="/philipdusel/js/swiper.js"></script>
+
+
 
     <!-- Initialize Swiper -->
     <script>
@@ -135,14 +133,15 @@
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
+        centeredSlides: true,
         spaceBetween: 30 ,
         loop: true ,
         effect: 'fade' 
     });
     </script>
-    
-    <script>
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+ 
+ 
+<script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -151,20 +150,24 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-    </script>
-    
-    
-    <script>
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("my_main_div");
-    if (x.className === "soap") {
-        x.className += " responsive";
+</script>
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
     } else {
-        x.className = "soap";
-    }
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
 }
-    </script>
-    
+</script>
+ 
 </body>
 </html>
