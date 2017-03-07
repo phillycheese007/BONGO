@@ -202,6 +202,7 @@ ul.topnav {
   background-color:$first-color;
   border-bottom:1px solid $second-color;
   .toggle_spacer{
+    display:inline;
     border-bottom:1px solid red;
     height:1px !important;padding:0 !important;
   }
