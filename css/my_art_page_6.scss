@@ -16,13 +16,14 @@ body{
    .swiper-container {
    background:blue;
    width: 100vw;
-   height:100%;overflow-y:scroll;
+   height:100%;
  /*  height: 80vh; */
   }
    .swiper-slide img{
    background:white;
    height:auto;   
    width: 100vw; 
+   max-width:500px;
   }
 }
 
