@@ -15,7 +15,7 @@ body{
   #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
    .swiper-container {
    background:blue;
-   width: 100%;
+   width: 100vw;
    height:auto;
  /*  height: 80vh; */
   }
@@ -23,7 +23,6 @@ body{
    height:auto;   
    width: 100vw;
   }
-
 }
 
 
@@ -33,6 +32,9 @@ body{
     height:100%;
   }
 }
+
+
+
 
 #nuzzle{background:none;margin-top:0px;}
 
