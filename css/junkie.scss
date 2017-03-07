@@ -3,7 +3,10 @@
 ---
 $primary_back_color:white;
 $primary_font_color:black;
-$link_padding:18px;
+$first-color:white;
+$second-color:black;
+$third-color:purple;
+$link-padding:18px;
 
 @mixin link-style {
   $text-decor-underline:underline;
