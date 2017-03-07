@@ -32,14 +32,13 @@
       a:hover, a:focus {text-decoration:underline;}
     }
     li.logo{
-      background:white;
-
-      
+      background:white;      
       a{
         text-indent:0px;
         font-size: 17px;
         padding: 14px 16px; 
       }
+      a:hover, a:focus {text-decoration:none;}
     }
   }
 }
