@@ -37,7 +37,10 @@ $link_padding:18px;
 
 
 #my_left_menu{
-  button.accordion{width:50px;} 
+  button.accordion{
+    width:50px;
+    margin-left:30px;
+  } 
   ul li:nth-child(3) {
     /* padding-top:16px; */
   }
