@@ -7,20 +7,11 @@ $link_padding:18px;
 
 
 
+
+
 @mixin link-style {
   $text-decor-underline:underline;
   text-decoration: $text-decor-underline;
-  $font-weight-bold:bold;
-  font-weight: $font-weight-bold;
-  $primary_link_color:black;
-  color:$primary_link_color;
-}
-
-@mixin link-style-simpler {
-  $text-decor-underline:underline;
-  text-decoration: $text-decor-underline;
-  $font-weight-bold:bold;
-  font-weight: $font-weight-bold;
 }
 
 
@@ -57,10 +48,10 @@ $link_padding:18px;
         color:$primary_font_color;
       }
       a.active{
-        @include link-style-simpler;
+        @include link-style;
       }
       a:hover, a:focus {
-        @include link-style-simpler;
+        @include link-style;
       }
     }
     li.logo{
