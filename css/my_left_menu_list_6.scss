@@ -10,7 +10,15 @@ $link_padding:18px;
   text-decoration: $text-decor-underline;
 }
 
-
+ #my_left_menu{
+  position:absolute;
+  margin:0;padding:0;
+  left:0;
+  top:0;
+  bottom:0;
+  width:199px;
+  border-right:1px solid black;
+ }
 
 
 #my_left_menu{
