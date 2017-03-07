@@ -12,7 +12,7 @@ body{
 }
 
 @media screen and (max-width:680px) {
-  #buffoon{position:absolute;left:0px;margin-top:4px;width: calc(100% - 0px);}
+  #buffoon{position:absolute;left:0px;margin-top:50px;width: calc(100% - 0px);}
    .swiper-container {
    background:blue;
    width: 100vw;
@@ -53,7 +53,7 @@ body{
   width: calc(100% - 200px);
   height:100%;
   left: 200px;
-  margin-top:50px;
+  margin-top:0px;
 }
  .swiper-container {
    background:blue;
