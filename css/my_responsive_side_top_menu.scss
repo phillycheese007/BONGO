@@ -143,6 +143,9 @@ body{
         border-bottom:1px solid white; /* to keep rest of the items from jumping around from the border */
         width:45px;
       }
+      .link_below_accordion{
+        width:20px;
+      }
       .link_top_level:hover, .link_top_level.active{
         border-bottom:1px solid black;
       }
@@ -261,7 +264,7 @@ ul.topnav li a.borders{
  border-bottom:1px solid $second-color;
 }
 
-.link_below_accordion{border-top:1px solid $second-color;}
+ul.topnav li .link_below_accordion{border-top:1px solid $second-color;}
 
 /* ul.topnav li a:hover {background-color: lightyellow;} */
 ul.topnav li.icon {display: none;}
