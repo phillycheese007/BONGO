@@ -15,7 +15,10 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-  /* background-color: #ddd; */text-decoration:underline;border-bottom:1px solid black;
+  /* background-color: #ddd; */text-decoration:underline;
+}
+button.accordion.active{
+  border-bottom:1px solid black;
 }
 
 div.panel {
