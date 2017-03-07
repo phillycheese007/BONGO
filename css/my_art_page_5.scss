@@ -45,6 +45,13 @@ body{
 }
 .swiper-slide img{height:100%;}
 
+
+
+@media screen and (max-width:680px) {
+  #buffoon{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+}
+
+
 /*@media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
