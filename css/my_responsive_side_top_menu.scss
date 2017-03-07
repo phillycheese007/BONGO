@@ -97,9 +97,10 @@ body{
 #smellbow{ width:160px; float:right;background:$first-color;}
 
 #my_left_menu{
+  $margin-left-general:25px;
   button.accordion{
     width:53px;
-    margin-left:30px;
+    margin-left:$margin-left-general;
   } 
   ul li:nth-child(3) {
     /* padding-top:16px; */width:20px;
@@ -128,7 +129,18 @@ body{
        /* padding-top:40px; */
         background:$first-color;
       }
-        
+      .link_top_level{ /*basicly anything not the accordian */
+        margin-left:$margin-left-general;
+        padding:21px 18px 2px 0px; /* top, right,bottom,left */
+        border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */
+        width:41px;
+      }
+      .link_top_level:hover, .link_top_level.active{
+        border-bottom:1px solid $second-color;
+      }
+      .link_below_accordion{
+        width:25px;
+      }
       a{
         /* margin-left:30px; */
        /* padding:18px 0; */
@@ -136,18 +148,6 @@ body{
         text-indent: 0px;
         text-decoration:none;
         color:$second-color;
-      }
-      .link_top_level{ /*basicly anything not the accordian */
-        margin-left:30px;
-        padding:21px 18px 2px 0px; /* top, right,bottom,left */
-        border-bottom:1px solid white; /* to keep rest of the items from jumping around from the border */
-        width:41px;
-      }
-      .link_below_accordion{
-        width:25px;
-      }
-      .link_top_level:hover, .link_top_level.active{
-        border-bottom:1px solid black;
       }
       a span.active{
         text-decoration:none;font-weight:bold;
