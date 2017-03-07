@@ -20,6 +20,19 @@ $link_padding:18px;
   border-right:1px solid black;
  }
 
+ .vert_line{
+  background:none;
+  height:135px;
+  width:1px;
+  overflow:visible;
+  position:relative;float:left;
+  border-right:1px solid black;
+  margin-left:25px;
+  margin-top:0px;
+ /* bottom:0px; */
+  z-index:99999; 
+}
+ #smellbow{width:172px;float:right;background:white;}
 
 #my_left_menu{
   ul{
