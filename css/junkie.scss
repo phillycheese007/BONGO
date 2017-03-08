@@ -95,7 +95,7 @@ html {
       .link_below_accordion{
         width:25px;
       }
-      .link_top_level span.active, {
+      .link_top_level span.active, .link_below_accordion.active, .link_below_accordion:hover {
         border-bottom:1px solid black;
       }
       .link_top_level span:hover{
