@@ -226,7 +226,14 @@ ul.topnav {
 }
 
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+  a.active{
+    text-decoration:underline;
+    color:$third-color;
+  }
+}
+
 
 ul.topnav li a{
   font-family: Arial, Helvetica, sans-serif;
