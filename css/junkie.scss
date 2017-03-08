@@ -187,7 +187,6 @@ div.panel {
 
 #myTopnav{border:4px solid green;width:calc(100% - 8px);}
 
-div.panel .borders{border:40px solid green;}
 
 #myTopnav div.panel{
   margin-left:50px; 
@@ -238,7 +237,7 @@ ul.topnav li a{
 }
 
 ul.topnav li a.borders{
- border-bottom:1px solid $second-color;border-left:1px solid $second-color;
+ border-bottom:1px solid $second-color;
 }
 
 .last_link_in_accordian{
@@ -250,7 +249,7 @@ ul.topnav li .link_below_accordion{
   border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */
 }
 
-ul.topnav .panel .borders{ border-left:20 px solid blue; }
+div.panel .borders{border-left:1px solid $second-color;}
 
 ul.topnav button.accordion{
   /*bottom border is set somewheere else i think shaes style wi th left menu */
