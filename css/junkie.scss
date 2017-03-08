@@ -99,7 +99,7 @@ html {
       .link_top_level:hover{
         border-bottom:1px solid black;font-weight:normal;
       }
-      .link_top_level .active{
+      .link_top_level.active{
         border-bottom:1px solid black;font-weight:normal;
       }
       a{
