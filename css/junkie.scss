@@ -172,7 +172,7 @@ div.panel {
   background-color: $first-color;
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;border:2px solid black;
+  transition: max-height 0.2s ease-out;
 }
 /*-------------------------------EEE general Accordion styles -------------------------*/
 
@@ -184,6 +184,8 @@ div.panel {
 
 
 /*-------------------------------BBB top Menu -------------------------*/
+.topnav{background:red}
+#myTopnav{border:4px solid green;}
 
 #myTopnav div.panel{
   margin-left:50px; 
