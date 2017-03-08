@@ -92,9 +92,7 @@ html {
         border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */
         width:41px;
       }
-      .link_top_level:hover, .link_top_level.active{
-        border-bottom:1px solid $second-color;
-      }
+
       .link_below_accordion{
         width:25px;
       }
@@ -106,7 +104,7 @@ html {
         text-decoration:none;
         color:$second-color;
       }
-      .link_top_level span.active{
+      .link_top_level span.active, .link_top_level span:hover{
         border-bottom:1px solid black;
       }
         
