@@ -727,3 +727,5 @@ and (max-device-width: 680px) {
 .swiper-container-horizontal > .swiper-pagination-bullets { 
   bottom: 21px; left: 0; width: 100%; 
  }
+.swiper-pagination-bullet-active { background: black; opacity: 1; }
+
