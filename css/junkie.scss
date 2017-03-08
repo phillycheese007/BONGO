@@ -95,15 +95,11 @@ html {
       .link_below_accordion{
         width:25px;
       }
-      .link_top_level:hover{
-        background:blue;border:20px solid red;
-      }
-      .link_top_level span.active{
+
+      .link_top_level:hover, .link_top_level .active{
         border-bottom:1px solid black;
       }
-      .link_top_level span:hover{
-        border-bottom:10px solid black;
-      }
+
       a{
         /* margin-left:30px; */
        /* padding:18px 0; */
