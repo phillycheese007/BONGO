@@ -285,8 +285,9 @@ ul.topnav li.icon {display: none;}
 
 /* Landscape */
 @media screen and (orientation:landscape)
+
 and (max-device-width: 680px) {
-   ul.topnav{background:green;}
+   ul.topnav{background:green;border:10px solid red;}
 }
    
 
@@ -334,7 +335,9 @@ and (max-device-width: 680px) {
   }
 }
 
-/*-------------------------------EEE Media Queries -------------------------*/
+/*-------------------------------EEEee Media Queries -------------------------*/
+
+
 
 
 
