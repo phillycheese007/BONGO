@@ -714,4 +714,12 @@ and (max-device-width: 680px) {
   -webkit-align-items: center;
    align-items: center;
   }
-
+.image_info{
+  font-size:.8em;
+  background:none;
+  position:absolute;
+  bottom:0px;
+  height:auto;
+  width:100%;
+  left:0;
+}
