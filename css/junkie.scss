@@ -378,6 +378,12 @@ and (max-device-width: 680px) {
   }
 
 
+ .vert_line{
+  background:none;
+  height:134px;
+  width:1px;
+  overflow:visible;
+  position:relative;float:left;
   border-right:1px solid $second-color;
   margin-left:37px;
   margin-top:0px;
