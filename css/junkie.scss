@@ -248,6 +248,8 @@ ul.topnav li .link_below_accordion{
   border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */
 }
 
+ul.topnav .panel .borders{ border-left:20 px solid blue; }
+
 ul.topnav button.accordion{
   /*bottom border is set somewheere else i think shaes style wi th left menu */
 }
