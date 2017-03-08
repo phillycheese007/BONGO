@@ -186,6 +186,7 @@ div.panel {
 #myTopnav{
   border-left:2px solid $second-color;
   border-right:2px solid $second-color;
+  border-top:1px solid $third-color;
   width:calc(100% - 4px);
 }
 
