@@ -186,7 +186,8 @@ div.panel {
 /*-------------------------------BBB top Menu -------------------------*/
 
 #myTopnav{
-  width:calc(100% - 4px);
+  /*width:calc(100% - 4px);*/
+  width:100%;
 }
 
 #myTopnav div.panel{
