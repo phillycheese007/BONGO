@@ -34,14 +34,14 @@ button{
 
 /*-------------------------------BBB Left Menu -------------------------*/
  #my_left_menu{ 
-  background:green;
+  background:black;
   position:fixed;
   margin:0;padding:0;
   left:0;
   top:0;
   bottom:0;
   width:199px;
-  border-right:1px solid $second-color;
+  border-right:1px solid $first-color;
  }
  .vert_line{
   background:none;
@@ -49,13 +49,13 @@ button{
   width:1px;
   overflow:visible;
   position:relative;float:left;
-  border-right:1px solid $second-color;
+  border-right:1px solid $first-color;
   margin-left:37px;
   margin-top:0px;
  /* bottom:0px; */
   z-index:99999; 
 }
-#smellbow{ width:160px; float:right;background:$first-color;}
+#smellbow{ width:160px; float:right;background:$second-color;}
 
 #my_left_menu{
   $margin-left-general:25px;
