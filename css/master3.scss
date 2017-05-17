@@ -97,7 +97,7 @@ button{
         width:41px;
       }
       .link_below_accordion{
-        /*width:25px;*/ background:red;
+        
       }
 
       .link_top_level:hover{
@@ -306,7 +306,7 @@ ul.topnav li.icon {display: none;}
         text-indent:0px;
         padding:$link-padding;
         padding-left:0;
-        background:grey;
+        background:none;
         margin-left:0px;
         span:hover{
           font-weight:bold;
