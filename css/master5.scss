@@ -42,9 +42,11 @@ button{
   width:199px;
   border-right:1px solid $second-color;
  }
+
+
  .vert_line{
   background:none;
-  height:9px;
+  height:134px;
   width:1px;
   overflow:visible;
   position:relative;float:left;
@@ -54,7 +56,7 @@ button{
  /* bottom:0px; */
   z-index:99999; 
 }
-#smellbow{ width:160px; float:right;background:$first-color;margin-top:-130px;}
+#smellbow{ width:160px; float:right;background:$first-color;}
 
 #my_left_menu{
   $margin-left-general:25px;
@@ -270,20 +272,6 @@ ul.topnav li.icon {display: none;}
 
 
 
-
- .vert_line{
-  background:none;
-  height:134px;
-  width:1px;
-  overflow:visible;
-  position:relative;float:left;
-  border-right:1px solid $second-color;
-  margin-left:37px;
-  margin-top:0px;
- /* bottom:0px; */
-  z-index:99999; 
-}
-#smellbow{ width:160px; float:right;background:$first-color;}
 
 #my_left_menu{
   $margin-left-general:25px;
