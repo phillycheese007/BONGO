@@ -44,13 +44,13 @@ button{
  }
  .vert_line{
   background:none;
-  height:90px;
+  height:9px;
   width:1px;
   overflow:visible;
   position:relative;float:left;
   border-right:1px solid $second-color;
   margin-left:37px;
-  margin-top:90px;
+  margin-top:0px;
  /* bottom:0px; */
   z-index:99999; 
 }
