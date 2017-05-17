@@ -34,7 +34,6 @@ button{
 
 /*-------------------------------BBB Left Menu -------------------------*/
  #my_left_menu{
-  background:$first-color;
   position:fixed;
   margin:0;padding:0;
   left:0;
@@ -512,7 +511,7 @@ ul.topnav li.icon {display: none;}
   }  
   #my_left_menu{display:none;} 
   #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
-
+} 
 
 /* Landscape */
 @media screen and (orientation:landscape)
@@ -538,12 +537,6 @@ and (max-device-width: 680px) {
     display: block;
     text-align: left;
   }
-    #masterscrollcontainer{
-    margin-left:0px;
-    width: calc(100% - 0px);
-    background:green;}
-} 
-  
 }
 
 @media screen and (max-width:680px) {
@@ -560,13 +553,6 @@ and (max-device-width: 680px) {
    width: 90vw; 
    max-width:500px;
   }
-  
-    #masterscrollcontainer{
-    margin-left:0px;
-    width: calc(100% - 0px);
-    background:green;}
-
-
 }
 
 @media screen and (min-width:680px) {
