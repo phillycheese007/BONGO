@@ -43,7 +43,7 @@ button{
   border-right:1px solid $second-color;
  }
  .vert_line{
-  background:none;
+  background:orange;
   height:134px;
   width:1px;
   overflow:visible;
@@ -76,7 +76,7 @@ button{
         text-indent:0px;
         padding:$link-padding;
         padding-left:0;
-        background:none;
+        background:pink;
         margin-left:0px;
         span:hover{
           font-weight:bold;
@@ -272,7 +272,7 @@ ul.topnav li.icon {display: none;}
 
 
  .vert_line{
-  background:none;
+  background:yellow;
   height:134px;
   width:1px;
   overflow:visible;
@@ -305,7 +305,7 @@ ul.topnav li.icon {display: none;}
         text-indent:0px;
         padding:$link-padding;
         padding-left:0;
-        background:none;
+        background:grey;
         margin-left:0px;
         span:hover{
           font-weight:bold;
