@@ -1,7 +1,7 @@
 ---
 #myleftmenu6
 ---
-$primary_back_color:red;
+$primary_back_color:black;
 $primary_font_color:white;
 $first-color:black;
 $second-color:white;
@@ -100,10 +100,10 @@ button{
       }
 
       .link_top_level:hover{
-        border-bottom:1px solid white;font-weight:normal;
+        border-bottom:1px solid black;font-weight:normal;
       }
       .link_top_level.active{
-        border-bottom:1px solid white;font-weight:normal;
+        border-bottom:1px solid black;font-weight:normal;
       }
       a{
         /* margin-left:30px; */
@@ -159,7 +159,7 @@ button.accordion {
 
 button.accordion.active, 
 button.accordion:hover {
- border-bottom:1px solid $first-color; 
+ border-bottom:1px solid $second-color; 
  text-decoration:none;
 }
 
@@ -387,7 +387,7 @@ button.accordion {
 
 button.accordion.active, 
 button.accordion:hover {
- border-bottom:1px solid $first-color; 
+ border-bottom:1px solid $second-color; 
  text-decoration:none;
 }
 
