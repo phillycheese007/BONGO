@@ -113,7 +113,7 @@ button{
         display:block;
         text-indent: 0px;
         text-decoration:none;
-        color:$second-color;
+        color:$first-color;
       }
        
       a span.active{
@@ -124,7 +124,7 @@ button{
       }
     }
     li.logo{
-      background:$first-color;      
+      background:$second-color;      
       a{
         text-indent:0px;
         font-size: 17px;
@@ -142,8 +142,8 @@ button{
 
 /*-------------------------------BBB general Accordion styles -------------------------*/
 button.accordion {
-    background-color:$first-color;
-    color:$second-color;
+    background-color:$second-color;
+    color:$first-color;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     padding:18px 0; 
