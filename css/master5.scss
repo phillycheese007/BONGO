@@ -317,10 +317,10 @@ ul.topnav li.icon {display: none;}
       }
 
       .link_top_level:hover{
-        border-bottom:1px solid black;font-weight:normal;
+        border-bottom:10px solid orange;font-weight:normal;
       }
       .link_top_level.active{
-        border-bottom:1px solid black;font-weight:normal;
+        border-bottom:10px solid yellow;font-weight:normal;
       }
       a{
         /* margin-left:30px; */
