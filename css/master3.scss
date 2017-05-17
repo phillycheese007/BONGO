@@ -512,11 +512,7 @@ ul.topnav li.icon {display: none;}
   }  
   #my_left_menu{display:none;} 
   #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
-  #masterscrollcontainer{
-    margin-left:0px;
-    width: calc(100% - 0px);
-    background:green;}
-} 
+
 
 /* Landscape */
 @media screen and (orientation:landscape)
@@ -542,6 +538,12 @@ and (max-device-width: 680px) {
     display: block;
     text-align: left;
   }
+    #masterscrollcontainer{
+    margin-left:0px;
+    width: calc(100% - 0px);
+    background:green;}
+} 
+  
 }
 
 @media screen and (max-width:680px) {
