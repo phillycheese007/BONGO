@@ -540,29 +540,11 @@ and (max-device-width: 680px) {
 }
 
 @media screen and (max-width:680px) {
-  #buffoon{position:absolute;left:0px;margin-top:0px;width: calc(100% - 0px);}
-   .swiper-container {
-   background:blue;
-   width: 100vw; /*shud b 100% */
-   height:114%;
- /*  height: 80vh; */
-  }
-   .swiper-slide img{
-   background:white;
-   height:auto;   
-   width: 90vw; 
-   max-width:500px;
-  }
+
 }
 
 @media screen and (min-width:680px) {
-  .swiper-slide{
-    /*max-width: 100px ;*/
-  }
-  .swiper-container{height:96vh;width:100%;margin-top:0px;}
-  .swiper-slide img{
-    height:88%;margin-top:-20px;
-  }
+
 }
 
 /*-------------------------------EEEee Media Queries -------------------------*/
@@ -571,40 +553,9 @@ and (max-device-width: 680px) {
 
 
 
-.swiper-wrapper{background:white;height:100%;}
 
-#nuzzle{background:none;}
+#nuzzle{background:green;}
 
 
-.the_big_div {  /*-- styling for div holding the swiper gallery ---*/
-  background:$first-color;
-  position: relative;
-  margin:0;
-  padding:0;
-  width: calc(100% - 200px);
-  height:100%;
-  left: 200px;
-  margin-top:0px;
-}
- .swiper-container {
-   width: 100%;
- }
 
-  .swiper-slide {
-  text-align: center;
-  font-size: 15px;
-  background: #fff;
-   /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-   align-items: center;
-  }
+ 
