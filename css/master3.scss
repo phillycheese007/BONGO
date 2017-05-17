@@ -568,6 +568,11 @@ and (max-device-width: 680px) {
   .swiper-slide img{
     height:88%;margin-top:-20px;
   }
+  #masterscrollcontainer{
+    margin-left:200px;
+    width: calc(100% - 200px);
+    background:orange;}
+  
 }
 
 /*-------------------------------EEEee Media Queries -------------------------*/
