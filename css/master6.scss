@@ -543,7 +543,11 @@ and (max-device-width: 680px) {
     margin-left:200px;
     width: calc(100% - 200px);
    /* background:blue;*/}
-    .block{max-width:50vh;position:relative;margin:0 auto !important;background:red}
+    .block{
+      max-width:50vh;position:relative;margin:0 auto !important;background:red;
+      margin-top: 30px;margin-bottom: 90px;
+      
+  }
 
 }
 /*-------------------------------EEEee Media Queries -------------------------*/
