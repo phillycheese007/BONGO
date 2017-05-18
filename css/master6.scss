@@ -543,7 +543,7 @@ and (max-device-width: 680px) {
     margin-left:200px;
     width: calc(100% - 200px);
    /* background:blue;*/}
-    .block{max-width:50vh;margin:0 auto;background:red}
+    .block{max-width:50vh;position:relative;margin:0 auto !important;background:red}
 
 }
 /*-------------------------------EEEee Media Queries -------------------------*/
