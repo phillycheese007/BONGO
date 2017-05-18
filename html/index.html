@@ -1,34 +1,64 @@
-<!DOCTYPE html>
+
+
 <html>
 <head>
-<title>Philip Dusel</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Official Site Artist Philip Dusel">
-<meta name="keywords" content="art, painting, philipdusel, philipduselpainting, philipduselart, baltimore, baltimoreart">
-<meta name="author" content="Philip Dusel">
- 
-<link rel="stylesheet" href="/philipdusel/css/master.css">
-<link rel="stylesheet" href="/philipdusel/css/swiper.css">
-
+<TITLE>PHILIP DUSEL</TITLE>
+<link rel="stylesheet" href="/philipdusel/css/master6.css">
+  
 <style>
+  body,html{padding:0;margin:0;}
+  body{background:black;color:white;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+  hr{color:red}
 
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets { 
-  bottom: 21px; left: 0; width: 100%; 
- }
-.swiper-pagination-bullet-active { background: black; opacity: 1; }
-  .image_info{
-  font-size:.8em;
-  background:none;
-  position:absolute;
-  bottom:0px;
-  height:auto;
-  width:100%;
-  left:0;
- }
+
+  ul{list-style-type:none;}
+  
+  .block { margin-left:15%;margin-right:15%;
+  text-align: center;
+ /* background: #c0c0c0;
+  border: #a0a0a0 solid 1px;*/
+ background:none;/*min-width:900px;*/ margin-top: 30px;margin-bottom: 90px;
+}
  
+  #poc{text-align:left !important;font-size:55%;}
+
+  
+  
+  
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+  border: #a0a0a0 solid 1px;
+  background: red;
+ }
+}
+  
+.imghold{       
+  width:100%;  display: inline-block; vertical-align: middle;background:yellow;padding:50px;
+}
+.imghold img:hover {    
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+  #butter{width:100%;height:auto;}
+/*  #masterscrollcontainer{
+    margin-left:200px;
+    width: calc(100% - 200px);
+    background:yellow;}*/
+  
+  
 </style>
 </head>
 <body>
+
+  
+  
 
  <div id="my_left_menu">
    <ul>
@@ -69,85 +99,71 @@
 </div>
 </li>
    
-    <li><a class="borders link_below_accordion"href="#news">News</a></li>
+    <li><a class="borders link_below_accordion" href="#news">News</a></li>
     <li><a class="borders" href="#contact">Contact</a></li>
     <li class="icon">
       <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
     </li>
-  </ul>
+  </ul> 
+  </div> <!--end nuzzle-->
+  
+  
+<div id="masterscrollcontainer">
 
-  
-  
-  
-  
-   <div class="the_big_div" id="buffoon">
-  
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            
-            <div class="swiper-slide">
-                <img class="power_bar" src="/philipdusel/images/16L_71.jpg"/> 
-                <div class="image_info">30px x ham, 2017, oil on paper</div>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/16L_66.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/16L_3.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/16L_68.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/16L_69.jpg"/>
-            </div>
-            <div class="swiper-slide">
-                <img src="/philipdusel/images/16L_67.jpg"/> 
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/nuzzy.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/buzzy.jpg"/>
-            </div>
-            <div class="swiper-slide">
-              <img src="/philipdusel/images/funny.jpg"/>
-            </div>
-            
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-button-black"></div>
-        <div class="swiper-button-prev swiper-button-black"></div>
-    </div>
-  
-  
-   </div><!-- end #buffoon -->
- 
-</div><! #nuzzle -->
- 
- 
-     <!-- Swiper JS -->
-    <script src="/philipdusel/js/swiper.js"></script>
+<div class="block" style="width: 70%;">
+  <div class="imghold">
+   <a href="/philipdusel/images/16L_71.jpg" target="_blank">
+    <img id="butter" src="/philipdusel/images/16L_71.jpg"/>
+   </a>
+  </div>
+  <p class="poc" style="text-align: left !important">yamma, Acrylic on paper, 2016</p>
+  <hr>
 
+</div>
 
+<div class="block" style="width: 70%;">
+  <div class="imghold">
+   <a href="https://phillycheese007.github.io/philipdusel/images/16L_3.jpg" target="_blank">
+    <img id="butter" src="https://phillycheese007.github.io/philipdusel/images/16L_3.jpg"/>
+   </a>
+  </div>
+  <p class="poc" style="text-align: left !important">Boella, Acrylic on paper, 2016</p>
+  <hr>
+</div>
 
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        centeredSlides: true,
-        spaceBetween: 30 ,
-        loop: true ,
-        effect: 'fade' 
-    });
-    </script>
- 
- 
+<div class="block" style="width: 70%;">
+  <div class="imghold">
+   <a href="https://phillycheese007.github.io/philipdusel/images/buzzy.jpg" target="_blank">
+    <img id="butter" src="https://phillycheese007.github.io/philipdusel/images/buzzy.jpg"/>
+   </a>
+  </div>
+  <p class="poc" style="text-align: left !important">RubblesNeilso, Acrylic on paper, 2016</p>
+  <hr>
+</div>
+
+<div class="block" style="width: 70%;">
+  <div class="imghold">
+   <a href="https://phillycheese007.github.io/philipdusel/images/nuzzy.jpg" target="_blank">
+    <img id="butter" src="https://phillycheese007.github.io/philipdusel/images/nuzzy.jpg"/>
+   </a>
+  </div>
+  <p class="poc" style="text-align: left !important">Ribble Nibble, Acrylic on paper, 2016</p>
+  <hr>
+</div>
+  
+<div class="block" style="width: 70%;">
+  <div class="imghold">
+   <a href="https://phillycheese007.github.io/philipdusel/images/funny.jpg" target="_blank">
+    <img id="butter" src="https://phillycheese007.github.io/philipdusel/images/funny.jpg"/>
+   </a>
+  </div>
+  <p class="poc" style="text-align: left !important">Flobonatagon, Acrylic on paper, 2016</p>
+  <hr>
+</div>
+  
+  </div> <!--end  masterscrollcontainer -->
+  
+  
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -175,6 +191,8 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
- 
+  
+  
 </body>
 </html>
+ 
