@@ -533,7 +533,7 @@ and (max-device-width: 680px) {
     margin-left:0px;
     width: 100%;
    /* background:orange;*/}
-  
+   
 }
 
 @media screen and (min-width:680px) {
@@ -543,6 +543,7 @@ and (max-device-width: 680px) {
     margin-left:200px;
     width: calc(100% - 200px);
    /* background:blue;*/}
+  #butter{max-height:90vh;}
   
 }
 /*-------------------------------EEEee Media Queries -------------------------*/
