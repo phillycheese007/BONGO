@@ -17,10 +17,65 @@ ul li {background:red;width:180;height:120;margin-top:20px;margin-right:25px;mar
 #butter {
 width:220%;    
 }
-.caption {background:yellow;
-      display: block;
+        .photos ul li a {
 
-  } 
+          display: block;
+          /*
+          margin-right: 10px;
+          margin-bottom: 7px; */
+          opacity: 0.75;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+        }
+  
+  
+  
+  
+  /* gallery display */
+        .photos {
+          display: block;
+        }
+
+        .photos ul {
+          list-style: none;
+
+        }
+
+        .photos ul li { 
+            display: inline;
+            list-style: none;
+            float: left;
+            padding: 0 10px 0 0;
+            text-align:center; 
+        }
+
+        .photos ul li span a {
+            background-color: #fff;
+        }
+
+        .photos ul li a {
+
+          display: block;
+          /*
+          margin-right: 10px;
+          margin-bottom: 7px; */
+          opacity: 0.75;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+        }
+        .photos ul li a:hover {
+          opacity: 1.0;
+        }
+
+        .photos ul li a img {
+          border: 6px solid #e1d9ec;
+        }   
+  
+  
+  
+  
 </style>
 </head>
 <body>
@@ -33,9 +88,12 @@ width:220%;
     </li>
     <li>
       <img id="butter" src="/philipdusel/graphic/lopllll.gif">
-      <p><h2>Perrier</h2></p>
+      <a href="">See More...</a>
     </li>
-    <li><img id="butter" src="/philipdusel/graphic/banana.png"> </li>
+    
+    <li><img id="butter" src="/philipdusel/graphic/banana.png">
+      <a href="">See More...</a>
+    </li>
     <li><img id="butter" src="/philipdusel/graphic/lopllll.gif"> </li>
     <li><img id="butter" src="/philipdusel/graphic/banana.png"> </li>
     <li><img id="butter" src="/philipdusel/graphic/lopllll.gif"> </li>
@@ -45,6 +103,25 @@ width:220%;
 </div>
   
 
+  
+   <div class="photos">
+        <ul>
+            <li><span><a href="#"><img src="http://cdn.androidbeat.com/wp-content/uploads/2013/07/android.jpg" width="200" height="150"   /></a></span>
+            <span>Android</span>
+            <a href="">See More...</a>
+            </li>
+            <li><a href="#"><img src="http://lotssports.com/wp-content/uploads/2013/07/zappy-android-300x300.jpg" width="200" height="150"  /></a>
+            <span>Android</span>
+            <a href="">See More...</a>
+            </li>
+            <li><a href="#"><img src="http://cdn.androidbeat.com/wp-content/uploads/2013/07/android.jpg" width="200" height="150"  /></a></li>
+            <li><a href="#"><img src="http://2.bp.blogspot.com/-65ZTcnMYW9c/TurVOon7PrI/AAAAAAAAA_s/07tBb3zCktI/s400/new%2Bprof.png" width="200" height="150"  /></a></li>
+        </ul>
+      </div>
+  
+  
+  
+  
 </body>
 </html>
  
