@@ -64,16 +64,10 @@ h1{color:black;font-size:15px;}
 
 
 
-.perrier{  background: url(/philipdusel/graphic/lopllll.gif) 50% 50% no-repeat; /* 50% 50% centers image in div */
-  border:2px solid red;
-}
-.banana{  background: url(/philipdusel/graphic/banana.png) 20% 50% no-repeat; /* 50% 50% centers image in div */
-  border:2px solid red;
-}
 
 
 
-.baggy {
+.banana {
   border:1px solid blue;
   object-fit: cover;
   object-position: 100% 100%;
@@ -81,13 +75,16 @@ h1{color:black;font-size:15px;}
   height:230px;
 }
 
-.raggy {
+.perrier {
   border:1px solid red;
   object-fit: cover;
   object-position: 10% 90%;
   width:330px;
   height:230px;
 }
+
+
+
 
 
 .image_cropper_1 {width:220%;margin-right:345px;}
