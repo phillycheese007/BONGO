@@ -43,7 +43,8 @@ h1{color:black;font-size:12.5px;font-weight:normal;}
 
 ul{ list-style-type:none;}  
 
-.rightfloat{float:right;background:purple;}
+.rightfloat{float:right;}
+.leftfloat{float:left;}
 
 /*--EE  Universals--*/
 /*--EE  Universals--*/
@@ -113,7 +114,8 @@ ul{ list-style-type:none;}
   border-left: 30px solid green;
 }
 
-.big_image_info{background:yellow;width:100%;height:20px;text-indent:5px;clear:left;}
+.big_image_info_holder{background:yellow;width:100%;height:20px;text-indent:5px;clear:left;}
+.big_image_info{
 #big_image {
   background:none;position:relative;z-index:1;
   img{width:100%;}
