@@ -97,7 +97,13 @@ h1{color:black;font-size:15px;}
   width:330px;
   height:230px;
 }
-
+.trippyphone {
+  border:2px solid blue;
+  object-fit: cover;
+  object-position: 10% 90%;
+  width:330px;
+  height:230px;
+}
 
 
 .image_cropper_1 {width:220%;margin-right:345px;}
