@@ -74,14 +74,19 @@ h1{color:black;font-size:15px;}
 
 
 .baggy {
+  border:1px solid blue;
   object-fit: cover;
+  object-position: 90% 50%;
   width:230px;
   height:230px;
 }
 
 .raggy {
+  border:1px solid red;
   object-fit: cover;
-  width:930px;
+  object-position: 10% 20%;
+  width:330px;
+  height:230px;
 }
 
 
