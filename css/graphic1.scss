@@ -13,6 +13,12 @@ $link-padding:14px;
   text-decoration: $text-decor-underline;
 }
 
+
+
+/*--BB  Universals--*/
+/*--BB  Universals--*/
+/*--BB  Universals--*/
+
 body, 
 html {
   margin:0;
@@ -25,11 +31,25 @@ body{
   font-size: 15px;
 }
 
-
+h1{color:black;font-size:15px;font-weight:normal;}
 
 ul{ list-style-type:none;}  
-h1{color:black;font-size:15px;font-weight:normal;}
+
 .rightfloat{float:right;background:purple;}
+
+/*--EE  Universals--*/
+/*--EE  Universals--*/
+/*--EE  Universals--*/
+
+
+
+
+
+
+
+
+
+
 .main_container{
     background:none;
     width:700px;
