@@ -75,10 +75,10 @@ ul{ list-style-type:none;}
 
 
 #header_holder{
-  background:grey;height:70px;width:700px;margin:0 auto;padding:0;
+  background:none;height:70px;width:700px;margin:0 auto;padding:0;
   
   #logoheader{
-    background:blue;
+    background:none;
     width:100%;
     height:40px;
     margin:20px auto;
@@ -89,7 +89,7 @@ ul{ list-style-type:none;}
   }  /* EE #logoheader */
   
   .menu{
-    background:red;
+    background:none;
     width:100%;
     height:30px;
     line-height:30px;
@@ -104,7 +104,7 @@ ul{ list-style-type:none;}
 
 
 
-#big_image {background:green;
+#big_image {background:none;
     img{width:100%;}
    .positioner{width:700px;margin:0 auto;position:relative}
 }
