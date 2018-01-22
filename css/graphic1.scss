@@ -90,7 +90,13 @@ h1{color:black;font-size:15px;}
   width:330px;
   height:230px;
 }
-
+.bottles {
+  border:2px solid blue;
+  object-fit: cover;
+  object-position: 10% 90%;
+  width:330px;
+  height:230px;
+}
 
 
 
