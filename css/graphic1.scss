@@ -64,9 +64,59 @@ ul{ list-style-type:none;}
     margin:0 auto;
     margin-bottom:100px;
     padding:0;
-    ul{list-style-type:none;background:none;  margin:10px auto;padding:0;}
+    ul{list-style-type:none;background:none;  margin:0 auto;padding:0;}
     li {background:none;height:120px;width:175px;margin-top:50px;float:left;text-align:center;} 
 }
+
+
+
+
+
+a {vertical-align: bottom;}
+
+
+#header_holder{
+  background:grey;height:115px;width:700px;margin:0 auto;margin-top:10px;
+  
+  #logoheader{
+    background:blue;
+    width:100%;
+    height:40px;
+    margin:0 auto;
+    margin-top:10px;
+    #logo{
+      margin-right:10px;
+      float:right;
+    }  /* EE #logo */
+  }  /* EE #logoheader */
+  
+  .menu{
+    background:red;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    margin-bottom:0px;
+    ul li {
+      float:left; 
+      margin-left:100px;
+    }  /* EE ul li */
+  }  /* EE #menu */
+}
+
+
+
+#big_image {
+    img{width:100%;}
+   .positioner{width:700px;margin:0 auto;position:relative}
+}
+#footer{background:none;width:100%;height:50px;clear: right;}
+
+
+
+
+
+
 
 
 
@@ -80,16 +130,6 @@ ul{ list-style-type:none;}
   } 
   .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
 }
-
-
-
-
-
-
-
-
-
-
 
 /*--BB image cropping--*/
 /*--BB image cropping--*/
@@ -139,48 +179,15 @@ ul{ list-style-type:none;}
 
 
 
-.image_cropper_1 {width:220%;margin-right:345px;}
-.image_cropper_2 {width:120%;margin-right:100px;}
-
-a {vertical-align: bottom;}
-
-
-#header_holder{
-  background:none;height:115px;width:700px;margin:0 auto;margin-top:10px;
-  
-  #logoheader{
-    background:none;
-    width:100%;
-    height:40px;
-    margin:0 auto;
-    margin-top:10px;
-    #logo{
-      margin-right:10px;
-      float:right;
-    }  /* EE #logo */
-  }  /* EE #logoheader */
-  
-  .menu{
-    background:red;
-    width:100%;
-    height:40px;
-    line-height:40px;
-    margin:0 auto;
-    margin-bottom:0px;
-    ul li {
-      float:left; 
-      margin-left:100px;
-    }  /* EE ul li */
-  }  /* EE #menu */
-}
 
 
 
-#big_image {
-    img{width:100%;}
-   .positioner{width:700px;margin:0 auto;position:relative}
-}
-#footer{background:none;width:100%;height:50px;clear: right;}
+
+
+
+
+
+
 
 /*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
 @media screen and (max-width:680px) {
