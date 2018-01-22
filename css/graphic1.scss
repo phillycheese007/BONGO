@@ -93,7 +93,7 @@ a {
     padding:0;
     ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
     li {background:green; height: calc(width / 2);width:25%;margin-top:50px;float:left;text-align:center;} 
-    .thumbnail_mask { background:orange;overflow:hidden; width:90%;height:100%;margin:0 auto;} 
+    .thumbnail_mask { background:orange;overflow:hidden; width:90%;height: calc(width / 2);margin:0 auto;} 
   }
   #big_image {
     img{width:100%;}
