@@ -92,14 +92,14 @@ a {
 @media screen and (max-width:680px) {
   .thumbnail_container{
     background:yellow;
-    width:80%;height:auto;
+    width:90vw;height:auto;
     margin:0 auto;
     padding:0;
     ul{list-style-type:blue;background:none;  margin:10px auto;padding:0;}
     li {background:green;width:23%;margin-left:1%;
-     width: 23vw; 
+     width: 22.5vw; 
 
-      margin-right:1%;margin-top:50px;float:left;text-align:center;} 
+      margin-right:1.75vw;margin-left:1.75vw;margin-top:50px;float:left;text-align:center;} 
     .thumbnail_mask { background:orange;overflow:hidden;    width:100%;margin:0px auto;margin-bottom:9px;} 
     .caption{background:lightblue;margin-top:70px;height:50px;line-height:10x;font-size:11px;}
   }
