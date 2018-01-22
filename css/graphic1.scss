@@ -199,7 +199,8 @@ ul{ list-style-type:none;}
 
 
 .menu2{width:100%;height:30px;background:brown;}
-.menu2 ul li {float: left;margin-left:25%;}
+.menu2 ul {margin-left:45%;}
+.menu2 ul li {float: left;margin-left:50px;}
 
 
 
@@ -218,9 +219,8 @@ ul{ list-style-type:none;}
   }
   
   
-  .menu2{
-    width:90vw;height:30px;background:brown;
-  }
+  .menu2{width:90vw;height:30px;background:brown;}
+  .menu2 ul {margin-left:40vw;}
   .menu2 ul li {margin-left:10vw;}
 
   
