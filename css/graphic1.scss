@@ -61,37 +61,41 @@ h1{color:black;font-size:15px;}
 
 
 
-#butter {
-width:220%;    
-}
-a {
-  vertical-align: bottom;
-}
-#header_holder{background:brown;height:115px;width:700px;margin:0 auto;margin-top:10px;}
-#logoheader{
-  background:orange;
-  width:100%;
-  height:40px;
-  margin:0 auto;
-  margin-top:10px;
-}
-.header{
-  background:red;
-  width:100%;
-  height:40px;
-  line-height:40px;
-  margin:0 auto;
-  margin-bottom:0px;
-  ul li {
-    float:left; 
-    margin-left:100px;
-  }
+#butter {width:220%;}
+a {vertical-align: bottom;}
+
+
+#header_holder{
+  background:brown;height:115px;width:700px;margin:0 auto;margin-top:10px;
+  
+  #logoheader{
+    background:orange;
+    width:100%;
+    height:40px;
+    margin:0 auto;
+    margin-top:10px;
+    #logo{
+      margin-right:10px;
+      float:right;
+    }  /* EE #logo */
+  }  /* EE #logoheader */
+  
+  .menu{
+    background:red;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    margin-bottom:0px;
+    ul li {
+      float:left; 
+      margin-left:100px;
+    }  /* EE ul li */
+  }  /* EE #menu */
 }
 
-#logo{
-  margin-right:10px;
-  float:right;
-}
+
+
 #big_image {
     img{width:100%;}
    .positioner{width:700px;margin:0 auto;position:relative}
