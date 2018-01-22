@@ -68,7 +68,7 @@ h1{color:black;font-size:15px;}
 
 
 .banana {
-  border:1px solid blue;
+  border:2px solid blue;
   object-fit: cover;
   object-position: 100% 100%;
   width:230px;
@@ -76,13 +76,20 @@ h1{color:black;font-size:15px;}
 }
 
 .perrier {
-  border:1px solid red;
+  border:2px solid red;
   object-fit: cover;
   object-position: 10% 90%;
   width:330px;
   height:230px;
 }
 
+.pigeon {
+  border:2px solid green;
+  object-fit: cover;
+  object-position: 10% 90%;
+  width:330px;
+  height:230px;
+}
 
 
 
