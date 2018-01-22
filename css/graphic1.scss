@@ -36,16 +36,17 @@ button{
 ul{ list-style-type:none;}  
 h1{color:black;font-size:15px;}
 .rightfloat{float:right;background:purple;}
-.main_contain{background:none;width:700px;height:900px;margin:0 auto;padding:0;}
-.main_contain ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
-.main_contain ul li {
-  background:green;
-  height:120px;
-  width:175px;
-  margin-top:50px;
-  float:left;
-  text-align:center;
-} 
+.main_contain{
+    background:none;
+    width:700px;height:900px;
+    margin:0 auto;
+    padding:0;
+    ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
+    li {background:green;height:120px;width:175px;margin-top:50px;float:left;text-align:center;} 
+}
+
+
+
   .caption{background:lightblue;height:50px;line-height:50px;font-size:11px;}
 .beanthrow { overflow:hidden; width:150px;height:110px;margin:0 auto;} 
 
