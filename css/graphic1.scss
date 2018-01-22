@@ -36,7 +36,7 @@ button{
 ul{ list-style-type:none;}  
 h1{color:black;font-size:15px;}
 .rightfloat{float:right;background:purple;}
-.main_contain{
+.thumbnail_container{
     background:none;
     width:700px;height:900px;
     margin:0 auto;
@@ -82,3 +82,69 @@ a {
     img{width:100%;}
    .positioner{width:700px;margin:0 auto;position:relative}
 }
+
+
+/*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+    ul.topnav{
+    width:100%;
+    display: block;
+  }  
+  #my_left_menu{display:none;} 
+  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+} 
+
+/* Landscape */
+@media screen and (orientation:landscape)
+
+and (max-device-width: 680px) {
+   ul.topnav{/*background:green;*/}
+}
+   
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;  transition: 3s ease-out;
+
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:680px) {
+
+  #masterscrollcontainer{
+    margin-left:0px;
+    width: 100%;
+   /* background:orange;*/}
+   
+}
+
+@media screen and (min-width:680px) {
+
+
+  #masterscrollcontainer{
+    margin-left:200px;
+    width: calc(100% - 200px);
+   /* background:blue;*/}
+    .block{
+     min-width:40vw; max-width:60vh;position:relative;margin:60 auto !important;background:red;
+      
+  }
+
+}
+/*-------------------------------EEEee Media Queries -------------------------*/
