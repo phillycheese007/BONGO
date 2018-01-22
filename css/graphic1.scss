@@ -56,17 +56,6 @@ width:220%;
 a {
   vertical-align: bottom;
 }
-.header{
-  background:orange;
-  width:700px;
-  height:40px;
-  margin:0 auto;
-  margin-bottom:10px;
-}
-.header ul li {
-  float:left; 
-  margin-left:100px
-}
 #logoheader{
   background:orange;
   width:700px;
@@ -74,6 +63,19 @@ a {
   margin:0 auto;
   margin-top:10px;
 }
+.header{
+  background:red;
+  width:700px;
+  height:40px;
+  line-height:40px;
+  margin:0 auto;
+  margin-bottom:5px;
+  ul li {
+    float:left; 
+    margin-left:100px
+  }
+}
+
 #logo{
   margin-right:10px;
   float:right;
