@@ -106,6 +106,7 @@ ul{ list-style-type:none;}
 
 
 .arrow_right {
+  margin-top:3px;
   width: 0; 
   height: 0; 
   border-top: 7px solid transparent;
@@ -115,7 +116,7 @@ ul{ list-style-type:none;}
 }
 
 .big_image_info_holder{background:yellow;width:100%;height:20px;line-height:20px;text-indent:5px;clear:left;}
-.big_image_info{background:orange;height:20px;}
+.big_image_info{background:orange;}
 #big_image {
   background:none;position:relative;z-index:1;
   img{width:100%;}
