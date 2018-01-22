@@ -197,9 +197,9 @@ ul{ list-style-type:none;}
 
 
 
-.bozo{width:90vw;height:30px;background:brown;}
-.bozo ul li {float: left;}
 
+.bozo{width:100%;height:30px;background:brown;}
+.bozo ul li {float: left;}
 
 
 
@@ -216,6 +216,12 @@ ul{ list-style-type:none;}
     width:90vw;
     img{height:95%;}
   }
+  
+  
+  .bozo{width:90vw;height:30px;background:brown;}
+  .bozo ul li {float: left;}
+
+  
   .menu{
     background:brown;
     width:90vw;
