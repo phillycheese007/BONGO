@@ -36,13 +36,13 @@ button{
 ul{ list-style-type:none;}  
 h1{color:black;font-size:15px;}
 .rightfloat{float:right;background:purple;}
-.main_contain{background:none;width:1000px;height:900px;margin:0 auto;padding:0;}
+.main_contain{background:none;width:700px;height:900px;margin:0 auto;padding:0;}
 .main_contain ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
 .main_contain ul li {
   background:green;
-  height:170px;
-  width:200;
-  margin-top:20px;margin-right:25px;margin-left:25px;
+  height:120px;
+  width:175px;
+  margin-top:50px;
   float:left;
   text-align:center;
 } 
@@ -56,7 +56,7 @@ a {
 }
 .header{
   background:orange;
-  width:1000px;
+  width:700px;
   height:40px;
   margin:0 auto;
   margin-top:70px;
@@ -67,7 +67,7 @@ a {
 }
 #logoheader{
   background:orange;
-  width:1000px;
+  width:700px;
   height:40px;
   margin:0 auto;
   margin-top:70px;
