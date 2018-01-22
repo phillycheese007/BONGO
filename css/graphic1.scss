@@ -199,7 +199,7 @@ ul{ list-style-type:none;}
 
 
 .menu2{width:100%;height:30px;background:brown;}
-.menu2 ul li {float: left;margin-left:50px;}
+.menu2 ul li {float: left;margin-left:25%;}
 
 
 
@@ -221,21 +221,10 @@ ul{ list-style-type:none;}
   .menu2{
     width:90vw;height:30px;background:brown;
   }
-  .menu2 ul li {margin-left:5vw;}
+  .menu2 ul li {margin-left:10vw;}
 
   
-  .menu{
-    background:brown;
-    width:90vw;
-    height:20px;
-    line-height:20px;
-    margin:0 auto;
-    margin-bottom:0px;
-    ul{width:90vw;height:30px;background:pink;}
-    ul li {
-      float:left; background:red;
-    }  /* EE ul li */
-  }  /* EE #menu */
+
   
   .main_container{ background:none;width:90vw;height:auto;margin:0 auto;padding:0;
     ul{list-style-type:none;background:none;  margin:10px auto;padding:0;}
