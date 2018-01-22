@@ -104,7 +104,13 @@ h1{color:black;font-size:15px;}
   width:330px;
   height:530px;
 }
-
+.skater {
+  border:2px solid lightgrey;
+  object-fit: cover;
+  object-position: 50% 90%;
+  width:330px;
+  height:530px;
+}
 
 .image_cropper_1 {width:220%;margin-right:345px;}
 .image_cropper_2 {width:120%;margin-right:100px;}
