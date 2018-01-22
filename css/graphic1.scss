@@ -103,6 +103,16 @@ ul{ list-style-type:none;}
 }
 
 
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  
+  border-left: 30px solid green;
+}
+
 .big_image_info{background:yellow;width:100%;height:20px;text-indent:5px;clear:left;}
 #big_image {
   background:none;position:relative;z-index:1;
