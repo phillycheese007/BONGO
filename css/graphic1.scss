@@ -75,7 +75,7 @@ ul{ list-style-type:none;}
 
 
 #header_holder{
-  background:none;height:70px;width:700px;margin:0 auto;padding:0;
+  background:none;position:relative;z-index:99;height:70px;width:700px;margin:0 auto;padding:0;
   
   #logoheader{
     background:none;
@@ -104,9 +104,10 @@ ul{ list-style-type:none;}
 
 
 
-#big_image {background:none;
-    img{width:100%;}
-   .positioner{width:700px;margin:0 auto;position:relative}
+#big_image {
+  background:none;position:relative;z-index:1;
+  img{width:100%;}
+  .positioner{width:700px;margin:0 auto;position:relative}
 }
 #footer{background:none;width:100%;height:50px;clear: right;}
 
