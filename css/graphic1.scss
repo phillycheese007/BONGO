@@ -210,7 +210,9 @@ ul{ list-style-type:none;}
 /*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
 @media screen and (max-width:680px) {
   
-  body{font-size: 12px;}
+  body{font-size: 12.5px;}
+  h1{font-size:13.5}
+  h2{font-size:14.7}
   
   #header_holder{
     width:90vw;
