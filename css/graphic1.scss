@@ -86,17 +86,14 @@ a {
 
 /*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
+  .thumbnail_container{
+    background:green;
+    width:700px;height:900px;
+    margin:0 auto;
+    padding:0;
+    ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
+    li {background:green;height:120px;width:175px;margin-top:50px;float:left;text-align:center;} 
   }
-    ul.topnav{
-    width:100%;
-    display: block;
-  }  
-  #my_left_menu{display:none;} 
-  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
 } 
 
 /* Landscape */
