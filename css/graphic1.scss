@@ -30,7 +30,7 @@ body{
   font-family: times, sans-serif;
   font-size: 15px;
 }
-a {color:black;text-decoration:none;}
+a {color: $first-color ;text-decoration:none;}
 a:hover {
     text-decoration: underline;
 }
