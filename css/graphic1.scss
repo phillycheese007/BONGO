@@ -92,9 +92,12 @@ a {
     margin:0 auto;
     padding:0;
     ul{list-style-type:none;background:none;height:900px;margin:100px auto;padding:0;}
-    li {background:green;height:120px;width:25%;margin-top:50px;float:left;text-align:center;} 
+    li {background:green;height:auto;width:25%;margin-top:50px;float:left;text-align:center;} 
     .thumbnail_mask { background:orange;overflow:hidden; width:90%;height:110px;margin:0 auto;} 
-
+  }
+  #big_image {
+    img{width:100%;}
+   .positioner{width:90%;margin:0 auto;position:relative;background:grey;}
   }
 } 
 
