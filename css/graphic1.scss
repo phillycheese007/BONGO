@@ -89,8 +89,8 @@ ul{ list-style-type:none;}
     margin-top:4px; /* this is from top of actual page */
     margin-bottom:10px;
     #logo{
-      text-align:center;
       float:right;
+      img{display:block;margin:auto;}
     }  /* EE #logo */
   }  /* EE #logoheader */
   
