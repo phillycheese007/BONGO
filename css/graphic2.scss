@@ -190,8 +190,8 @@ ul{ list-style-type:none;}
 /*--BB  Thumbnails--*/
 /*--BB  Thumbnails--*/
 /*--BB  Thumbnails--*/
-
-ul.thumbnails {list-style-type:none;background:red;  margin:0 auto;padding:0;}
+#thumb_holder{background:blue;width:100%;height:auto;}
+ul.thumbnails {list-style-type:none;background:red; margin:0 auto;padding:0;}
 ul.thumbnails li {background:yellow;height:120px;width:140px;margin-left:5px;margin-right:5px;margin-top:50px;float:left;text-align:center;} 
 
 
