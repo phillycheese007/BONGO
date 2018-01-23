@@ -90,13 +90,10 @@ ul{ list-style-type:none;}
 /*--BB  Header & footer--*/
 /*--BB  Header & footer--*/
 
-#header_holder{
-  background:red;position:relative;z-index:99;height:80px;width:700px;margin:0 auto;padding:0;
-  
+
   #logoheader{
-    background:none;
+    background:red;
     width:100%;
-    
     margin:0px auto;
     margin-top:4px; /* this is from top of actual page */
     /*margin-bottom:40px;*/
@@ -105,6 +102,12 @@ ul{ list-style-type:none;}
       img{display:block;margin:auto;}
     }  /* EE #logo */
   }  /* EE #logoheader */
+
+
+#header_holder{
+  background:none;position:relative;z-index:99;height:80px;width:700px;margin:0 auto;padding:0;
+  
+
   
   
    /*----------------BB Menu--*/
