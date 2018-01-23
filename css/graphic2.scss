@@ -283,11 +283,8 @@ ul{ list-style-type:none;}
   h1{font-size:13.5}
   h2{font-size:14.7}
   
-  #header_holder{
-    width:90vw;
-    img{height:98%;}
-  }
-  
+  #header_holder{width:90vw;}
+  #logo img {height:10vw;}
   
   .menu2{width:90vw;height:30px;background:none;}
   .menu2 ul {margin-left:15vw;}
@@ -308,7 +305,7 @@ ul{ list-style-type:none;}
   .big_image_info{background:orange;width:82vw;}
   #big_image {
     margin:0;padding:0;
-    img{width:80%;}
+    /*img{width:96vw;}*/
    .positioner{width:100%;position:relative;background:none;margin:0;padding:0;}
   }/* end #big_image */
 
