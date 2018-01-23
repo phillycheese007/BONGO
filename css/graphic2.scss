@@ -300,29 +300,16 @@ ul.thumbnails li {background:yellow;height:110px;width:140px;margin-left:5px;mar
    /*----------------EE Menu--*/
 
   
-  .main_container{ background:red;width:90vw;height:auto;margin:0 auto;padding:0;}
   
   
-   /*----------------BB Thumbnails--*/
-   /*----------------BB Thumbnails--*/
-  
-#thumb_holder{background:blue;width:90vw;margin:0 auto;height:100%;}
-ul.thumbnails {list-style-type:none;background:red; margin:0 auto;padding:0;}
-ul.thumbnails li {background:yellow;height:14vw;width:20vw;margin-left:1.2vw; margin-top:50px;float:left;text-align:center;} 
-
-.thumbnails{
-  .mask { 
-    overflow:hidden; 
-    width:19vw;
-    height:12vw;
-    margin:0px auto;
-    margin-bottom:0px;
-  } 
-  .caption{background:red;margin-top:0px;height:150px;line-height:50x;font-size:11px;}
-}
-/*--EE  Thumbnails--*/
-/*--EE  Thumbnails--*/
-/*--EE  Thumbnails--*/
+  .main_container{ background:none;width:90vw;height:auto;margin:0 auto;padding:0;
+    ul{list-style-type:none;background:none;  margin:10px auto;padding:0;}
+    li {background:none;width: 20vw;height:14vw;margin-right:1.2vw;margin-left:1.2vw;margin-top:50px;float:left;text-align:center;} 
+    .thumbnails{
+      .mask { background:none;overflow:hidden;height:10vw;width:100%;margin:0px auto;margin-bottom:9px;} 
+    } 
+    .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
+  }
 
   
   .big_image_info{background:none;width:82vw;}
