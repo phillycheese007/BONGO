@@ -1,5 +1,5 @@
 ---
-#graphic2
+#myleftmenu6
 ---
 $primary_back_color:black;
 $primary_font_color:white;
@@ -41,10 +41,14 @@ h2{color:black;font-size:11.5px;font-weight:normal;margin:0;padding:0;}
 
 ul{ list-style-type:none;}  
 
+
+
+
 .rightfloat{float:right;}
 .leftfloat{float:left;}
 
 
+
 /*--EE  Universals--*/
 /*--EE  Universals--*/
 /*--EE  Universals--*/
@@ -57,105 +61,43 @@ ul{ list-style-type:none;}
 
 
 
-/*--BB  the Big Boys--*/
-/*--BB  the Big Boys--*/
-/*--BB  the Big Boys--*/
 
 .main_container{
     background:none;
-    width:600px;
+    width:700px;
     margin:0 auto;
     margin-bottom:100px;
-    padding:0; 
+    padding:0;
+    ul{list-style-type:none;background:none;  margin:0 auto;padding:0;}
+    li {background:none;height:120px;width:175px;margin-top:50px;float:left;text-align:center;} 
 }
 
 
-/*--EE  the Big Boys--*/
-/*--EE  the Big Boys--*/
-/*--EE  the Big Boys--*/
 
 
 
-
-
-
-
-
-
-
-
-
-/*--BB  Header & footer--*/
-/*--BB  Header & footer--*/
-/*--BB  Header & footer--*/
-
-
-  #logoheader{
-    background:none;
-    width:100%;
-    margin:0px auto;
-    margin-top:4px; /* this is from top of actual page */
-    /*margin-bottom:40px;*/
-    #logo{
-      width:200px;margin:0 auto;  
-      img{display:block;margin:auto;}
-    }  /* EE #logo */
-  }  /* EE #logoheader */
 
 
 #header_holder{
-  background:none;position:relative;z-index:99;height:80px;width:600px;margin:0 auto;padding:0;
+  background:none;position:relative;z-index:99;height:80px;width:700px;margin:0 auto;padding:0;
   
-
-  
-  
-   /*----------------BB Menu--*/
-   /*----------------BB Menu--*/
-
-.menu3{width:100%;margin-top:175px;height:25px;line-height:35px;background:none;margin:0;margin-bottom:30px;padding:0;}
-.menu3 ul {margin:0;padding:0;}
-.menu3 ul li {float:left;height:25px;}
-.menu3 ul .about {width:45%;background:none;text-align:right;text-indent:30px;}
-.menu3 ul .contact {width:15%;margin-left:5%;background:none;text-align:left;text-indent:30px;}
-
-   /*----------------EE Menu--*/
-   /*----------------EE Menu--*/
-  
+  #logoheader{
+    background:none;
+    width:100%;
+    height:40px;
+    margin:0px auto;
+    margin-top:4px; /* this is from top of actual page */
+    margin-bottom:40px;
+    #logo{
+      
+      img{display:block;margin:auto;}
+    }  /* EE #logo */
+  }  /* EE #logoheader */
   
 /* put men here before end logo header */
-} /* EE #header_holder------------------------------------------------------------------------------------------ */
+}
 
 
-
-#footer{background:none;width:100%;height:50px;clear: right;}
-
-/*--EE  Header & footer--*/
-/*--EE  Header & footer--*/
-/*--EE  Header & footer--*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--BB Big Image--*/
-/*--BB Big Image--*/
-/*--BB Big Image--*/
 
 .arrow_right {
   margin-top:1px;
@@ -172,12 +114,9 @@ ul{ list-style-type:none;}
 #big_image {
   background:none;position:relative;z-index:1;
   img{width:100%;}
-  .positioner{width:590px;margin:0 auto;position:relative}
+  .positioner{width:700px;margin:0 auto;position:relative}
 }
-
-/*--EE Big Image--*/
-/*--EE Big Image--*/
-/*--EE Big Image--*/
+#footer{background:none;width:100%;height:50px;clear: right;}
 
 
 
@@ -185,31 +124,23 @@ ul{ list-style-type:none;}
 
 
 
-
-
-/*--BB  Thumbnails--*/
-/*--BB  Thumbnails--*/
-/*--BB  Thumbnails--*/
-#thumb_holder{background:blue;width:100%;}
-ul.thumbnails {list-style-type:none;background:red; margin:0 auto;padding:0;}
-ul.thumbnails li {background:yellow;height:110px;width:140px;margin-left:5px;margin-right:5px;margin-top:50px;float:left;text-align:center;} 
 
 
 .thumbnails{
   .mask { 
     overflow:hidden; 
-    width:135px;
-    height:100px;
+    width:150px;
+    height:110px;
     margin:0px auto;
-    margin-bottom:0px;
+    margin-bottom:20px;
   } 
-  .caption{background:red;margin-top:0px;height:150px;line-height:50x;font-size:11px;}
+  .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
 }
 
-
-   /*----------------BB Thumbnail cropping--*/
-   /*----------------BB Thumbnail cropping--*/
-
+/*--BB image cropping--*/
+/*--BB image cropping--*/
+/*--BB image cropping--*/
+/*--BB image cropping--*/
 .banana {
   object-fit: cover;
   object-position: 100% 100%;
@@ -247,60 +178,47 @@ ul.thumbnails li {background:yellow;height:110px;width:140px;margin-left:5px;mar
   height:230px;
 }
 
-   /*----------------EE Thumbnail cropping--*/
-   /*----------------EE Thumbnail cropping--*/
-
-
-
-/*--EE  Thumbnails--*/
-/*--EE  Thumbnails--*/
-/*--EE  Thumbnails--*/
+/*--EE image cropping--*/
+/*--EE image cropping--*/
+/*--EE image cropping--*/
+/*--EE image cropping--*/
 
 
 
 
-   /*-----------------------################------#######------#######---------------------########--------------------------*/
-   /*-----------------------################------########------#######---------------------#########------------------------*/
-   /*-----------------------#####-----------------#########----########---------------------#####--#####---------------------*/
-   /*-----------------------#####-----------------#####-#####---##########-------------------#####---###---------------------*/
-   /*-----------------------#####-----------------#####--#####---###--######----------------#####-----####-------------------*/
-   /*-----------------------################------#####---#####---#######---------------------#####----#####-----------------*/
-   /*-----------------------################------#####----#####--#######---------------------#####-----######---------------*/
-   /*-----------------------#####-----------------#####-----#####   ###---------------------#####------#####-----------------*/
-   /*-----------------------#####-----------------#####------#####-####------------------#####---------###-------------------*/
-   /*-----------------------#####-----------------#####-------#########------------------#####---------#####-----------------*/
-   /*-----------------------################------#####--------########--------------------#####---######--------------------*/
-   /*-----------------------################------#####---------#######---------------------########-------------------------*/
-   /*-----------------------################------#####---------#######---------------------######---------------------------*/
 
 
 
 
-/*---BB Media Queries --*/
-/*---BB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
-/*---BB Media Queries --*/
 
-@media screen and (max-width:680px) {
-  
 
-  #header_holder{width:90vw;height:12.5vw;}
-  #logo img {height:12.5vw;}
- 
-  
-   /*----------------BB Menu--*/
-   /*----------------BB Menu--*/
-
-.menu3{width:90vw;margin-top:175px;height:25px;line-height:35px;background:grey;margin:0;margin-bottom:30px;padding:0;}
+.menu3{width:100%;margin-top:175px;height:25px;line-height:35px;background:green;margin:0;padding:0;}
 .menu3 ul {margin:0;padding:0;}
 .menu3 ul li {float:left;height:25px;}
-.menu3 ul .about {width:46%;background:none;text-align:right;}
-.menu3 ul .contact {width:15%;margin-left:7%;background:none;text-align:left;}
+.menu3 ul .about {width:45%;background:none;text-align:right;text-indent:30px;}
+.menu3 ul .contact {width:15%;margin-left:5%;background:none;text-align:left;text-indent:30px;}
 
-   /*----------------EE Menu--*/
-   /*----------------EE Menu--*/
 
+
+/*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
+@media screen and (max-width:680px) {
+  
+  body,html{font-size: 12.5px;}
+  h1{font-size:13.5}
+  h2{font-size:14.7}
+  
+  #header_holder{
+    width:90vw;
+    img{height:95%;}
+  }
   
   
+  .menu2{width:90vw;height:30px;background:brown;}
+  .menu2 ul {margin-left:15vw;}
+  .menu2 ul li {margin-left:10vw;}
+
+  
+
   
   .main_container{ background:none;width:90vw;height:auto;margin:0 auto;padding:0;
     ul{list-style-type:none;background:none;  margin:10px auto;padding:0;}
@@ -311,26 +229,14 @@ ul.thumbnails li {background:yellow;height:110px;width:140px;margin-left:5px;mar
     .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
   }
 
-  
-  .big_image_info{background:none;width:82vw;}
-  #big_image {
-    margin:0;padding:0;
-    /*img{width:96vw;}*/
-   .positioner{width:90vw;position:relative;background:none;margin:0 auto;padding:0;}
+  .big_image_info{background:orange;width:82vw;}
+  #big_image {margin:0;padding:0;
+    img{width:100%;}
+   .positioner{width:100%;position:relative;background:none;margin:0;padding:0;}
   }/* end #big_image */
 
 
 } /* end media */
-
-
-
-
-
-
-
-
-
-
 
 
 
