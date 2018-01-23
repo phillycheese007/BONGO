@@ -172,7 +172,7 @@ ul{ list-style-type:none;}
 #big_image {
   background:none;position:relative;z-index:1;
   img{width:100%;}
-  .positioner{width:600px;margin:0 auto;position:relative}
+  .positioner{width:700px;margin:0 auto;position:relative}
 }
 
 /*--EE Big Image--*/
@@ -200,8 +200,7 @@ ul.thumbnails li {background:yellow;height:120px;width:150px;margin-top:50px;flo
     overflow:hidden; 
     width:125px;
     height:110px;
-   /* margin:0px auto;*/
-    margin:left:0;
+    margin:0px auto;
     margin-bottom:20px;
   } 
   .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
