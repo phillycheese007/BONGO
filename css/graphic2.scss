@@ -41,14 +41,10 @@ h2{color:black;font-size:11.5px;font-weight:normal;margin:0;padding:0;}
 
 ul{ list-style-type:none;}  
 
-
-
-
 .rightfloat{float:right;}
 .leftfloat{float:left;}
 
 
-
 /*--EE  Universals--*/
 /*--EE  Universals--*/
 /*--EE  Universals--*/
@@ -61,6 +57,9 @@ ul{ list-style-type:none;}
 
 
 
+/*--BB  the Big Boys--*/
+/*--BB  the Big Boys--*/
+/*--BB  the Big Boys--*/
 
 .main_container{
     background:none;
@@ -72,11 +71,24 @@ ul{ list-style-type:none;}
     li {background:none;height:120px;width:175px;margin-top:50px;float:left;text-align:center;} 
 }
 
+/*--EE  the Big Boys--*/
+/*--EE  the Big Boys--*/
+/*--EE  the Big Boys--*/
 
 
 
 
 
+
+
+
+
+
+
+
+/*--BB  Header & footer--*/
+/*--BB  Header & footer--*/
+/*--BB  Header & footer--*/
 
 #header_holder{
   background:none;position:relative;z-index:99;height:80px;width:700px;margin:0 auto;padding:0;
@@ -84,7 +96,6 @@ ul{ list-style-type:none;}
   #logoheader{
     background:none;
     width:100%;
-    
     
     margin:0px auto;
     margin-top:4px; /* this is from top of actual page */
@@ -95,10 +106,54 @@ ul{ list-style-type:none;}
     }  /* EE #logo */
   }  /* EE #logoheader */
   
+  
+   /*----------------BB Menu--*/
+   /*----------------BB Menu--*/
+
+.menu3{width:100%;margin-top:175px;height:25px;line-height:35px;background:none;margin:0;margin-bottom:30px;padding:0;}
+.menu3 ul {margin:0;padding:0;}
+.menu3 ul li {float:left;height:25px;}
+.menu3 ul .about {width:45%;background:none;text-align:right;text-indent:30px;}
+.menu3 ul .contact {width:15%;margin-left:5%;background:none;text-align:left;text-indent:30px;}
+
+   /*----------------EE Menu--*/
+   /*----------------EE Menu--*/
+  
+  
 /* put men here before end logo header */
-}
+} /* EE #header_holder------------------------------------------------------------------------------------------ */
 
 
+
+#footer{background:none;width:100%;height:50px;clear: right;}
+
+/*--EE  Header & footer--*/
+/*--EE  Header & footer--*/
+/*--EE  Header & footer--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--BB Big Image--*/
+/*--BB Big Image--*/
+/*--BB Big Image--*/
 
 .arrow_right {
   margin-top:1px;
@@ -117,7 +172,10 @@ ul{ list-style-type:none;}
   img{width:100%;}
   .positioner{width:700px;margin:0 auto;position:relative}
 }
-#footer{background:none;width:100%;height:50px;clear: right;}
+
+/*--EE Big Image--*/
+/*--EE Big Image--*/
+/*--EE Big Image--*/
 
 
 
@@ -126,6 +184,10 @@ ul{ list-style-type:none;}
 
 
 
+
+/*--BB  Thumbnails--*/
+/*--BB  Thumbnails--*/
+/*--BB  Thumbnails--*/
 
 .thumbnails{
   .mask { 
@@ -138,10 +200,10 @@ ul{ list-style-type:none;}
   .caption{background:none;margin-top:100px;height:150px;line-height:50x;font-size:11px;}
 }
 
-/*--BB image cropping--*/
-/*--BB image cropping--*/
-/*--BB image cropping--*/
-/*--BB image cropping--*/
+
+   /*----------------BB Thumbnail cropping--*/
+   /*----------------BB Thumbnail cropping--*/
+
 .banana {
   object-fit: cover;
   object-position: 100% 100%;
@@ -179,29 +241,39 @@ ul{ list-style-type:none;}
   height:230px;
 }
 
-/*--EE image cropping--*/
-/*--EE image cropping--*/
-/*--EE image cropping--*/
-/*--EE image cropping--*/
+   /*----------------EE Thumbnail cropping--*/
+   /*----------------EE Thumbnail cropping--*/
+
+
+
+/*--EE  Thumbnails--*/
+/*--EE  Thumbnails--*/
+/*--EE  Thumbnails--*/
 
 
 
 
+   /*-----------------------################------#######------#######---------------------########--------------------------*/
+   /*-----------------------################------########------#######---------------------#########------------------------*/
+   /*-----------------------#####-----------------#########----########---------------------#####--#####---------------------*/
+   /*-----------------------#####-----------------#####-#####---##########-------------------#####---###---------------------*/
+   /*-----------------------#####-----------------#####--#####---###--######----------------#####-----####-------------------*/
+   /*-----------------------################------#####---#####---#######---------------------#####----#####-----------------*/
+   /*-----------------------################------#####----#####--#######---------------------#####-----######---------------*/
+   /*-----------------------#####-----------------#####-----#####   ###---------------------#####------#####-----------------*/
+   /*-----------------------#####-----------------#####------#####-####------------------#####---------###-------------------*/
+   /*-----------------------#####-----------------#####-------#########------------------#####---------#####-----------------*/
+   /*-----------------------################------#####--------########--------------------#####---######--------------------*/
+   /*-----------------------################------#####---------#######---------------------########-------------------------*/
+   /*-----------------------################------#####---------#######---------------------######---------------------------*/
 
 
 
 
+/*---BB Media Queries --*/
+/*---BB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
+/*---BB Media Queries --*/
 
-
-.menu3{width:100%;margin-top:175px;height:25px;line-height:35px;background:none;margin:0;margin-bottom:30px;padding:0;}
-.menu3 ul {margin:0;padding:0;}
-.menu3 ul li {float:left;height:25px;}
-.menu3 ul .about {width:45%;background:none;text-align:right;text-indent:30px;}
-.menu3 ul .contact {width:15%;margin-left:5%;background:none;text-align:left;text-indent:30px;}
-
-
-
-/*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
 @media screen and (max-width:680px) {
   
   body,html{font-size: 12.5px;}
