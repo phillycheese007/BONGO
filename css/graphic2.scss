@@ -195,7 +195,7 @@ ul.thumbnails {list-style-type:none;background:red; margin:0 auto;padding:0;}
 ul.thumbnails li {background:yellow;height:120px;width:140px;margin-left:5px;margin-right:5px;margin-top:50px;float:left;text-align:center;} 
 
 
-ul.thumbnails:nth-child(4n){
+ul.thumbnails li:nth-child(4n){
     background: green;   
 }
 
