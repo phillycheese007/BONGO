@@ -285,12 +285,19 @@ ul{ list-style-type:none;}
   
   #header_holder{height:10vw;}
   #logo img {height:10vw;}
+ 
   
-  .menu2{width:90vw;height:30px;background:none;}
-  .menu2 ul {margin-left:15vw;}
-  .menu2 ul li {margin-left:10vw;}
+   /*----------------BB Menu--*/
+   /*----------------BB Menu--*/
 
-  
+.menu3{width:90vw;margin-top:175px;height:25px;line-height:35px;background:grey;margin:0;margin-bottom:30px;padding:0;}
+.menu3 ul {margin:0;padding:0;}
+.menu3 ul li {float:left;height:25px;}
+.menu3 ul .about {width:46%;background:none;text-align:right;}
+.menu3 ul .contact {width:15%;margin-left:7%;background:none;text-align:left;}
+
+   /*----------------EE Menu--*/
+   /*----------------EE Menu--*/
 
   
   .main_container{ background:none;width:90vw;height:auto;margin:0 auto;padding:0;
