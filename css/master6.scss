@@ -533,7 +533,8 @@ and (max-device-width: 680px) {
     margin-left:0px;
     width: 100%;
    /* background:orange;*/}
-   
+  
+  .newsimg img {width:100%;}
 }
 
 @media screen and (min-width:680px) {
@@ -544,9 +545,10 @@ and (max-device-width: 680px) {
     width: calc(100% - 200px);
    /* background:blue;*/}
     .block{
-     min-width:40vw; max-width:60vh;position:relative;margin:60 auto !important;background:red;
-      
+     min-width:40vw; max-width:60vh;position:relative;margin:60 auto !important;background:red; 
   }
+  
+  .newsimg img {max-width:600px;} 
 
 }
 /*-------------------------------EEEee Media Queries -------------------------*/
