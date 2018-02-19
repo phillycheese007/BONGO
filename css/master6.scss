@@ -93,7 +93,7 @@ button{
       }
       .link_top_level{ /*basicly anything not the accordian */
         margin-left:$margin-left-general;
-        padding:21px 18px 2px 0px; /* top, right,bottom,left */
+        padding:21px 0px 2px 0px; /* top, right,bottom,left */
         border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */
         /*width:41px;*/
       }
