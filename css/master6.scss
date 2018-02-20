@@ -531,7 +531,7 @@ and (max-device-width: 680px) {
 @media screen and (max-width:680px) {
 
   #masterscrollcontainer{
-    margin-left:0px;
+    margin-left:0px;padding-left:0px;
     width: 100%;
    /* background:orange;*/}
   .block{width:90%;margin:10 auto !important;} 
@@ -541,7 +541,7 @@ and (max-device-width: 680px) {
 
 
   #masterscrollcontainer{
-    margin-left:200px;
+    margin-left:200px;padding-left:70px;
     width: calc(100% - 270px);
    /* background:blue;*/}
     .block{
