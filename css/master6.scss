@@ -172,7 +172,7 @@ button.accordian:focus {
 
 div.panel {
   padding: 0px;
-  background-color: $first-color;
+  background-color: orange;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -265,7 +265,7 @@ ul.topnav button.accordion{
 ul.topnav li.icon {display: none;}
 
 
-#accordion_holder{background:blue;border:3px solid blue;margin-top:50px;}
+
 /*-------------------------------EEE top Menu -------------------------*/
 
 
@@ -389,7 +389,7 @@ button.accordian:focus {
 
 div.panel {
   padding: 0px;
-  background-color: $first-color;
+  background-color: red;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
