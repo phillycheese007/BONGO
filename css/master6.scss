@@ -157,7 +157,7 @@ button.accordion {
     outline: none;
     font-size: 12px;
     transition: 0.4s;
-    border-bottom:10px solid red;
+    border-bottom:10px solid purple;
 }
 
 button.accordion.active, 
@@ -215,13 +215,13 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:red;
+  background-color:pink;
   border-bottom:1px solid $second-color;
   transition: 0.2s ease-out;
 
   .toggle_spacer{
     display:inline;
-    border-bottom:1px solid red;
+    border-bottom:1px solid brown;
     height:1px !important;padding:0 !important;
   }
 }
@@ -389,7 +389,7 @@ button.accordian:focus {
 
 div.panel {
   padding: 0px;
-  background-color: red;
+  background-color: orange;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
