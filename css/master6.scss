@@ -157,7 +157,7 @@ button.accordion {
     outline: none;
     font-size: 12px;
     transition: 0.4s;
-    border-bottom:10px solid yellow;
+    border-bottom:10px solid red;
 }
 
 button.accordion.active, 
@@ -215,7 +215,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:yellow;
+  background-color:red;
   border-bottom:1px solid $second-color;
   transition: 0.2s ease-out;
 
