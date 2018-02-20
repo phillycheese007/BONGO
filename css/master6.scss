@@ -162,7 +162,7 @@ button.accordion {
 
 button.accordion.active, 
 button.accordion:hover {
- border-bottom:10px solid brown; 
+ border-bottom:1px solid pink; 
  text-decoration:none;
 }
 
@@ -405,9 +405,7 @@ div.panel {
 
 /*-------------------------------BBB top Menu -------------------------*/
 
-#myTopnav{
-  border-top:1px solid brown;
-}
+
 
 #myTopnav div.panel{
   margin-left:50px; 
