@@ -520,8 +520,8 @@ and (max-device-width: 680px) {
   #butter{width:100%;height:auto;}
   #gallery, #gallery2 {background:blue;}
   #thumbs, #thumbs2 { padding-top: 10px; overflow: hidden;background:orange }
-  #thumbs img, #thumbs2 img{width:24%;}
-  #thumbs img, #thumbs2 img #largeImage, #largeImage2 {padding: 1px;background-color: white;cursor: pointer;}
+  #thumbs img, #thumbs2 img{width:25%;}
+  #thumbs img, #thumbs2 img #largeImage, #largeImage2 {padding: 0;background-color: white;cursor: pointer;}
   #largeImage, #largeImage2 {border:1px solid red;}
   #thumbs img, #thumbs2 img {float: left;margin-right: 2px;}
   #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
