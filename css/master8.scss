@@ -29,10 +29,10 @@ $link-padding:14px;
 /*-----------------------------------------------------------------------------------------------------------------*/
 
 
-body, 
-html {background:black;color:white;margin:0;padding:0;font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+body, html {background:black;color:white;margin:0;padding:0;font-family: Arial, Helvetica,sans-serif;font-size: 12px;color:white;}
 hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be defined to prevent <hr> from having 4 borders for some reason*/
-
+hr{color:red}
+ul{list-style-type:none;}
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -85,125 +85,41 @@ hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be d
 
 
 
-
 /*-------------------------------BBB general Accordion styles -------------------------*/
-button.accordion {
-    background-color:$first-color;
-    color:$second-color;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    padding:10px 0; 
-    padding-bottom:2px;
-    margin:0;
-    margin-top:1px;
-    width:150px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 12px;
-    transition: 0.4s;
-    border-bottom:10px solid purple;
-}
-
-button.accordion.active, 
-button.accordion:hover {
- border-bottom:1px solid pink; 
- text-decoration:none;
-}
-
-button.accordian:focus {
-  border:none;
-}   
-
-div.panel {
-  padding: 0px;
-  background-color: orange;
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
+button.accordion {background-color:$first-color;color:$second-color;font-family: Arial, Helvetica, sans-serif;cursor: pointer;padding:10px 0; padding-bottom:2px;margin:0;margin-top:1px;width:150px;border: none;text-align: left;outline: none;font-size: 12px;transition: 0.4s;border-bottom:10px solid purple;}
+button.accordion.active, button.accordion:hover {border-bottom:1px solid pink; text-decoration:none;}
+button.accordian:focus {border:none;}   
+div.panel {padding: 0px;background-color: orange;max-height: 0px;overflow: hidden;transition: max-height 0.2s ease-out;}
 /*-------------------------------EEE general Accordion styles -------------------------*/
 
 
 
 
-
-
-
-
 /*-------------------------------BBB top Menu -------------------------*/
-
+/*-------------------------------BBB top Menu -------------------------*/
 #myTopnav{width:100%;}
-
 #myTopnav div.panel{margin-left:50px;}       
-
-div.panel a.active {text-decoration:underline;}
-
-ul.topnav button.accordion{
-   width:100%;;margin-top:6px;
-   border-bottom:1px solid $second-color;
-   border-top:1px solid $second-color;
-}
-
-ul.topnav {border-bottom:1px solid $second-color;}     
+div.panel a.active {text-decoration:underline;}     
 
 ul.topnav {
-  list-style-type: none; display:none; /* i added to hide top nav until media query--*/
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:pink;
   border-bottom:1px solid $second-color;
-  transition: 0.2s ease-out;
-  .toggle_spacer{
-    display:inline;
-    border-bottom:10px solid brown;
-    height:1px !important;padding:0 !important;
+  list-style-type: none; display:none; /* i added to hide top nav until media query--*/margin: 0;
+  padding: 0;overflow: hidden;background-color:pink;border-bottom:1px solid $second-color;transition: 0.2s ease-out;
+  .toggle_spacer{display:inline;border-bottom:10px solid brown;height:1px !important;padding:0 !important;}
+  ul.topnav button.accordion{width:100%;;margin-top:6px;border-bottom:1px solid $second-color;border-top:1px solid $second-color;}
+  li {
+    float: left;
+    a{font-family: Arial, Helvetica, sans-serif;display:inline-block;color:$second-color;text-align: center;padding: 14px 16px; text-decoration: none;transition: 0.3s;font-size: 12px;}
+    a.borders{border-bottom:1px solid $second-color;}
+   .link_below_accordion{border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */}
+    li.icon {display: none;}
   }
 }
 
 
-ul.topnav li {float: left;}
-
-ul.topnav li a{
-  font-family: Arial, Helvetica, sans-serif;
-  display:inline-block;
-  color:$second-color;
-  text-align: center;
-  padding: 14px 16px; 
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 12px;
-}
-
-ul.topnav li a.borders{
- border-bottom:1px solid $second-color;
-}
-
-.last_link_in_accordian{
-  border-bottom:1px solid black;border-left:1px solid $second-color;
-  padding-bottom:10px;margin-bottom:15px;
-}
-
-ul.topnav li .link_below_accordion{
-  border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */
-}
-
+.last_link_in_accordian{border-bottom:1px solid black;border-left:1px solid $second-color;padding-bottom:10px;margin-bottom:15px;}
 div.panel .borders{border-left:1px solid $second-color;}
 
-ul.topnav button.accordion{
-  /*bottom border is set somewheere else i think shaes style wi th left menu */
-}
-
-
-
-/* ul.topnav li a:hover {background-color: lightyellow;} */
-ul.topnav li.icon {display: none;}
-
-
-
-/*-------------------------------EEE top Menu -------------------------*/
-/*-------------------------------EEE top Menu -------------------------*/
 /*-------------------------------EEE top Menu -------------------------*/
 /*-------------------------------EEE top Menu -------------------------*/
 
@@ -507,10 +423,7 @@ and (max-device-width: 680px) {
 
 
 
-  body,html{padding:0;margin:0;}
-  body{background:grey;color:white;font-family: Helvetica, Arial, Sans-Serif;}
-  hr{color:red}
-  ul{list-style-type:none;}
+
   #masterscrollcontainer{max-width:700px;margin:0 auto;background:none}
   .block { max-width:600px;width:100%;margin:0 auto;text-align: left;background:none;/*min-width:900px;*/ margin-top: 0px;margin-bottom: 0px;}
   #poc{text-align:left !important;font-size:55%;}
