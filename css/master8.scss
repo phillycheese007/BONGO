@@ -1,30 +1,47 @@
 ---
 #myleftmenu6
 ---
+
+/*-------------------------------BBB variables -------------------------*/
 $primary_back_color:black;
 $primary_font_color:white;
 $first-color:black;
 $second-color:white;
 $third-color:purple;
 $link-padding:14px;
+/*-------------------------------EEE variables -------------------------*/
 
-@mixin link-style {
-  $text-decor-underline:underline;
-  text-decoration: $text-decor-underline;
-}
+/*--------------------------------BBB Mixins ---------------------------*/
+@mixin link-style {$text-decor-underline:underline;text-decoration: $text-decor-underline;}
+/*--------------------------------EEE Mixins ---------------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
 
 body, 
-html {
-  background:black;
-  color:white;
-  margin:0;
-  padding:0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
+html {background:black;color:white;margin:0;padding:0;font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be defined to prevent <hr> from having 4 borders for some reason*/
 
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
 
-  hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be defined to prevent <hr> from having 4 borders for some reason*/
 
 
 
@@ -33,106 +50,27 @@ html {
 
 
 /*-------------------------------BBB Left Menu -------------------------*/
- #my_left_menu{
-  position:fixed;
-  margin:0;padding:0;
-  left:0;
-  top:0;
-  bottom:0;
-  width:160px;
- /* border-right:1px solid $second-color; */
- }
-
-
- .vert_line{
-  background:none;
-  height:134px;
-  width:1px;
-  overflow:visible;
-  position:relative;float:left;
-  border-right:1px solid $second-color;
-  margin-left:37px;
-  margin-top:0px;
- /* bottom:0px; */
-  z-index:99999; 
-}
-#smellbow{ width:160px; float:right;background:$first-color;margin-top:20px}
-
-#my_left_menu{
-  $margin-left-general:25px;
-  button.accordion{
-    width:53px;
-    margin-left:$margin-left-general;
-  } 
-  ul li:nth-child(3) {
-    /* padding-top:16px; */width:20px;
-  }
-  ul{
-    background:brown;
-    width:80%;
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    li{
-      background:$first-color;
-      div.panel a{
-        text-indent:0px;
-        padding:$link-padding;
-        padding-left:0;
-        background:none;
-        margin-left:0px;
-        span:hover{
-          font-weight:bold;
-        }
-      }
-      div.panel a:hover{
-        text-decoration:none;
-      }
-      div.panel{
-       /* padding-top:40px; */
-        background:$first-color;
-      }
-      .link_top_level{ /*basicly anything not the accordian */
-        margin-left:$margin-left-general;
-        padding:21px 0px 2px 0px; /* top, right,bottom,left */
-        border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */
-        /*width:41px;*/
-      }
-      .link_below_accordion{
-        width:25px;
-      }
-
-      .link_top_level:hover{
-        border-bottom:1px solid green;font-weight:normal;
-      }
-      .link_top_level.active{
-        border-bottom:1px solid green;font-weight:normal;
-      }
-      a{
-        /* margin-left:30px; */
-       /* padding:18px 0; */
-        display:block;
-        text-indent: 0px;
-        text-decoration:none;
-        color:$second-color;
-      }
-       
-      a span.active{
-        text-decoration:none;font-weight:bold;
-      }
-      a:hover, a:focus {
-        text-decoration:none;
-      }
-    }
-    li.logo{
-      background:$first-color;      
-      a{
-        text-indent:0px;
-        font-size: 12px;
-        padding: 14px 16px; 
-      }
-      a:hover, a:focus {text-decoration:none;}
-    }
+ #my_left_menu{position:fixed;margin:0;padding:0;left:0;top:0;bottom:0;width:160px;$margin-left-general:25px;
+   button.accordion{width:53px;margin-left:$margin-left-general;}
+   ul{background:brown;width:80%;margin:0;padding:0;list-style-type:none;
+     li{background:$first-color;
+       div.panel a{text-indent:0px;padding:$link-padding;padding-left:0;background:none;margin-left:0px;
+         span:hover{font-weight:bold;}
+       }
+       div.panel a:hover{text-decoration:none;}
+       div.panel{background:$first-color;}
+       .link_top_level{ /*basicly anything not the accordian */margin-left:$margin-left-general;padding:21px 0px 2px 0px; /* top, right,bottom,left */border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */}
+       .link_below_accordion{width:25px;}
+       .link_top_level:hover{border-bottom:1px solid green;font-weight:normal;}
+       .link_top_level.active{border-bottom:1px solid green;font-weight:normal;}
+       a{display:block;text-indent: 0px;text-decoration:none;color:$second-color;} 
+       a span.active{text-decoration:none;font-weight:bold;}
+       a:hover, a:focus {text-decoration:none;}
+     }
+     li.logo{background:$first-color;      
+       a{text-indent:0px;font-size: 12px;padding: 14px 16px;}
+       a:hover, a:focus {text-decoration:none;}
+     }
   }
 }
 /*-------------------------------EEE Left Menu -------------------------*/
@@ -188,19 +126,11 @@ div.panel {
 
 /*-------------------------------BBB top Menu -------------------------*/
 
-#myTopnav{
-  /*width:calc(100% - 4px);*/
-  width:100%;
-}
+#myTopnav{width:100%;}
 
-#myTopnav div.panel{
-  margin-left:50px; 
-/*  border-left:1px solid $second-color; */
-}
-         
-div.panel a.active {
-  text-decoration:underline;
-}
+#myTopnav div.panel{margin-left:50px;}       
+
+div.panel a.active {text-decoration:underline;}
 
 ul.topnav button.accordion{
    width:100%;;margin-top:6px;
@@ -208,8 +138,8 @@ ul.topnav button.accordion{
    border-top:1px solid $second-color;
 }
 
-ul.topnav {border-bottom:1px solid $second-color;}    
-    
+ul.topnav {border-bottom:1px solid $second-color;}     
+
 ul.topnav {
   list-style-type: none; display:none; /* i added to hide top nav until media query--*/
   margin: 0;
@@ -218,7 +148,6 @@ ul.topnav {
   background-color:pink;
   border-bottom:1px solid $second-color;
   transition: 0.2s ease-out;
-
   .toggle_spacer{
     display:inline;
     border-bottom:10px solid brown;
@@ -267,14 +196,9 @@ ul.topnav li.icon {display: none;}
 
 
 /*-------------------------------EEE top Menu -------------------------*/
-
-
-
-
-
-
-
-
+/*-------------------------------EEE top Menu -------------------------*/
+/*-------------------------------EEE top Menu -------------------------*/
+/*-------------------------------EEE top Menu -------------------------*/
 
 
 #my_left_menu{
@@ -354,7 +278,9 @@ ul.topnav li.icon {display: none;}
   }
 }
 /*-------------------------------EEE Left Menu -------------------------*/
-
+/*-------------------------------EEE Left Menu -------------------------*/
+/*-------------------------------EEE Left Menu -------------------------*/
+/*-------------------------------EEE Left Menu -------------------------*/
 
 
 
@@ -521,26 +447,19 @@ and (max-device-width: 680px) {
   ul.topnav.responsive li {
     float: none;
     display: inline;  transition: 3s ease-out;
-
   }
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
   }
-  
   #masterscrollcontainer{
     margin-left:0px;padding-left:0px;
     width: 90%;margin:0 auto; 
    /* background:orange;*/}
   .block{width:90%;margin:10 auto !important;} 
-  
 }
 
-
-
 @media screen and (min-width:680px) {
-
-
   #masterscrollcontainer{
     margin-left:200px;padding-left:70px;
     width: calc(100% - 270px);max-width:600px !important;
@@ -548,9 +467,7 @@ and (max-device-width: 680px) {
     .block{
      /*min-width:40vw;*/ /*max-width:60vh*/;position:relative;margin:60 auto !important;background:red; 
   }
-  
   .newsimg img {max-width:600px;} 
-
 }
 /*-------------------------------EEEee Media Queries -------------------------*/
 
