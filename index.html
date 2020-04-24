@@ -1,19 +1,24 @@
+
+
 <html>
 <head>
-<TITLE>Bill Voss</TITLE>
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<TITLE>PHILIP DUSEL</TITLE>
 <link rel="stylesheet" href="/css/master6.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   
 <style>
   body,html{padding:0;margin:0;}
   body{background:black;color:white;
     font-family: Helvetica, Arial, Sans-Serif;
 }
+  hr{color:red}
+
 
   ul{list-style-type:none;}
   
-  
-  #masterscrollcontainer{max-width:600px;margin:0 auto;background:none}
+
+
+  #masterscrollcontainer{max-width:700px;margin:0 auto;background:none}
   .block { 
   max-width:600px;width:100%;
   margin:0 auto;
@@ -22,7 +27,8 @@
   border: #a0a0a0 solid 1px;*/
  background:none;/*min-width:900px;*/ margin-top: 0px;margin-bottom: 0px;
 }
- 
+  
+  
   #poc{text-align:left !important;font-size:55%;}
 
   
@@ -48,42 +54,30 @@
     cursor: zoom-in;
 }
   #butter{width:100%;height:auto;}
-/*  #masterscrollcontainer{
-    margin-left:200px;
-    width: calc(100% - 200px);
-    background:yellow;}*/
-  
-  
 
-
-  .blockdot{
-  text-align:center;
-  margin:0 auto;
-  text-align: left;
-  margin-top: 0px;margin-bottom: 0px;background:none;
-  }
-  .blockdot p {text-align:center;background:none;}
-  
-  .newsimg img {width:100%;}
-  .papi_point{color:white;font-size:12px;text-align:center;}
-  
-  .fuckthis{border-bottom:1px solid white;height:20px;max-width:600px;margin-top:10px;margin-bottom:40px;}
   
   
   
   
-
-  #gallery{background:pink;}
-  #thumbs { padding-top: 10px; overflow: hidden;background:orange }
-#thumbs img, #largeImage {
-   border: 1px solid gray;
+  
+  
+  
+  
+  
+  
+  #gallery, #gallery2 {background:blue;}
+  #thumbs, #thumbs2 { padding-top: 10px; overflow: hidden;background:orange }
+  #thumbs img, #thumbs2 img{width:24%;}
+#thumbs img, #thumbs2 img #largeImage, #largeImage2 {
+   /*border: 1px solid gray;*/
    padding: 1px;
    background-color: white;
    cursor: pointer;
 }
-#thumbs img {
+  #largeImage, #largeImage2 {border:1px solid red;}
+#thumbs img, #thumbs2 img {
    float: left;
-   margin-right: 6px;
+   margin-right: 2px;
 }
 #description {
    background: black;
@@ -94,11 +88,21 @@
    width: 525px;
    margin: 5px;
 }
-#panel {
-    position: relative;max-width:600px;background:blue;
+#panel, #panel2 {
+    position: relative;max-width:600px;/*background:blue;*/
 }
-  #panel img{max-width:600px;width:100%;}
+  #panel img, #panel2 img{max-width:600px;width:100%;}
+
   
+  
+  .addtocartbutton{background:red;float:right;border:2px solid green;}
+  
+  form{max-width:600px;border:3px solid green;}
+  h1{font-size:20px;color:white}
+  h2{font-size:25px;}
+  .title{margin-left:0px;background:yellow;border:1px solid green;}
+    .titleandprice {background:green;}
+  .titleandprice li{float:left;width:49%;background:orange;}
   
   
   
@@ -114,42 +118,76 @@
  <div id="my_left_menu">
    <ul>
      <li class="logo">
-       <a href="/BONGO/html/index.html">Big Bill</a>
+       <a href="#home">Philip Dusel</a>
      </li>
      
-    <li><a class="link_top_level active" href="/html/Comics/Comics-1.html">Comics</a></li>   
-    <li><a class="link_top_level" href="/html/Music/Music-1.html">Music</a></li>
-    <li><a class="link_top_level" href="/html/news.html">News</a></li>
-    <li><a class="link_top_level" href="/html/contact.html">Contact</a></li>
+     <li>   
+      <button class="accordion"><a>Images</a></button>
+       <div class="panel">
+        <div class="vert_line"></div> <!--end vert_line -->
+        <div id="smellbow">
+         <a href="/philipdusel/html/pages/images_flowers.html">&mdash;&mdash; <span>Flowers</span></a> 
+         <a href="/philipdusel/html/pages/images_trippy.html">&mdash;&mdash; <span>Trippy</span></a>
+         <a href="/philipdusel/html/pages/images_other_stuff.html">&mdash;&mdash; <span>Other Stuff</span></a>
+        </div> <!--end smellbow-->
+       </div>
+     </li>
+     
+    <li><a class="link_top_level link_below_accordion" href="#news">News</a></li>
+    <li><a class="link_top_level" href="#contact">Contact</a></li>
   </ul>
 
  </div>
  
  
  
-
+<div id="nuzzle">
+    <ul class="topnav" id="myTopnav">
+    <li><a href="#home">Philip Dusel</a></li>
+     
+<li id="accordion_holder">   
+<button class="accordion borders">Images</button>
+<div class="panel">
+  <a class="borders" href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
+  <a class="borders" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+  <a class="last_link_in_accordian" href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
+</div>
+</li>
+   
+    <li><a class="borders link_below_accordion" href="#news">News</a></li>
+    <li><a class="borders" href="#contact">Contact</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+  </ul> 
+  </div> <!--end nuzzle-->
   
   
 <div id="masterscrollcontainer">
 
-      <audio controls>
-        <source src="/html/Music/Cardoor.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-      </audio>
-  
 <div id="gallery">
   <div id="panel" class="block">
-    <p>Bugzistence Volume #1</p>
+    
+    <ul class="titleandprice">
+    <li class="title"> <h1>Bugzistence Volume #1</h1> </li>
+    <li class="title">
+        <div class="addtocartbutton">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+   </div>
+  </li>   
+    </ul>
+
+    
+    
     <img id="largeImage" src="/images/comics/Bugz-Vol1-Cover_large.png" />
     
-      <a>order Bugzistence Volume.1 here</a>
     
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+
 
     
     
@@ -168,137 +206,52 @@
   
 
 </div>
+
+  
+<div id="gallery2">
+  <div id="panel2" class="block">
+    <h1>Bugzistence Volume #2</h1>
+  <div class="addtocartbutton">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+   </div>
+    
+    
+    <img id="largeImage2" src="/images/comics/Bugz-Vol1-Cover_large.png" />
+    
+    
+
+
+    
+    
+  </div>
+  <div id="thumbs2">
+        <img src="/images/comics/Bugz-Vol1-Cover_thumb.png" alt="1st image dsdsdsttterwerw1212escription" />
+        <img src="/images/comics/BugZ-001_thumb.png" alt="1st image descrsdsiption" />
+        <img src="/images/comics/BugZ-002_thumb.png" alt="1st image desddddddcription" />
+        <img src="/images/comics/BugZ-003_thumb.png" alt="1st image descrsdsiption" />
+        <img src="/images/comics/BugZ-004_thumb.png" alt="1st image desddddddcription" />
+        <img src="/images/comics/BugZ-005_thumb.png" alt="1st image descrsdsiption" />
+        <img src="/images/comics/BugZ-006_thumb.png" alt="1st image desddddddcription" />
+        <img src="/images/comics/BugZ-007_thumb.png" alt="1st image descrsdsiption" />
+        <img src="/images/comics/BugZ-008_thumb.png" alt="1st image desddddddcription" />
+  </div>e
+  
+
+</div>
+  
+ 
  
   <div class="block newsimg">
-    <a href="/BONGO/images/comic1.jpg" target="_blank">
-     <img id="butter" src="/images/comic1.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
+    <a href="/images/comics/BugZ-029.png" target="_blank"> <img id="butter" src="/images/comics/BugZ-029.png"/> </a>
+    <div class="fuckthis">-29</div>
   </div>
   
-  <div class="block newsimg">
-    <a href="/BONGO/images/comic1.jpg" target="_blank">
-     <img id="butter" src="/images/comic1.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div>
-  
- 
 
-  <div class="block newsimg">
-   <a href="/images/buzzy2.jpg" target="_blank">
-    <img id="butter" src="/images/buzzy2.jpg"/>
-   </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div>
-  
-  <div class="block newsimg">
-  <div class="imghold">
-   <a href="https://phillycheese007.github.io/BONGO/images/trippy2.jpg" target="_blank">
-    <img id="butter" src="/images/trippy2.jpg"/>
-   </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div>   
-
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/images/funny1.jpg" target="_blank">
-      <img id="butter" src="/images/funny1.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div>  
-  
-  
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pop.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pop.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div>  
-  
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pdart010web.jpg" target="_blank">
-      <img id="butter" src="https:/BONGO/images/pdart010web.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-  
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pdart009web.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pdart009web.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-  
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pd_9.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pd_9.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-  
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pd_2.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pd_2.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pd_1.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pd_1.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-    
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pd_5.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pd_5.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-    
-  <div class="block newsimg">
-  <div class="imghold">
-    <a href="/BONGO/images/pd_4.jpg" target="_blank">
-      <img id="butter" src="/BONGO/images/pd_4.jpg"/>
-    </a>
-    <div class="fuckthis">
-      yamma, Acrylic on paper, 2016
-    </div>
-  </div> 
-    
     
     
     
@@ -332,17 +285,22 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
-
-    
-    
-        
+  
 <script>
 $('#thumbs img').click(function(){
     $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
     $('#description').html($(this).attr('alt'));
 });
 </script>
-  
+    
+ <script>
+$('#thumbs2 img').click(function(){
+    $('#largeImage2').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description2').html($(this).attr('alt'));
+});
+</script>   
+
+
 </body>
 </html>
  
