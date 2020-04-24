@@ -263,7 +263,12 @@ $('#thumbs img').click(function(){
 });
 </script>
     
-    
+ <script>
+$('#thumbs2 img').click(function(){
+    $('#largeImage2').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description2').html($(this).attr('alt'));
+});
+</script>   
     
 </body>
 </html>
