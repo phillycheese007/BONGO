@@ -1,18 +1,23 @@
+
+
 <html>
 <head>
 <TITLE>Bill Voss</TITLE>
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 <link rel="stylesheet" href="/css/master6.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
 <style>
   body,html{padding:0;margin:0;}
   body{background:grey;color:white;
     font-family: Helvetica, Arial, Sans-Serif;
 }
+  hr{color:red}
+
 
   ul{list-style-type:none;}
   
-  
+
+
   #masterscrollcontainer{max-width:700px;margin:0 auto;background:none}
   .block { 
   max-width:600px;width:100%;
@@ -22,7 +27,8 @@
   border: #a0a0a0 solid 1px;*/
  background:none;/*min-width:900px;*/ margin-top: 0px;margin-bottom: 0px;
 }
- 
+  
+  
   #poc{text-align:left !important;font-size:55%;}
 
   
@@ -48,29 +54,12 @@
     cursor: zoom-in;
 }
   #butter{width:100%;height:auto;}
-/*  #masterscrollcontainer{
-    margin-left:200px;
-    width: calc(100% - 200px);
-    background:yellow;}*/
-  
-  
 
-
-  .blockdot{
-  text-align:center;
-  margin:0 auto;
-  text-align: left;
-  margin-top: 0px;margin-bottom: 0px;background:none;
-  }
-  .blockdot p {text-align:center;background:none;}
-  
-  .newsimg img {width:100%;}
-  .papi_point{color:white;font-size:12px;text-align:center;}
-  
-  .fuckthis{background:green;border-bottom:1px solid white;height:20px;max-width:600px;margin-top:10px;margin-bottom:40px;}
   
   
-
+  
+  
+  
   
   
   
@@ -78,7 +67,7 @@
   
   #gallery, #gallery2 {background:blue;}
   #thumbs, #thumbs2 { padding-top: 10px; overflow: hidden;background:orange }
-  #thumbs img, #thumbs2 img{max-height:142px;}
+  #thumbs img, #thumbs2 img{width:24%;}
 #thumbs img, #thumbs2 img #largeImage, #largeImage2 {
    /*border: 1px solid gray;*/
    padding: 1px;
@@ -112,8 +101,13 @@
   h1{font-size:20px;color:white}
   h2{font-size:25px;}
   .title{margin-left:0px;background:yellow;border:1px solid green;}
-    .titleandprice {background:green;}
-  .titleandprice li{float:left;width:45%;background:orange;}
+    .titleandprice {background:lightgreen;padding:0;margin:0;}
+  .titleandprice li{float:left;width:49%;background:red;}
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
@@ -124,19 +118,43 @@
  <div id="my_left_menu">
    <ul>
      <li class="logo">
-       <a href="/index.html">Bill Voss</a>
+       <a href="#home">Bill Voss</a>
      </li>
      
-    <li><a class="link_top_level active" href="#">Comics</a></li>   
+     <li>   
+      <button class="accordion"><a>Comics</a></button>
+
+     </li>
     <li><a class="link_top_level" href="/html/Music/Music-1.html">Music</a></li>
-    <li><a class="link_top_level" href="/html/news.html">News</a></li>
+    <li><a class="link_top_level link_below_accordion" href="/html/news.html">News</a></li>
     <li><a class="link_top_level" href="/html/contact.html">Contact</a></li>
   </ul>
 
  </div>
  
- 
 
+ 
+<div id="nuzzle">
+    <ul class="topnav" id="myTopnav">
+    <li><a href="#home">Philip Dusel</a></li>
+     
+<li id="accordion_holder">   
+<button class="accordion borders">Comics</button>
+<div class="panel">
+  <a class="borders" href="/philipdusel/html/pages/images_flowers.html">Flowers</a> 
+  <a class="borders" href="/philipdusel/html/pages/images_trippy.html">Trippy</a>
+  <a class="last_link_in_accordian" href="/philipdusel/html/pages/images_other_stuff.html">Other Stuff</a>
+</div>
+</li>
+   
+    <li><a class="borders link_below_accordion" href="/html/news.html">News</a></li>
+    <li><a class="link_top_level" href="/html/Music/Music-1.html">Music</a></li>
+    <li><a class="borders" href="/html/contact.html">Contact</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+  </ul> 
+  </div> <!--end nuzzle-->
   
   
 <div id="masterscrollcontainer">
@@ -261,9 +279,7 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
-    
-    
-    
+  
 <script>
 $('#thumbs img').click(function(){
     $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
@@ -277,7 +293,8 @@ $('#thumbs2 img').click(function(){
     $('#description2').html($(this).attr('alt'));
 });
 </script>   
-    
+
+
 </body>
 </html>
  
