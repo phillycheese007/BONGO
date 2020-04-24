@@ -264,17 +264,17 @@ ul.topnav li.icon {display: none;}
 
 /*-----------------------------------------------------------------------------------------------------*/
   #masterscrollcontainer{max-width:700px;margin:0 auto;background:none}
-  .block { max-width:600px;width:100%;margin:0 auto;text-align: left;background:none;/*min-width:900px;*/ margin-top: 0px;margin-bottom: 0px;}
+  .block { max-width:600px;width:100%;margin:0 auto;text-align: left;background:none;margin-top:0px;margin-bottom:0px;}
   #poc{text-align:left !important;font-size:55%;}
-  .centered {display: inline-block;vertical-align: middle;width: 300px;padding: 10px 15px;border: #a0a0a0 solid 1px;background: grey;}
+  .centered {display: inline-block;vertical-align: middle;width: 300px;padding: 10px 15px;border: #a0a0a0 solid 1px;background:grey;}
   .imghold{width:100%;  display: inline-block; vertical-align: middle;background:yellow;padding:50px;}
-  .imghold img:hover {cursor: -moz-zoom-in; cursor: -webkit-zoom-in; cursor: zoom-in;}
+  .imghold img:hover {cursor:-moz-zoom-in;cursor:-webkit-zoom-in;cursor:zoom-in;}
   #butter{width:100%;height:auto;}
   #gallery, #gallery2 {background:blue;}
-  #thumbs, #thumbs2 { padding-top: 10px; overflow: hidden;background:orange }
+  #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:orange }
   #thumbs img, #thumbs2 img{width:24.5%;}
-  #thumbs img, #thumbs2 img #largeImage, #largeImage2 {padding: 0;background-color: white;cursor: pointer;}
-  #largeImage, #largeImage2 {border:1px solid red;}
+  #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
+  #largeImage, #largeImage2{border:1px solid red;}
   #thumbs img, #thumbs2 img {float: left;margin-right: 2px;}
   #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
   #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
