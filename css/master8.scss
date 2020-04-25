@@ -326,6 +326,7 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
   #masterscrollcontainer{
+   background:red;
     margin-left:0px;padding-left:0px;
     width: 90%;margin:0 auto; 
    /* background:orange;*/}
@@ -338,6 +339,7 @@ ul.topnav li.icon {display: none;}
 
 @media screen and (min-width:680px) {
   #masterscrollcontainer{
+   background:blue;
     margin-left:200px;
     padding-left:70px;
     width: calc(100% - 270px);
