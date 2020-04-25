@@ -274,7 +274,7 @@ ul.topnav li.icon {display: none;}
   #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:black;padding-left:2px;}
   #thumbs img, #thumbs2 img{width:24.5%;}
   #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
-  #largeImage, #largeImage2{border-bottom:2px solid blue;padding-bottom:20px;}
+  #largeImage, #largeImage2{border-bottom:1px solid blue;padding-bottom:2px;}
   #thumbs img, #thumbs2 img {float: left;margin-right: 2px;}
   #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
   #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
