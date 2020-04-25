@@ -305,7 +305,7 @@ ul.topnav li.icon {display: none;}
 
 
 /*----------------------------------BB Max 680px---------------------------------*/
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:480px) {
   body{background:red;}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {float: right;display: inline-block;}
@@ -338,7 +338,7 @@ ul.topnav li.icon {display: none;}
 
 
 
-@media only screen and (min-width:680px) {
+@media only screen and (min-width:480px) {
  body{background:green;}
   #masterscrollcontainer{
    background:pink;
