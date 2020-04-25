@@ -270,11 +270,11 @@ ul.topnav li.icon {display: none;}
   .imghold{width:100%;  display: inline-block; vertical-align: middle;background:yellow;padding:50px;}
   .imghold img:hover {cursor:-moz-zoom-in;cursor:-webkit-zoom-in;cursor:zoom-in;}
   #butter{width:100%;height:auto;}
-  #gallery, #gallery2 {background:green;}
+  #gallery, #gallery2 {background:red}
   #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:lightgrey;padding-left:2px;}
   #thumbs img, #thumbs2 img{width:24.5%;}
   #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
-  #largeImage, #largeImage2{border-bottom:2px solid blue;}
+  #largeImage, #largeImage2{border-bottom:2px solid blue;padding-bottom:20px;}
   #thumbs img, #thumbs2 img {float: left;margin-right: 2px;}
   #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
   #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
