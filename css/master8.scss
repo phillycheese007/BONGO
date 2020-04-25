@@ -306,6 +306,7 @@ ul.topnav li.icon {display: none;}
 
 /*----------------------------------BB Max 680px---------------------------------*/
 @media screen and (max-width:680px) {
+  body{background:red;}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {float: right;display: inline-block;}
   ul.topnav{width:100%;display: block;}  
@@ -338,6 +339,7 @@ ul.topnav li.icon {display: none;}
 
 
 @media screen and (min-width:680px) {
+ body{background:orange;}
   #masterscrollcontainer{
    background:blue;
     margin-left:200px;
