@@ -274,12 +274,12 @@ ul.topnav li.icon {display: none;}
   #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:orange }
   #thumbs img, #thumbs2 img{width:24.5%;}
   #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
-  #largeImage, #largeImage2{border:1px solid red;}
+  #largeImage, #largeImage2{border-bottom:2px solid blue;}
   #thumbs img, #thumbs2 img {float: left;margin-right: 2px;}
   #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
   #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
   #panel img, #panel2 img{max-width:600px;width:100%;}
-  .addtocartbutton{background:red;float:right;}
+  .addtocartbutton{float:right;}
   form{max-width:600px;}
   h1{font-size:20px;color:white}
   h2{font-size:25px;}
