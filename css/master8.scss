@@ -285,7 +285,7 @@ ul.topnav li.icon {display: none;}
 
 .tile{width:100%;background:red;text-indent:10px;}
 .price{width:100%;background:blue;text-indent:10px;}
-.addtocartbutton{width:100%;background:blue;text-indent:10px;}
+.addtocartbutton{width:100%;background:green;text-indent:10px;}
 /*-----------------------------------------------------------------------------------------------------*/
 
 
@@ -306,7 +306,6 @@ ul.topnav li.icon {display: none;}
 
 /*----------------------------------BB Max 680px---------------------------------*/
 @media only screen and (max-width:680px) {
-  body{background:red;}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {float: right;display: inline-block;}
   ul.topnav{width:100%;display: block;}  
@@ -327,7 +326,6 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
   #masterscrollcontainer{
-   background:lightgreen;
     margin-left:0px;padding-left:0px;
     width: 90%;margin:0 auto; 
    /* background:orange;*/}
@@ -339,9 +337,7 @@ ul.topnav li.icon {display: none;}
 
 
 @media only screen and (min-width:680px) {
- body{background:green;}
   #masterscrollcontainer{
-   background:pink;
     margin-left:200px;
     padding-left:70px;
     width: calc(100% - 270px);
