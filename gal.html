@@ -286,11 +286,11 @@ b09cf49 on May 3, 2017
 				
 		
 var plant_1_pot;
-var poopTexture = THREE.ImageUtils.loadTexture( '/aaazzz_myportfolios/please_work/images/deer/checkerboard.jpg' );
+var poopTexture = THREE.ImageUtils.loadTexture( 'https://phillycheese007.github.io//aaazzz_myportfolios/please_work/images/deer/checkerboard.jpg' );
 var poopMat = new THREE.MeshBasicMaterial( { map: poopTexture } );
 var loader = new THREE.JSONLoader();  
 				
-loader.load('/aaazzz_myportfolios/images/deer/pot.js', function (geometry) {
+loader.load('https://phillycheese007.github.io//aaazzz_myportfolios/images/deer/pot.js', function (geometry) {
 plant_1_pot = new THREE.Mesh(geometry, poopMat);
 plant_1_pot.castShadow = true;
 plant_1_pot.receiveShadow = true;
@@ -300,7 +300,7 @@ plant_1_pot.position.set(-30, 0, -10);
 								
 //plant_1_pot.rotation.y = convertToRad(90);  
 							
-var gooseTexture = THREE.ImageUtils.loadTexture( '/aaazzz_myportfolios/please_work/images/deer/app.png' );
+var gooseTexture = THREE.ImageUtils.loadTexture( 'https://phillycheese007.github.io//aaazzz_myportfolios/please_work/images/deer/app.png' );
 var gooseMat = new THREE.MeshBasicMaterial( { map: gooseTexture } );
 var matPhongPlant = new THREE.MeshPhongMaterial( { map: gooseTexture } );
 var matStdPlant = new THREE.MeshBasicMaterial( { map: gooseTexture } );	
@@ -340,7 +340,7 @@ camera.add( mesh );
     			};
 
 var woodFloorTexture
-woodFloorTexture = new THREE.TextureLoader().load( "/aaazzz_myportfolios/images/floor.jpg" );
+woodFloorTexture = new THREE.TextureLoader().load( "https://phillycheese007.github.io//aaazzz_myportfolios/images/floor.jpg" );
 woodFloorTexture.wrapS = woodFloorTexture.wrapT = THREE.RepeatWrapping;
 woodFloorTexture.repeat.set( 7, 5 );
 var floorMat = new THREE.MeshBasicMaterial( { map: woodFloorTexture } );
@@ -370,7 +370,7 @@ dirLight44.shadowCameraVisible = true;
 					
 
 					
- // var floorTexture = THREE.ImageUtils.loadTexture( '/aaazzz_myportfolios/images/floor.jpg' );
+ // var floorTexture = THREE.ImageUtils.loadTexture( 'https://phillycheese007.github.io//aaazzz_myportfolios/images/floor.jpg' );
  // var floorMat = new THREE.MeshBasicMaterial( { map: floorTexture } );		
 //var matPhongFloor = new THREE.MeshPhongMaterial( { map: floorTexture } );
 			//var matStdFloor = new THREE.MeshBasicMaterial( { map: floorTexture } );
@@ -389,7 +389,7 @@ dirLight44.shadowCameraVisible = true;
 				
 				
 				
-var buzzyTexture = new THREE.TextureLoader().load( "/aaazzz_myportfolios/images/deer/trippy1_threejs.png" );			
+var buzzyTexture = new THREE.TextureLoader().load( "https://phillycheese007.github.io//aaazzz_myportfolios/images/deer/trippy1_threejs.png" );			
 var buzzyMat = new THREE.MeshPhongMaterial( { map: buzzyTexture } );
 var buzzyGeo = new THREE.BoxGeometry( 30, 35, 2, 2 );
 
@@ -405,7 +405,7 @@ scene.add( mesh );
 
 				
 
-var wallWindTexture = new THREE.TextureLoader().load( "/aaazzz_myportfolios/images/deer/bumwallwind.png" );			
+var wallWindTexture = new THREE.TextureLoader().load( "https://phillycheese007.github.io//aaazzz_myportfolios/images/deer/bumwallwind.png" );			
 var wallWindMat = new THREE.MeshPhongMaterial( { map: wallWindTexture, transparent: true } );
 				
 //var whiteWallMat = new THREE.LineBasicMaterial( { color: 0xffffff, linewidth: 2 } );
@@ -457,7 +457,7 @@ scene.add( mesh );
 				
 				
 //floor
-//var flTexture = new THREE.TextureLoader().load( "/aaazzz_myportfolios/images/deer/floor.jpg" );	
+//var flTexture = new THREE.TextureLoader().load( "https://phillycheese007.github.io//aaazzz_myportfolios/images/deer/floor.jpg" );	
 //flTexture.wrapS = flTexture.wrapT = THREE.RepeatWrapping;
 //flTexture.repeat.set( 12, 3 );
 //var flMat = new THREE.MeshPhongMaterial( { map: flTexture, transparent: true } );
