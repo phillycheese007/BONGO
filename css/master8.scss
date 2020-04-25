@@ -305,7 +305,7 @@ ul.topnav li.icon {display: none;}
 
 
 /*----------------------------------BB Max 680px---------------------------------*/
-@media screen and (max-width:680px) {
+@media only screen and (max-width:680px) {
   body{background:red;}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {float: right;display: inline-block;}
@@ -327,7 +327,7 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
   #masterscrollcontainer{
-   background:red;
+   background:yellow;
     margin-left:0px;padding-left:0px;
     width: 90%;margin:0 auto; 
    /* background:orange;*/}
@@ -338,8 +338,8 @@ ul.topnav li.icon {display: none;}
 
 
 
-@media screen and (min-width:680px) {
- body{background:orange;}
+@media only screen and (min-width:680px) {
+ body{background:green;}
   #masterscrollcontainer{
    background:blue;
     margin-left:200px;
