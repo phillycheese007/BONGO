@@ -1,3 +1,5 @@
+  <!DOCTYPE html>
+<html>
   <!-- jsDeliver -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
@@ -5,3 +7,30 @@
     <!-- cdnjs -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+  
+  
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+    $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
