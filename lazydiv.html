@@ -8,28 +8,7 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
   <style>
 
-    ul.imagegallery{
-      list-style-type:none;
-      width:60%;
-      margin:0 15%;
-      padding:0;
-      background:blue;
-    }
-   ul.imagegallery li{
-      width:100%;
-      height:auto;
-      background:yellow;
-       margin-top:50px;
 
-    }
-   ul.imagegallery img {
-       /* border:4px solid green;*/
-        width:100%;
-        display: block;
-           
-      }
-    p{color:black;
-   }
   </style>
   </head>
 
@@ -37,72 +16,11 @@
 <body>
 
   
-
-<!--------------------------------------------BBBB Left Menu + Mobile Hamburger ------------------------------------->
-<!--------------------------------------------BBBB Left Menu + Mobile Hamburger ------------------------------------->
- <div id="my_left_menu">
-   <ul>
-     <li class="logo"><a href="http://billvossart.online"><img src="/billyvosslogo2.png"/></a></li> 
-     
-     
-<!--    <li><a class="link_top_level" href="/html/Comics/Comics-1.html">Comics</a></li> -->
-    <li><a class="link_top_level" href="/html/Paintings/Paintings-1.html">Painting</a></li>
- <!--   <li><a class="link_top_level" href="/html/Animations/Animations-1.html">Animation</a></li> -->
-  <!--  <li><a class="link_top_level" href="/html/Music/Music-1.html">Music</a></li> -->
-    <li><a class="link_top_level" href="/html/contact.html">Contact</a></li>
-  </ul>
- </div>
-<!---------------------------------------------------------------------------------------------------------------->
-<div id="nuzzle">
-  <ul class="topnav" id="myTopnav">
-  <li><a href="#home">Bill Voss</a></li>
- <!-- <li><a class="borders link_below_accordion" href="/html/Music/Music-1.html">Music</a></li> -->
-  <li><a class="borders link_below_accordion" href="/html/Paintings/Painting-1.html">Painting</a></li>
- <!-- <li><a class="borders link_below_accordion" href="/html/Animations/Animations-1.html">Animation</a></li>-->
-  <li><a class="borders link_below_accordion" href="/html/contact.html">Contact</a></li>
-  <li class="icon"> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
-  </ul> 
-  </div> <!--end nuzzle-->
-  
-  
-  
-  
-  
-  
-  <ul class="imagegallery">
-<li>
-<img src="/images/paintings/Painting-010.jpg" />
-  <p>toon tastaser toadk kd afdf afd </p>
-</li>
- <li>
 <img class="lazy" data-src="/images/paintings/Painting-011.jpg" />
-     <p>toon tastaser toadk kd afdf afd </p>
-</li>
-<li>
-<img class="lazy" data-src="/images/paintings/Painting-012.jpg" />
-    <p>toon tastaser toadk kd afdf afd </p>
-</li>
- <li>
-<img class="lazy" data-src="/images/paintings/Painting-013.jpg" />
-     <p>toon tastaser toadk kd afdf afd </p>
-</li>
-<li>
-<img src="/images/paintings/Painting-014.jpg" />
-  <p>toon tastaser toadk kd afdf afd </p>
-</li>
- <li>
-<img class="lazy" data-src="/images/paintings/Painting-015.jpg" />
-     <p>toon tastaser toadk kd afdf afd </p>
-</li>
-<li>
-<img class="lazy" data-src="/images/paintings/Painting-016.jpg" />
-    <p>toon tastaser toadk kd afdf afd </p>
-</li>
- 
 
 
   
-  </ul>
+  
   
   
   
@@ -112,50 +30,10 @@
   
   
 <script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyloadImages = document.querySelectorAll("img.lazy");    
-  var lazyloadThrottleTimeout;
-  
-  function lazyload () {
-    if(lazyloadThrottleTimeout) {
-      clearTimeout(lazyloadThrottleTimeout);
-    }    
-    
-    lazyloadThrottleTimeout = setTimeout(function() {
-        var scrollTop = window.pageYOffset;
-        lazyloadImages.forEach(function(img) {
-            if(img.offsetTop < (window.innerHeight + scrollTop)) {
-              img.src = img.dataset.src;
-              img.classList.remove('lazy');
-            }
-        });
-        if(lazyloadImages.length == 0) { 
-          document.removeEventListener("scroll", lazyload);
-          window.removeEventListener("resize", lazyload);
-          window.removeEventListener("orientationChange", lazyload);
-        }
-    }, 20);
-  }
-  
-  document.addEventListener("scroll", lazyload);
-  window.addEventListener("resize", lazyload);
-  window.addEventListener("orientationChange", lazyload);
+  $(function($) {
+    $("img.lazy").Lazy();
 });
-</script>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  </script>
   
   
 </body>
