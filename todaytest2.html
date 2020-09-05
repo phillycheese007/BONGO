@@ -12,13 +12,7 @@
   
 
 <style>
-  #masterscrollcontainer2{
-    postion:absolute;
-    max-width:1250px;
-    margin:0 auto;
-    margin-left:200px;
-    /*background:orange;*/
-  }
+
   #My-bytheyear-box{
     position:fixed;
     background:red;
@@ -75,6 +69,23 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   }
+  
+  
+  
+  #masterscrollcontainer2{
+    postion:absolute;
+    max-width:1250px;
+    margin:0 auto;
+    margin-left:200px;
+    /*background:orange;*/
+  }
+@media only screen and (max-width: 680px){
+#masterscrollcontainer2{margin-left:0px;padding-left:0px;width:90%;margin:0 auto}
+  }
+  @media only screen and (min-width: 680px){
+    #masterscrollcontainer2{margin-left:200px;padding-left:70px;width:calc(100% - 270px);max-width:600px !important;margin:0 auto}
+    #masterscrollcontainer2 .block{position:relative;margin:60 auto 10 auto !important;background:purple}
+  #masterscrollcontainer2 .newsimg img{max-width:600px}}
 </style>
   
 
