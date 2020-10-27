@@ -1,0 +1,30 @@
+.pixelated {
+  image-rendering: pixelated;
+}
+
+.resize {
+  width: 45%;
+  clear: none;
+  float: left;
+   
+  &:last-of-type {
+    float: right;
+  }
+  
+  img {
+    width: 100%;
+  }
+}
+
+///////////////////////////////
+
+img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+body {
+  background-color: #333;
+  color: rgb(250,250,250);
+  padding: 20px;
+}
