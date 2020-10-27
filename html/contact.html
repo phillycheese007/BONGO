@@ -61,83 +61,20 @@
 
   
   
-
-
- <div id="my_left_menu">
-   <ul>
-     <li class="logo">
-       <a href="/BONGO/html/index.html">Philip Dusel</a>
-     </li>
-     
-    <li><a class="link_top_level" href="/BONGO/html/images.html">Images</a></li>   
-    <li><a class="link_top_level" href="/BONGO/html/news.html">News</a></li>
-    <li><a class="link_top_level active" href="#">Contact</a></li>
-  </ul>
-
- </div>
- 
- 
- 
-<div id="nuzzle">
-    <ul class="topnav" id="myTopnav">
-    <li><a href="#home">Philip Dusel</a></li>
-     
-<li id="accordion_holder">   
-<button class="accordion borders">Images</button>
-<div class="panel">
-  <a class="borders" href="/BONGO/html/pages/images_flowers.html">Flowers</a> 
-  <a class="borders" href="/BONGO/html/pages/images_trippy.html">Trippy</a>
-  <a class="last_link_in_accordian" href="/BONGO/html/pages/images_other_stuff.html">Other Stuff</a>
+<div class="original">
+  <h1>Original image size</h1> 
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
 </div>
-</li>
-   
-    <li><a class="borders link_below_accordion" href="#news">News</a></li>
-    <li><a class="borders" href="#contact">Contact</a></li>
-    <li class="icon">
-      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-    </li>
-  </ul> 
-  </div> <!--end nuzzle-->
-  
-  
-<div id="masterscrollcontainer">
 
-<div class="block" style="width: 70%;">
-say hello!  <br><br>
-<a href="mailto:BONGO@gmail.com?Subject=I%20love%20your%20art%20and%20you%20are%20amazing" target="_top">philipdusel@gmail.com</a>
+<div class="resize">
+  <h2><code>image-rendering: auto</code></h2>
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
 </div>
-  
-  
-  </div> <!--end  masterscrollcontainer -->
-  
-  
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
- 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
-</script>
+<div class="resize">
+  <h2><code>image-rendering: pixelated</code></h2>
+  <img class="pixelated" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
+</div>
   
   
 </body>
