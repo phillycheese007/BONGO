@@ -1,3 +1,4 @@
+<?php
 /* function:  generates thumbnail */
 function make_thumb($src,$dest,$desired_width) {
 	/* read the source image */
@@ -39,9 +40,10 @@ function get_file_extension($file_name) {
 
 
 
-/** settings **/
-$images_dir = 'preload-images/';
-$thumbs_dir = 'images/';
+
+** settings **/
+$images_dir = 'images/';
+$thumbs_dir = 'imgages/';
 $thumbs_width = 200;
 $images_per_row = 3;
 
@@ -66,3 +68,31 @@ if(count($image_files)) {
 else {
 	echo '<p>There are no images in this gallery.</p>';
 }
+
+
+
+
+
+
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Maker</title>
+    <style>
+.clear			{ clear:both; }
+.photo-link		{ padding:5px; margin:5px; border:1px solid #ccc; display:block; width:200px; float:left; }
+.photo-link:hover	{ border-color:#999; }
+	    
+	    
+    </style>
+  </head>
+  <body>
+    <p class="numbers">
+      <?php foreach($numbers as $num) : ?>
+      <span><?php echo $num ?></span>
+      <?php endforeach ?>
+    </p>
+    <button>Refresh</button>
+  </body>
+</html>
