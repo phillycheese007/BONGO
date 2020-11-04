@@ -3,11 +3,11 @@
 ---
 
 /*-------------------------------BBB variables -------------------------*/
-$primary_back_color:white;
-$primary_font_color:black;
-$first-color:white;
-$second-color:black;
-$third-color:white;
+$primary_back_color:black;
+$primary_font_color:white;
+$first-color:black;
+$second-color:white;
+$third-color:black;
 $link-padding:14px;
 /*-------------------------------EEE variables -------------------------*/
 
@@ -343,7 +343,7 @@ ul.topnav li.icon {display: none;}
     width: calc(100% - 200px);
     max-width:600px !important;
     /*margin:0 auto;*/
-    .block{position:relative;margin:60 auto 10 auto !important;background:white; }
+    .block{position:relative;margin:60 auto 10 auto !important;background:black; }
     .newsimg img {max-width:600px;} 
    margin:0 auto;
   }
