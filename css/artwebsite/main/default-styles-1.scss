@@ -1,0 +1,378 @@
+---
+#myleftmenu6
+---
+/*---------------------------------BBBnew variables-----------------------*/
+
+$DefaultBackgroundColor:black;
+$DefaultFontColor:white;
+/*-----------------------------*/
+$HeaderColor1:purple;
+$HeaderColor2:blue;
+/*------------------------------*/
+$DefaultPadding:5px;
+
+/*---------------------------------EEE new variables-----------------------*/
+
+
+
+
+/*-------------------------------BBB old variables -------------------------*/
+$primary_back_color:black;
+$primary_font_color:white;
+$first-color:black;
+$second-color:red;
+$third-color:black;
+$link-padding:14px;
+/*-------------------------------EEE old variables -------------------------*/
+
+/*--------------------------------BBB Mixins ---------------------------*/
+@mixin link-style {$text-decor-underline:underline;text-decoration: $text-decor-underline;}
+/*--------------------------------EEE Mixins ---------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+body, html {background:$primary_back_color;color:$primary_font_color;margin:0;padding:0;font-family: Arial, Helvetica,sans-serif;font-size: 14px;color:black;}
+hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be defined to prevent <hr> from having 4 borders for some reason*/
+ul{list-style-type:none;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------BBB Left Menu -------------------------*/
+ #my_left_menu{position:fixed;margin:0;padding:0;left:0;top:0;bottom:0;width:300px;$margin-left-general:25px;/*background:blue*/;
+   button.accordion{width:53px;margin-left:$margin-left-general;}
+   ul{width:80%;margin:0;padding:0;list-style-type:none;
+     li{background:$first-color;
+       div.panel a{text-indent:0px;padding:$link-padding;padding-left:0;background:none;margin-left:0px;
+         span:hover{font-weight:bold;}
+       }
+       div.panel a:hover{text-decoration:none;}
+       div.panel{background:$first-color;}
+       .link_top_level{ /*basicly anything not the accordian */margin-left:$margin-left-general;padding:21px 0px 2px 0px; /* top, right,bottom,left */border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */}
+       .link_below_accordion{width:25px;}
+       .link_top_level:hover{border-bottom:1px solid green;font-weight:normal;}
+       .link_top_level.active{border-bottom:1px solid green;font-weight:normal;}
+       a{display:block;text-indent: 0px;text-decoration:none;color:$second-color;} 
+       a span.active{text-decoration:none;font-weight:bold;}
+       a:hover, a:focus {text-decoration:none;}
+     }
+     li.logo{background:$first-color;      
+       a{text-indent:0px;font-size: 12px;padding: 4px 16px;}
+       a:hover, a:focus {text-decoration:none;}
+     }
+  }
+}
+/*-------------------------------EEE Left Menu -------------------------*/
+
+
+
+
+/*-------------------------------BBB general Accordion styles -------------------------*/
+button.accordion {background-color:$first-color;color:$second-color;font-family: Arial, Helvetica, sans-serif;cursor: pointer;padding:10px 0; padding-bottom:2px;margin:0;margin-top:1px;width:150px;border: none;text-align: left;outline: none;font-size: 12px;transition: 0.4s;border-bottom:10px solid purple;}
+button.accordion.active, button.accordion:hover {border-bottom:1px solid pink; text-decoration:none;}
+button.accordian:focus {border:none;}   
+div.panel {padding: 0px;background-color: orange;max-height: 0px;overflow: hidden;transition: max-height 0.2s ease-out;}
+/*-------------------------------EEE general Accordion styles -------------------------*/
+
+
+
+
+
+/*-------------------------------BBB top Menu -------------------------*/
+#myTopnav{width:100%;}
+#myTopnav div.panel{margin-left:50px;}       
+div.panel a.active {text-decoration:underline;}     
+
+ul.topnav {
+  border-bottom:1px solid $second-color;
+  list-style-type: none; display:none; /* i added to hide top nav until media query--*/margin: 0;
+  padding: 0;overflow: hidden;background-color:pink;border-bottom:1px solid $second-color;transition: 0.2s ease-out;
+  .toggle_spacer{display:inline;border-bottom:10px solid brown;height:1px !important;padding:0 !important;}
+  ul.topnav button.accordion{width:100%;;margin-top:6px;border-bottom:1px solid $second-color;border-top:1px solid $second-color;}
+  li {
+    float: left;
+    a{font-family: Arial, Helvetica, sans-serif;display:inline-block;color:$second-color;text-align: center;padding: 14px 16px; text-decoration: none;transition: 0.3s;font-size: 12px;}
+    a.borders{border-bottom:1px solid $second-color;}
+   .link_below_accordion{border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */}
+    li.icon {display: none;}
+  }
+}
+
+
+.last_link_in_accordian{border-bottom:1px solid black;border-left:1px solid $second-color;padding-bottom:10px;margin-bottom:15px;}
+div.panel .borders{border-left:1px solid $second-color;}
+/*-------------------------------EEE top Menu -------------------------*/
+
+
+#my_left_menu{
+  $margin-left-general:25px;
+  button.accordion{
+    width:53px;
+    margin-left:$margin-left-general;
+  } 
+  ul li:nth-child(3) {
+    /* padding-top:16px; *//*width:20px;*/
+  }
+  ul{
+    width:80%;
+    margin:0;
+    padding:0;
+    li{
+      background:$first-color;
+      div.panel a{
+        text-indent:0px;
+        padding:$link-padding;
+        padding-left:0;
+        background:none;
+        margin-left:0px;
+        span:hover{
+          font-weight:bold;
+        }
+      }
+      div.panel a:hover{
+        text-decoration:none;
+      }
+      div.panel{
+       /* padding-top:40px; */
+        background:$first-color;
+      }
+      .link_top_level{ /*basicly anything not the accordian */
+        margin-left:$margin-left-general;
+        padding:21px 0px 2px 0px; /* top, right,bottom,left */
+        border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */
+        /*width:41px;*/
+      }
+      .link_below_accordion{
+        width:25px;
+      }
+
+      .link_top_level:hover{
+        border-bottom:1px solid white;font-weight:normal;
+      }
+      .link_top_level.active{
+        border-bottom:1px solid white;font-weight:normal;
+      }
+      a{
+        /* margin-left:30px; */
+       /* padding:18px 0; */
+        display:inline-block;
+        text-indent: 0px;
+        text-decoration:none;
+        color:$second-color;
+      }
+       
+      a span.active{
+        text-decoration:none;font-weight:bold;
+      }
+      a:hover, a:focus {
+        text-decoration:none;
+      }
+    }
+    li.logo{
+      background:$first-color;      
+      a{
+        text-indent:0px;
+        font-size: 12px;
+        padding: 14px 16px; 
+      }
+      a:hover, a:focus {text-decoration:none;}
+    }
+  }
+}
+/*-------------------------------EEE Left Menu -------------------------*/
+/*-------------------------------EEE Left Menu -------------------------*/
+/*-------------------------------EEE Left Menu -------------------------*/
+/*-------------------------------EEE Left Menu -------------------------*/
+
+
+
+
+/*-------------------------------BBB general Accordion styles -------------------------*/
+button.accordion {
+    background-color:$first-color;
+    color:$second-color;
+    cursor: pointer;
+    padding:10px 0; 
+    padding-bottom:2px;
+    margin:0;
+    margin-top:1px;
+    width:150px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    transition: 0.4s;
+    border-bottom:1px solid black;
+}
+
+button.accordion.active, 
+button.accordion:hover {
+ border-bottom:1px solid white; 
+ text-decoration:none;
+}
+
+button.accordian:focus {
+  border:none;
+}   
+
+div.panel {
+  padding: 0px;
+  background-color: orange;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/*-------------------------------EEE general Accordion styles -------------------------*/
+
+
+
+/*-------------------------------BBB top Menu -------------------------*/
+#myTopnav div.panel{margin-left:50px; }
+div.panel a.active {text-decoration:underline;}
+ul.topnav button.accordion{padding:14px;width:100%;border-bottom:1px solid $second-color;border-top:1px solid $second-color;}
+ul.topnav {border-bottom:1px solid $second-color;}   
+
+ul.topnav {
+  list-style-type: none; display:none; /* i added to hide top nav until media query--*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:$first-color;
+  border-bottom:1px solid $second-color;
+  transition: 0.2s ease-out;
+  .toggle_spacer{display:inline;border-bottom:1px solid red;height:1px !important;padding:0 !important;}
+}
+
+
+ul.topnav li {
+  float: left;
+  a.active{text-decoration:underline;}
+}
+
+
+ul.topnav li a{font-family: Arial, Helvetica, sans-serif;display:inline-block;color:$second-color;text-align: center;padding: 14px 16px; text-decoration: none;transition: 0.3s;font-size: 12px;}
+ul.topnav li a.borders{border-bottom:1px solid $second-color;}
+.last_link_in_accordian{border-bottom:1px solid black;border-left:1px solid $second-color;padding-bottom:10px;margin-bottom:15px;}
+ul.topnav li .link_below_accordion{border-top:1px solid $second-color;margin-top:-1px; /*to avoid borders building up */}
+div.panel .borders{border-left:1px solid $second-color;}
+ul.topnav li.icon {display: none;}
+/*-------------------------------EEE top Menu -------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+  #masterscrollcontainer{max-width:700px;margin:0 auto;background:none}
+  .block { max-width:600px;width:100%;margin:0 auto;text-align: left;background:none;margin-top:0px;margin-bottom:0px;}
+  #poc{text-align:left !important;font-size:55%;}
+  .centered {display: inline-block;vertical-align: middle;width: 300px;padding: 10px 15px;border: #a0a0a0 solid 1px;background:red;}
+  .imghold{width:100%;  display: inline-block; vertical-align: middle;background:yellow;padding:50px;}
+  .imghold img:hover {cursor:-moz-zoom-in;cursor:-webkit-zoom-in;cursor:zoom-in;}
+  #butter{width:100%;height:auto;}
+  #gallery, #gallery2 {background:grey}
+  #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:black;padding-left:2px;}
+  #thumbs img, #thumbs2 img{width:19.58%;}
+  #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
+  #largeImage, #largeImage2{border-bottom:1px solid blue;padding-bottom:2px;}
+  #thumbs img, #thumbs2 img {float: left;margin-right: .42%;}
+  #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
+  #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
+  #panel img, #panel2 img{max-width:600px;width:100%;}
+  .addtocartbutton{float:right;margin-top:10px;}
+  form{max-width:600px;}
+  h1{font-size:20px;color:white}
+  h2{font-size:25px;}
+
+.tile{width:100%;background:red;text-indent:10px;}
+.price{width:100%;background:blue;text-indent:10px;}
+.addtocartbutton{width:100%;background:green;text-indent:10px;}
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---BBB Media Queries ------idont know where exactly to put ..but if this is at top ..menu dont show-------------------*/
+
+
+/*----------------------------------BB Max 680px---------------------------------*/
+@media only screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {float: right;display: inline-block;}
+  ul.topnav{width:100%;display: block;}  
+  #my_left_menu{display:none;} 
+  #my_main_holder{position:absolute;left:0px;margin-top:10px;width: calc(100% - 0px);}
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;  transition: 3s ease-out;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  #masterscrollcontainer{
+    margin-left:0px;padding-left:0px;
+    width: 90%;margin:0 auto; 
+   /* background:orange;*/}
+  .block{width:90%;margin:10 auto !important;} 
+} 
+/*----------------------------------EE Max 680px---------------------------------*/
+
+
+
+
+@media only screen and (min-width:680px) {
+  #masterscrollcontainer{
+    margin-left:200px;
+    padding-left:70px;
+    width: calc(100% - 200px);
+    max-width:600px !important;
+    /*margin:0 auto;*/
+    .block{position:relative;margin:60 auto 10 auto !important;background:black; }
+    .newsimg img {max-width:600px;} 
+   margin:0 auto;
+  }
+}
+/*-------------------------------EEEee Media Queries -------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
