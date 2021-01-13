@@ -64,7 +64,7 @@ ul{list-style-type:none;}
          span:hover{font-weight:bold;}
        }
        div.panel a:hover{text-decoration:none;}
-       div.panel{background:$first-color;}
+       div.panel{background:lightblue;}
        .link_top_level{ /*basicly anything not the accordian */margin-left:$margin-left-general;padding:21px 0px 2px 0px; /* top, right,bottom,left */border-bottom:1px solid $first-color; /* to keep rest of the items from jumping around from the border */}
        .link_below_accordion{width:25px;}
        .link_top_level:hover{border-bottom:1px solid green;font-weight:normal;}
