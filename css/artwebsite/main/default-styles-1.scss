@@ -19,9 +19,9 @@ $DefaultPadding:5px;
 /*-------------------------------BBB old variables -------------------------*/
 $primary_back_color:green;
 $primary_font_color:pink;
-$first-color:black;
+$first-color:orange;
 $second-color:purple;
-$third-color:black;
+$third-color:lightgreen;
 $link-padding:14px;
 /*-------------------------------EEE old variables -------------------------*/
 
@@ -33,7 +33,7 @@ $link-padding:14px;
 
 
 /*-----------------------------------------------------------------------------------------------------------------*/
-body, html {background:$DefaultBackgroundColor;color:$DefaultFontColor;margin:0;padding:0;font-family: Arial, Helvetica,sans-serif;font-size: 14px;color:black;}
+body, html {background:$DefaultBackgroundColor;color:$DefaultFontColor;margin:0;padding:0;font-family: Arial, Helvetica,sans-serif;font-size: 14px;color:grey;}
 hr{border:1px solid black;border-bottom:1px solid white;} /*border needs to be defined to prevent <hr> from having 4 borders for some reason*/
 ul{list-style-type:none;}
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -295,12 +295,12 @@ ul.topnav li.icon {display: none;}
   .imghold img:hover {cursor:-moz-zoom-in;cursor:-webkit-zoom-in;cursor:zoom-in;}
   #butter{width:100%;height:auto;}
   #gallery, #gallery2 {background:grey}
-  #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:black;padding-left:2px;}
+  #thumbs, #thumbs2 { padding-top:10px;overflow:hidden;background:yellow;padding-left:2px;}
   #thumbs img, #thumbs2 img{width:19.58%;}
   #thumbs img, #thumbs2 img #largeImage, #largeImage2{padding:0;background-color:white;cursor:pointer;}
   #largeImage, #largeImage2{border-bottom:1px solid blue;padding-bottom:2px;}
   #thumbs img, #thumbs2 img {float: left;margin-right: .42%;}
-  #description {background: black;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
+  #description {background: lightblue;color: white;position: absolute;bottom: 0;padding: 10px 20px;width: 525px;margin: 5px;}
   #panel, #panel2 {position: relative;max-width:600px;/*background:blue;*/}
   #panel img, #panel2 img{max-width:600px;width:100%;}
   .addtocartbutton{float:right;margin-top:10px;}
