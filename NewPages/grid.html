@@ -1,0 +1,104 @@
+
+<html>
+<head>
+<TITLE>Phil Dusel</TITLE>
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/master6.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+  <style>
+    .main-image{border:2px solid orange;margin:0;margin-left:200px;padding:0;}
+  </style>
+  
+</head>
+<body>
+
+
+  
+<!--------------------------------------------BBBB Left Menu + Mobile Hamburger ------------------------------------->
+<!--------------------------------------------BBBB Left Menu + Mobile Hamburger ------------------------------------->
+ <div id="my_left_menu">
+   <ul>
+
+     <li class="logo"><a href="#home"><h2>Phil Duselmmm</h2></a></li>      
+     
+<!--    <li><a class="link_top_level" href="/html/Comics/Comics-1.html">Comics</a></li> -->
+    <li><a class="link_top_level" href="/html/Paintings/Paintings-1.html">Painting</a></li>
+ <!--   <li><a class="link_top_level" href="/html/Animations/Animations-1.html">Animation</a></li> -->
+  <!--  <li><a class="link_top_level" href="/html/Music/Music-1.html">Music</a></li> -->
+    <li><a class="link_top_level" href="/html/contact.html">Contact</a></li>
+  </ul>
+ </div>
+<!---------------------------------------------------------------------------------------------------------------->
+<div id="nuzzle">
+  <ul class="topnav" id="myTopnav">
+  <li><a href="#home">Phil Dusel</a></li>
+ <!-- <li><a class="borders link_below_accordion" href="/html/Music/Music-1.html">Music</a></li> -->
+  <li><a class="borders link_below_accordion" href="/html/Paintings/Paintings-1.html">Painting</a></li>
+ <!-- <li><a class="borders link_below_accordion" href="/html/Animations/Animations-1.html">Animation</a></li>-->
+  <li><a class="borders link_below_accordion" href="/html/contact.html">Contact</a></li>
+  <li class="icon"> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+  </ul> 
+  </div> <!--end nuzzle-->
+<!--------------------------------------------EEEE Left Menu + Mobile Hamburger ------------------------------------->
+<!--------------------------------------------EEEE Left Menu + Mobile Hamburger ------------------------------------->
+  
+
+
+<!-----------------------------------------------BBBB MainImage ---------------------------------------->
+  <div class="main-image">
+   <img id="butter" src="/images/paintings/Painting-040.jpg"/>
+  </div>
+<!-----------------------------------------------EEEE MainImage---------------------------------------->
+
+  
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+  
+<script>
+$('#thumbs img').click(function(){
+    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description').html($(this).attr('alt'));
+});
+</script>
+    
+ <script>
+$('#thumbs2 img').click(function(){
+    $('#largeImage2').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description2').html($(this).attr('alt'));
+});
+</script>   
+
+
+</body>
+</html>
+ 
