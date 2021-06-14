@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/tilewebsitemasterstyle1.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+
+<style>
+
+
+
+</style>
+</head>
+<body>
+  
+  
+  
+<div class="header">
+  <div class="headerinner">  
+    <h1>47 Wall & Floor</h1>
+  </div>
+</div>
+  
+  
+<div class="sidebar">
+  <div class="sidebarinner">  <h1>47 Wall & Floor</h1></div>
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Gallery</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div class="content">
+  <h2>Responsive Sidebar Example</h2>
+  <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.</p>
+  <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
+  <h3>Resize the browser window to see the effect.</h3>
+  
+    <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
+      <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
+      <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
+</div>
+  
+  <div class="rightsidebar">
+  <div class="rightsidebarinner">  <h1>47 Wall & Floor</h1></div>
+  </div>
+  
+  <div class="footer">
+  <div class="footerinner">  <h1>47 Wall & Floor</h1></div>
+    foot
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+  
+<script>
+$('#thumbs img').click(function(){
+    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description').html($(this).attr('alt'));
+});
+</script>
+    
+ <script>
+$('#thumbs2 img').click(function(){
+    $('#largeImage2').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description2').html($(this).attr('alt'));
+});
+</script> 
+  
+  
+</body>
+</html>
+
+ 
