@@ -15,17 +15,18 @@ body {margin: 0;font-family: "Lato", sans-serif;}
  /*-------------------------------------------------------bb-my stuff---*/ 
   
 .header{
-  background:yellow;position:fixed;z-index:999;width:100%;margin:0;height:100px;top:0;border-bottom:1px solid grey; text-indent: 102px;line-height:110px;
+  z-index:999;
+  background:yellow;position:fixed;width:100%;margin:0;height:100px;top:0;border-bottom:1px solid grey; text-indent: 102px;line-height:110px;
   display: flex;
   justify-content: center; 
 }
   .headerinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
   
   
-.rightsidebar{border:1px solid black;background:green;width:200px;position:fixed;right:0;top:0;height:100%; z-index: 99;}
-.footer{background:grey;position:fixed;z-index:101;bottom:0px;width:100%;height:100px;}
+.rightsidebar{z-index: 99;border:1px solid black;background:green;width:200px;position:fixed;right:0;top:0;height:100%; }
+.footer{z-index:98;background:grey;position:fixed;bottom:0px;width:100%;height:100px;}
   
-.sidebar {background-color: lightgreen;width: 200px;position: fixed;z-index:9;left:0;margin: 0;padding: 0;height: 100%;}
+.sidebar {z-index:9;background-color: lightgreen;width: 200px;position: fixed;left:0;margin: 0;padding: 0;height: 100%;}
   
   
   h1{font-size:20px;}
