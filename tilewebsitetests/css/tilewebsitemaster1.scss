@@ -3,35 +3,14 @@
 ---
 
 
-.header{
-  z-index:999;
-  background:yellow;
-  position:fixed;
-  width:100%;
-  margin:0;
-  height:100px;
-  top:0;
-  border-bottom:1px solid grey;
-  text-indent: 102px;
-  line-height:110px;
-  display: flex;
-  justify-content: center; 
-}
-  .headerinner{
-    border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;
-}
- 
-  
+.header{z-index:999;background:yellow;position:fixed;width:100%;margin:0;height:100px;top:0;border-bottom:1px solid grey;text-indent: 102px;line-height:110px;display: flex;justify-content: center; }
+.headerinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
 .rightsidebar{z-index: 99;border:1px solid black;background:green;width:70px;position:fixed;right:0;top:250px;height:100%; }
 .rightsidebarinner{border:1px solid blue;background:orange;height: calc(100% - 10px); width: calc(100% - 10px);  margin:5px 5px;}
-
 .footer{z-index:98;background:grey;position:fixed;bottom:0px;width:100%;height:30px;}
 .footerinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
-
 .sidebar {z-index:9;background-color: lightgreen;width: 200px;position: fixed;top:120px;left:0;margin: 0;padding: 0;height: 100%;}
 .sidebarinner{border:1px solid blue;background:pink;height: calc(100% - 10px);width: calc(100% - 10px);  margin:5px 5px;}
-
-   
 div.content {background:lightblue;opacity: 0.33;position:relative;margin-left: 204px;padding: 1px 16px;height: auto;z-index: -1;}
 .content img {object-fit: cover; width:40%;border:1px solid grey}
 
