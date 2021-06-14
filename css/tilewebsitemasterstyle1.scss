@@ -8,3 +8,4 @@ body{background-color:pink;}
 .header{
   position:fixed;width:100%;margin:0px;height:100px;top:0px;border-bottom:1px solid grey; text-indent: 102px;line-height:110px;display:flex;justify-content:center;
 }
+.rightsidebar{z-index: 99;border:1px solid black;background:green;width:70px;position:fixed;right:0;top:250px;height:100%; }
