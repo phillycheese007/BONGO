@@ -62,7 +62,7 @@ header{
     li:not(:first-child) {
       display: none;
     }
-    li.icon {
+    li a.icon {
       float: right;
       display: block;
     }
