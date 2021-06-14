@@ -4,6 +4,10 @@
 body {
  background-color:blue
 }
+ul{
+ list-style-type:none;
+}
+
 .header{
   background-color:pink;
   border-bottom:1px solid brown;
@@ -17,7 +21,6 @@ body {
   display:flex;
   justify-content:center;
   ul{
-   list-style-type:none;
     li{
       background:color:lightgrey;
       border:1px solid red;
@@ -28,6 +31,8 @@ body {
     }
   }
 }
+
+
 .sidebar {
  z-index:9;
  background-color: lightgreen;
