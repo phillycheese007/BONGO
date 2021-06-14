@@ -3,23 +3,24 @@
 ---
 
 body {
- background-color:red;
+ background-color:darkgrey;
+}
+ul{
+ list-style-type:none;
+}
+h5 {
+ font-size:11px;
 }
 
 
 
-
-
 .sidebar{
- z-index:9;
- background-color: lightgreen;
- width: 200px;
- position: fixed;
- top:120px;
- left:0;
- margin: 0;
- padding: 0;
- height: 100%;
+  li{
+   background-color:red;
+   width:60px;
+   height:30px;
+   position:relative;
+   z-index:999;
 }
 
 .header{
@@ -30,12 +31,38 @@ body {
   margin:0px;
   height:78px;
   top:0px; 
+  text-indent: 102px;
+  line-height:110px;
   display:flex;
+  justify-content:center;
 }
  
+.headerinner{
+ ul{
+  width:400px;
+  background:lightyellow;
+   li{
+    background-color:blue;
+    width:80px;
+    height:50px;
+    float:left;
+    position:relative;
+    z-index:999;
+   }
+  }
+ }
 
-
-
+.sidebar {
+ z-index:9;
+ background-color: lightgreen;
+ width: 200px;
+ position: fixed;
+ top:120px;
+ left:0;
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
 
 .rightsidebar{
   z-index: 99;
@@ -63,6 +90,9 @@ div.content {
  padding: 1px 16px;
  height: auto;
  z-index: -1;
+   img{
+    width:50%
+   }
 }
 
 .tagline {
@@ -77,4 +107,4 @@ div.content {
 }
  
  
-
+ 
