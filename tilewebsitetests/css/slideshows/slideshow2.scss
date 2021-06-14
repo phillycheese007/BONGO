@@ -3,7 +3,9 @@
 ---
 
 .mySlides {
-
+  img{
+      object-fit: contain;
+  }
 }
 .slideshow-container{
   max-height:100%;
