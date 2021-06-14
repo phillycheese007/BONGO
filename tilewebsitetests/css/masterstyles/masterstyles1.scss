@@ -66,6 +66,29 @@ header{
   }
 }
 
+
+
+
+/*-------------------------------------------------*/
+main {
+  background:brown;
+  width:94%;
+  margin:10px 3%;
+  min-height:100%;
+}
+
+/*-------------------------------------------------*/
+footer {
+  background-color:white;
+  border-top:1px solid black;
+  width:100%;
+  height:40px;
+  bottom:0;
+  text-align:center;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .topnav{
     a:not(:first-child) {
@@ -92,24 +115,4 @@ header{
       text-align: left;
     }
   }
-}
-
-
-
-/*-------------------------------------------------*/
-main {
-  background:brown;
-  width:94%;
-  margin:10px 3%;
-  min-height:100%;
-}
-
-/*-------------------------------------------------*/
-footer {
-  background-color:white;
-  border-top:1px solid black;
-  width:100%;
-  height:40px;
-  bottom:0;
-  text-align:center;
 }
