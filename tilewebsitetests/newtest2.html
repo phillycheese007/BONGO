@@ -38,9 +38,7 @@
   <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
   <h3>Resize the browser window to see the effect.</h3>
   
-    <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
-      <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
-      <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
+
 </div>
   
   <div class="rightsidebar">
@@ -60,50 +58,8 @@
   
   
   
-  
-  
-  <script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
- 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
-</script>
-  
-<script>
-$('#thumbs img').click(function(){
-    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
-    $('#description').html($(this).attr('alt'));
-});
-</script>
-    
- <script>
-$('#thumbs2 img').click(function(){
-    $('#largeImage2').attr('src',$(this).attr('src').replace('thumb','large'));
-    $('#description2').html($(this).attr('alt'));
-});
-</script> 
-  
+
   
 </body>
 </html>
