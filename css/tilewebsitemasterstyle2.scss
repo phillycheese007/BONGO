@@ -41,11 +41,9 @@ ul{
   height:78px;
   top:0px; 
   display:flex;
- /* justify-content:center;*/
 }
  
 .headerinner{
-  ul{
     li{
       background-color:blue;
       width:80px;
@@ -53,8 +51,7 @@ ul{
       float:left;
       position:relative;
       z-index:999;
-     }
-   }
+    }
 }
 
 
