@@ -1,0 +1,19 @@
+---
+#myleftmenu6
+---
+
+
+
+body{background-color:brown;}
+h1{font-size:30px;}
+
+.header{
+  z-index:999;background:yellow;
+  position:fixed;width:100%;margin:0;
+  height:100px;top:0;border-bottom:1px solid grey;
+  text-indent: 102px;line-height:110px;display: flex;
+  justify-content: center; 
+}
+.headerinner{
+  border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);margin:5px 5px;
+}
