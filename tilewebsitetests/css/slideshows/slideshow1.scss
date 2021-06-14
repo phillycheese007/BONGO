@@ -73,10 +73,12 @@
   display:none;
 }
 
-.active, .dot:hover {
+.active {
   background-color: #717171;
 }
-
+.dot:hover {
+  background-color: #717171;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
