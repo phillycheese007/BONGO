@@ -52,7 +52,7 @@ header{
     background-color: #04AA6D;
     color: white;
   }
- .topnav .icon {
+  .icon {
   display: none;
   }
 }
@@ -62,7 +62,7 @@ header{
     a:not(:first-child) {
       display: none;
     }
-   .topnav a.icon {
+     .icon {
       float: right;
       display: block;
     }
@@ -78,7 +78,7 @@ header{
       right: 0;
       top: 0;
     }
-   .topnav.responsive a {
+   .topnav.responsive li {
       float: none;
       display: block;
       text-align: left;
