@@ -8,15 +8,18 @@ div {
 .BasicContainer { /*parent*/
   height:50%;
   width:50%;
+  background-color:red;
 }
 
 .BasicChild {
   height:50%;
   width:50%;
+  background-color:blue;
 }
 
 .BasicSubChild { 
   height:50%;
   width:50%;
+  background-color:green;
 }
 
