@@ -13,9 +13,6 @@ $DefaultPadding:5px;
 
 /*---------------------------------EEE new variables-----------------------*/
 
-
-
-
 /*-------------------------------BBB old variables -------------------------*/
 $primary_back_color:brown;
 $primary_font_color:white;
@@ -29,7 +26,7 @@ $link-padding:14px;
 @mixin link-style {$text-decor-underline:underline;text-decoration: $text-decor-underline;}
 /*--------------------------------EEE Mixins ---------------------------*/
 
-
+body{background:orange;}
 
 
 
