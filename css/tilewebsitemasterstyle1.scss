@@ -8,7 +8,7 @@ body {
 ul{
  list-style-type:none;
 }
-li{
+.header li{
  background-color:blue;
  width:80px;
  height:50px;
@@ -16,7 +16,13 @@ li{
  position:relative;
  z-index:999;
 }
-
+.sidebar li{
+ background-color:red;
+ width:80px;
+ height:50px;
+ position:relative;
+ z-index:999;
+}
 
 .header{
   background-color:pink;
