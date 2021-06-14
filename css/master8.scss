@@ -3,30 +3,8 @@
 ---
 /*---------------------------------BBBnew variables-----------------------*/
 
-$DefaultBackgroundColor:black;
-$DefaultFontColor:white;
-/*-----------------------------*/
-$HeaderColor1:purple;
-$HeaderColor2:blue;
-/*------------------------------*/
-$DefaultPadding:5px;
 
-/*---------------------------------EEE new variables-----------------------*/
-
-/*-------------------------------BBB old variables -------------------------*/
-$primary_back_color:brown;
-$primary_font_color:white;
-$first-color:black;
-$second-color:red;
-$third-color:black;
-$link-padding:14px;
-/*-------------------------------EEE old variables -------------------------*/
-
-/*--------------------------------BBB Mixins ---------------------------*/
-@mixin link-style {$text-decor-underline:underline;text-decoration: $text-decor-underline;}
-/*--------------------------------EEE Mixins ---------------------------*/
-
-body{background:orange;}
+body{background-color:orange;}
 
 
 
