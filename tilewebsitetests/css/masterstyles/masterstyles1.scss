@@ -21,6 +21,8 @@ body {
 
 /*-------------------------------------------------*/
 header{
+   display: flex;
+  flex-wrap: nowrap;
   background:lightgreen;
   .logobox {
     width:100%;
