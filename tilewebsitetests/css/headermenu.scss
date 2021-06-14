@@ -32,5 +32,13 @@ div{border:3px solid red}
 }
 
 @media screen and (max-width: 600px) {
-
+  .topnav{
+    a:not(:first-child) {
+      display: none;
+    }
+    a.icon {
+      float: right;
+      display: block;
+    }
+  }
 }
