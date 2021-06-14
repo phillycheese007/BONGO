@@ -14,6 +14,8 @@ body {margin: 0;font-family: "Lato", sans-serif;}
  /*-------------------------------------------------------bb-my stuff---*/ 
  /*-------------------------------------------------------bb-my stuff---*/ 
   
+  
+ /*-------------------------------------------------------000---*/ 
 .header{
   z-index:999;
   background:yellow;position:fixed;width:100%;margin:0;height:100px;top:0;border-bottom:1px solid grey; text-indent: 102px;line-height:110px;
@@ -21,13 +23,17 @@ body {margin: 0;font-family: "Lato", sans-serif;}
   justify-content: center; 
 }
   .headerinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
-  
+ /*-------------------------------------------------------000---*/ 
   
 .rightsidebar{z-index: 99;border:1px solid black;background:green;width:200px;position:fixed;right:0;top:0;height:100%; }
+.rightsidebarinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
+ /*-------------------------------------------------------000---*/ 
 .footer{z-index:98;background:grey;position:fixed;bottom:0px;width:100%;height:100px;}
-  
+.footerinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
+ /*-------------------------------------------------------000---*/ 
 .sidebar {z-index:9;background-color: lightgreen;width: 200px;position: fixed;left:0;margin: 0;padding: 0;height: 100%;}
-  
+.sidebarinner{border:1px solid blue;background:pink;height:90px;width: calc(100% - 10px);  margin:5px 5px;}
+ /*-------------------------------------------------------000---*/ 
   
   h1{font-size:20px;}
   
@@ -36,16 +42,7 @@ div.content {background:lightblue;position:relative;margin-left: 204px;padding: 
 
   
   
-#inner {  
-  border: 1px solid black;
-}
 
-#outer {
-  border: 1px solid red;
-  width:100%;
-  display: flex;
-  justify-content: center;
-}
  /*--------------------------------------------------ee--mysff-------*/ 
  /*--------------------------------------------------ee--mysff-------*/  
  /*--------------------------------------------------ee--mysff-------*/  
@@ -106,6 +103,7 @@ div.content {background:lightblue;position:relative;margin-left: 204px;padding: 
 
   
 <div class="sidebar">
+  <div class="sidebarinner">  <h1>47 Wall & Floor</h1></div>
   <a class="active" href="#home">Home</a>
   <a href="#news">Gallery</a>
   <a href="#contact">Contact</a>
@@ -122,7 +120,13 @@ div.content {background:lightblue;position:relative;margin-left: 204px;padding: 
       <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
       <a href="/images/paintings/Painting-030.jpg" target="_blank"> <img id="butter" src="/images/paintings/Painting-030.jpg" /> </a>
 </div>
-  <div class="rightsidebar">fffdsflop</div>
-  <div class="footer">foot</div>
+  <div class="rightsidebar">
+  <div class="rightsidebarinner">  <h1>47 Wall & Floor</h1></div>
+    fffdsflop
+  </div>
+  <div class="footer">
+  <div class="footerinner">  <h1>47 Wall & Floor</h1></div>
+    foot
+  </div>
 </body>
 </html>
