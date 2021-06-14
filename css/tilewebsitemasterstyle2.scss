@@ -1,0 +1,111 @@
+---
+#tilewebsitestyles
+---
+
+body {
+ background-color:darkgrey;
+}
+ul{
+ list-style-type:none;
+}
+h5 {
+ font-size:11px;
+}
+
+
+
+.sidebar{
+  li{
+   background-color:red;
+   width:60px;
+   height:30px;
+   position:relative;
+   z-index:999;
+}
+
+.header{
+  background-color:pink;
+  border-bottom:1px solid brown;
+  position:fixed;
+  width:100%;
+  margin:0px;
+  height:78px;
+  top:0px; 
+  text-indent: 102px;
+  line-height:110px;
+  display:flex;
+  justify-content:center;
+}
+ 
+.headerinner{
+ ul{
+  width:400px;
+  background:lightyellow;
+   li{
+    background-color:blue;
+    width:80px;
+    height:50px;
+    float:left;
+    position:relative;
+    z-index:999;
+   }
+  }
+ }
+
+.sidebar {
+ z-index:9;
+ background-color: lightgreen;
+ width: 200px;
+ position: fixed;
+ top:120px;
+ left:0;
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
+
+.rightsidebar{
+  z-index: 99;
+  border:1px solid black;
+  background:lightblue;
+  width:80px;
+  position:fixed;
+  right:0;
+  top:9px;
+  height:100%; 
+}
+.footer{
+ z-index:98;
+ background:grey;
+ position:fixed;
+ bottom:0px;
+ width:100%;
+ height:30px;
+}
+
+div.content {
+ background:lightblue;
+ position:relative;
+ margin-left: 204px;
+ padding: 1px 16px;
+ height: auto;
+ z-index: -1;
+   img{
+    width:50%
+   }
+}
+
+.tagline {
+  position:relative;
+  z-index:999;
+  background-color:red;
+  width:100px;
+  height:100px;
+  margin-top:50px;
+  margin-right:50px;
+  border:2px solid green;
+}
+ 
+ 
+ 
+tilewebsitemasterstyle1.css
