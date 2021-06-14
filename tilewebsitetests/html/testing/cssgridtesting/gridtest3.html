@@ -49,11 +49,11 @@ aside {
   grid-template-rows:50%;
   grid-template-columns:1fr;
 }
-.aside-left {
+.aside-top {
   grid-row: 1 / 2;
   background: yellow;
 }
-.aside-right {
+.aside-bottom {
   grid-row: 2 / 2;
   background: lightblue;
 } 
@@ -66,7 +66,18 @@ main {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
   background: pink;
+  grid-template-rows:50%;
+  grid-template-columns:1fr;
 }
+  
+.main-top {
+  grid-row: 1 / 2;
+  background: purple;
+}
+.main-bottom {
+  grid-row: 2 / 2;
+  background: brown;
+} 
 
 /*----------------------------------------------------------------------------------------------------*/
 footer {
@@ -100,10 +111,10 @@ footer {
 <!-------------------------------------------------------------------------------------------------------------------->   
     
   <header>
-    <section class="header-left">
+    <section class="header-top">
         <img class="smallimg" src="https://billvossart.online/tilewebsitetests/images/logos/logo1.png" /> 
     </section>
-    <section class="header-right">
+    <section class="header-bottom">
         <p>ny based tile and mosaic design and installation</p>
         <p>412-40-1212432-2021</p>
     </section>
