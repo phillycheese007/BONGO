@@ -11,6 +11,20 @@ body {
 /*-------------------------------------------------*/
 header{
   background:yellow;
+  .logobox {
+    width:100%;
+    height:50px;
+    background:blue;
+      .logo{
+      width:150px;
+      float:left;
+      background:orange;
+      }
+      .tagline{
+        background:orange;
+        float:right;
+      }
+   }
 }
 /*-------------------------------------------------*/
 main {
