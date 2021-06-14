@@ -28,6 +28,16 @@ h5 {
  justify-content:center
 }
  .headerbox{float:left;border:2px solid red;}
+ .headerlogo{width:10%;}
+ .headermenu{width:50%;}
+ .headertagline {
+ z-index:999;
+ background-color:red;
+ width:10%;
+ height:50px;
+ border:2px solid green
+}
+ 
 .headerinner{
  background:blue;width:100%;
 }
@@ -91,13 +101,7 @@ div.content {
 div.content img {
  width:50%
 }
-.tagline {
- z-index:999;
- background-color:red;
- width:100px;
- height:50px;
- border:2px solid green
-}
+
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -131,7 +135,7 @@ div.content img {
   
 <div class="header">
   <div class="headerinner">  
-   <div class="headerbox logo">47 wall & Floor</div>
+   <div class="headerbox headerlogo">47 wall & Floor</div>
    <div class="headerbox headermenu">
      <ul>     
        <li><a href=""> <h1>Projects</h1> </a></li>
@@ -141,7 +145,7 @@ div.content img {
        <li><a href="">Services</a></li>
        <li><a href="">Contact</a></li>   
     </ul>
-    <div class= "headerbox tagline"> <h5>Wall and floor tile designs and installations based in New York</h5></div>
+    <div class= "headerbox headertagline"> <h5>Wall and floor tile designs and installations based in New York</h5></div>
 
   </div>
   
