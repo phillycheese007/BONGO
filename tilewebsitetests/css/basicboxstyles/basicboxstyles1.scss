@@ -4,3 +4,18 @@
 div {
   border:1px solid black;
 }
+
+.BasicContainer { /*parent*/
+  height:50%;
+  width:50%;
+}
+
+.BasicChild {
+  height:50%;
+  width:50%;
+}
+
+.BasicSubChild { 
+  height:50%;
+  width:50%;
+}
