@@ -13,7 +13,9 @@
     float:left;
     background-color:blue;
     img {
-      object-fit: contain;
+      width:50%;
+      height:60%;
+      object-fit: fill;
     }
   }
   .Right { 
@@ -22,7 +24,9 @@
     float:right;
     background-color:green;
     img {
-      object-fit: contain;
+      width:50%;
+      height:60%;
+      object-fit: fill;
     }
   }
   .Top {
