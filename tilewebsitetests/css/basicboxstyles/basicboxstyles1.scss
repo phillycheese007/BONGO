@@ -2,6 +2,37 @@
 #basicboxes
 ---
 
+header { 
+  .Left {
+    overflow:hidden;
+    width:50%;
+    float:left;
+    height:100%;
+    background-color:blue;
+  }
+  .Right { 
+    overflow:hidden;
+    width:50%;
+    float:right;
+    height:100%;
+    background-color:pink;
+  }
+  
+  .Top {
+    overflow:hidden;
+    height:50%;
+    width:100%;
+    background-color:blue;
+  }
+  .Bottom { 
+    overflow:hidden;
+    height:50%;
+    width:100%;
+    background-color:green;
+  }
+}
+
+
 .BasicContainer { 
   height:100%;
   width:100%;
