@@ -10,34 +10,9 @@ body {
 }
 /*-------------------------------------------------*/
 
-.header-left {
-  float:left;
-  background:green;
-}
-.header-right {
-  float:right;
-  background:red;
-}
-
 /*-------------------------------------------------*/
 header{
-  display: flex;
-  flex-wrap: nowrap;
-  background:lightgreen;
-  .logobox {
-    width:100%;
-    height:80px;
-    background:blue;
-      .logo{
-      width:150px;
-      float:left;
-      background:orange;
-      }
-      .tagline{
-        background:purple;
-        float:right;
-      }
-   }
+
 }
 /*-------------------------------------------------*/
 main {
