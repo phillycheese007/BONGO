@@ -7,6 +7,7 @@
   width:100%;
   background-color:red;
   .Left {
+    overflow:hidden;
     width:50%;
     float:left;
     padding-left:10px;
@@ -14,6 +15,7 @@
     background-color:blue;
   }
   .Right { 
+    overflow:hidden;
     width:50%;
     float:right;
     padding-right:10px;
@@ -21,11 +23,13 @@
     background-color:pink;
   }
   .Top {
+    overflow:hidden;
     height:50%;
     width:100%;
     background-color:blue;
   }
   .Bottom { 
+    overflow:hidden;
     height:50%;
     width:100%;
     background-color:green;
