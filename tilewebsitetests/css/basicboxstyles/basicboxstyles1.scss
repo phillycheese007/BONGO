@@ -11,9 +11,9 @@
     object-fit: cover;
   }
   .Left {
-    height:100%;
     width:50%;
     float:left;
+    height:100%;
     background-color:blue;
     img {
       width:50%;
@@ -22,9 +22,9 @@
     }
   }
   .Right { 
-    height:100%;
     width:50%;
     float:right;
+    height:100%;
     background-color:pink;
     img {
       width:50%;
