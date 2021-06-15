@@ -7,6 +7,9 @@
   height:100%;
   width:100%;
   background-color:red;
+  img {
+    object-fit: cover;
+  }
   .Left {
     height:100%;
     width:50%;
@@ -35,9 +38,7 @@
     background-color:blue;
     padding: 25px;
     box-sizing: border-box;
-    img {
-      object-fit: cover;
-    }
+
   }
   .Bottom { 
     height:50%;
@@ -45,9 +46,7 @@
     background-color:green;
     padding: 25px;
     box-sizing: border-box;
-    img {
-      object-fit: cover;
-    }
+
   }
 }
 
