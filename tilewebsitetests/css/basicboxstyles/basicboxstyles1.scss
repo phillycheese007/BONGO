@@ -7,17 +7,28 @@
   height:100%;
   width:100%;
   background-color:red;
-.Left {
-  height:100%;
-  width:50%;
-  background-color:blue;
-}
-
-.Right { 
-  height:50%;
-  width:50%;
-  background-color:green;
-}
+  .Left {
+    height:100%;
+    width:50%;
+    float:left;
+    background-color:blue;
+  }
+  .Right { 
+    height:100%;
+    width:50%;
+    float:right;
+    background-color:green;
+  }
+  .Top {
+    height:50%;
+    width:100%;
+    background-color:blue;
+  }
+  .Bottom { 
+    height:50%;
+    width:100%;
+    background-color:green;
+  }
 }
 
 
