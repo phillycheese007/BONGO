@@ -62,11 +62,21 @@ main {
 }
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-article.widest {
-  height:400px;
-  width:100%
+.widest {
+  width:100%;
 }
-article.tallest {
+.wide {
+  width:50%;
+}
+.thin {
+  width:25%;
+}
+.tallest {
   height:100%;
-  width:50%
+}
+.tall {
+  height:50%;
+}
+.short {
+  height:25%;
 }
