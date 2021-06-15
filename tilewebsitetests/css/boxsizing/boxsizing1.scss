@@ -1,6 +1,11 @@
 ---
 #basicboxes
 ---
+
+.border-box {
+box-sizing: border-box;
+}
+
 .widest {
   width:100%;
 }
