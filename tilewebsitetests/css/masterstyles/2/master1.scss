@@ -1,12 +1,22 @@
 ---
 #masterstyles
 ---
-
+/*-------------------------------------------------*/
 div {
   border:2px solid blue;
 }
-
-
+/*-------------------------------------------------*/
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 /*-------------------------------------------------*/
 
 .topnav {
