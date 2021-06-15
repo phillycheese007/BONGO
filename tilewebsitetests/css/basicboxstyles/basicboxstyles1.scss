@@ -12,12 +12,18 @@
     width:50%;
     float:left;
     background-color:blue;
+    img {
+      object-fit: contain;
+    }
   }
   .Right { 
     height:100%;
     width:50%;
     float:right;
     background-color:green;
+    img {
+      object-fit: contain;
+    }
   }
   .Top {
     height:50%;
