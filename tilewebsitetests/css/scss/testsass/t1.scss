@@ -2,12 +2,16 @@
 #masterstyles
 ---
 
-@use 'colorsandtrash';
 
-div {
-    @include colorsandtrash.buttonSmall;
-    margin: 1rem + colorsandtrash.$radius;
+
+$border-default: 3px solid red;
+
+.bar {
+  border: $border-default;
 }
+
+
+
 
 /*-------------------------BB Basics------------------------*/
 html,body {
