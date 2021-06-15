@@ -7,34 +7,24 @@
   text-align:right;
 }
 
+
+
+
 .BasicContainer { 
   height:100%;
   width:100%;
   background-color:red;
-  img {
-    object-fit: cover;
-  }
   .Left {
     width:50%;
     float:left;
     height:100%;
     background-color:blue;
-    img {
-      width:50%;
-      height:100%;
-      object-fit: cover;
-    }
   }
   .Right { 
     width:50%;
     float:right;
     height:100%;
     background-color:pink;
-    img {
-      width:50%;
-      height:100%;
-      object-fit: cover;
-    }
   }
   .Top {
     height:50%;
