@@ -2,7 +2,12 @@
 #masterstyles
 ---
 
+@use 'colorsandtrash';
 
+div {
+    @include colorsandtrash.buttonSmall;
+    margin: 1rem + button.$radius;
+}
 
 /*-------------------------BB Basics------------------------*/
 html,body {
