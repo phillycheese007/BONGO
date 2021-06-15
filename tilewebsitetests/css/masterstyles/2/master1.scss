@@ -1,6 +1,17 @@
 ---
 #masterstyles
 ---
+
+/*-------------------------BB Mixins------------------------*/
+@mixin box-sizing($type)
+ {
+ -webkit-box-sizing:$type;
+ -moz-box-sizing:$type;
+ box-sizing:$type;
+ }
+
+
+
 /*-------------------------BB Basics------------------------*/
 html,body {
  width: 100%;
@@ -10,10 +21,13 @@ html,body {
 }
 /*-------------------------BB Rando------------------------*/
 
-
 div {
   border:2px solid blue;
 }
+div {
+ @include box-sizing(border-box);
+ }
+/*-------------------------BB Rando------------------------*/
 
         ._1 {
             color:green;
