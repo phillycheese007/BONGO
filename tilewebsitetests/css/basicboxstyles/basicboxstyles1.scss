@@ -17,12 +17,14 @@
   .Left {
     width:50%;
     float:left;
+    padding-left:10px;
     height:100%;
     background-color:blue;
   }
   .Right { 
     width:50%;
     float:right;
+    padding-right:10px;
     height:100%;
     background-color:pink;
   }
