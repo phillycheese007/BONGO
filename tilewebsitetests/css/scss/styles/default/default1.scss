@@ -1,7 +1,7 @@
 ---
 #masterstyles
 ---
-@import "colors";
+@import "../../reusables/variables/colors";
 
 /*-------------------------BB Mixins------------------------*/
 @mixin box-sizing($type)
