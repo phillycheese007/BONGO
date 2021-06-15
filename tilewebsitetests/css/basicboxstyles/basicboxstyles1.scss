@@ -24,6 +24,10 @@
     height:50%;
     width:100%;
     background-color:blue;
+    object-fit: cover;
+    img {
+      object-fit: cover;
+    }
   }
   .Bottom { 
     height:50%;
