@@ -26,16 +26,8 @@ html,body {
 div {
   border:2px solid blue;
 }
-div {
- @include box-sizing(border-box);
- }
-/*-------------------------BB Rando------------------------*/
 
-        ._1 {
-            color:green;
-            font-size:30px;
-            background-color:#9400D3;
-        }
+/*-------------------------BB Rando------------------------*/
 
 
 .cropped2 {
